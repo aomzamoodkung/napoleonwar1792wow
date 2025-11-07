@@ -3131,5 +3131,15 @@ spriteTypes = {
 		name = "GFX_FRA_to_arms_citizens"
 		texturefile = "gfx/interface/goals/FRA_to_arms_citizens.dds"
 	}
+	
+	SpriteType = {
+	name = "GFX_state_of_the_country"
+	texturefile = "gfx/interface/goals/state_of_the_country.dds"			
+	}
+	
+    SpriteType = {
+	name = "GFX_resist"
+	texturefile = "gfx/interface/goals/resist.dds"			
+	}
 
 }
