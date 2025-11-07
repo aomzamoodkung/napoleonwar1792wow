@@ -1,0 +1,16 @@
+characters={
+    MOD_Ercole_III_d_Este={ #Democratic Leader
+        name="Ercole III d Este"
+        portraits={
+            civilian={
+                large="gfx/leaders/MOD/MOD_Ercole_III_d_Este.dds"
+            }
+        }
+        country_leader={
+            ideology=Despotism
+            traits={ dictator }
+            expire="1824.6.18.24"
+            id=-1
+        }
+    }
+}

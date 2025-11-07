@@ -1,0 +1,24 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+		POL_Constitution_of_May = {
+			picture = POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.0025
+				political_power_gain = 0.50
+				stability_weekly = 0.0002
+				training_time_factor = -0.005
+			}
+		}

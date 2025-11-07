@@ -1,0 +1,21 @@
+state={
+	id=900
+	name="STATE_900"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		8099 10510 12333
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category="rural"
+}

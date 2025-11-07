@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_alpha"
+		texturefile = "gfx/menu/alpha.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_discord"
+		texturefile = "gfx/menu/discord.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_logo_type"
+		texturefile = "gfx/menu/text2.dds"
+		noOfFrames = 1
+	}
+
+	### new tfv nat spirit icons
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=44.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 5
+			7552 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			7552 10 
+		}
+
+	}
+
+	provinces={
+		1559 1643 4522 4535 7552 7555 7599 12398 12401 13258 13259
+	}
+	manpower=2101592
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

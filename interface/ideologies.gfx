@@ -1,0 +1,95 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_ideology_Monarchist_group"
+	texturefile = "gfx/interface/ideologies/Monarchist_group.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_ideology_Authoritarian_group"
+		texturefile = "gfx/interface/ideologies/Authoritarian_group.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_group.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_ideology_FRA_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/FRA_authoritarian_democracy_group.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_FRA_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/FRA_Monarchist_group.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_ENG_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/ENG_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_AUS_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/AUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_PRE_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/PRE_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_PPL_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/PPL_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_HAN_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/ENG_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_GER_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/AUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_BAY_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/BAY_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_RUS_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/RUS_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SPR_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/SPR_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SWI_Democratic_group"
+		texturefile = "gfx/interface/ideologies/SWI_Democratic_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_MEK_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/MEK_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_SAX_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/SAX_Monarchist_group.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_POL_Monarchist_group"
+		texturefile = "gfx/interface/ideologies/POL_Monarchist_group.dds"			
+	}
+	
+}

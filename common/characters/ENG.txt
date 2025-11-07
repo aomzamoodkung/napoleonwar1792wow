@@ -1,0 +1,168 @@
+characters={
+	ENG_George_III={ #Democratic Leader
+		name="George III"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/ENG_George_III.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={  }
+			expire="1820.1.29.1"
+			id=-1
+		}
+	}
+
+	ENG_admiral_nelson={
+		name="Horatio Nelson"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_ENG_admiral_nelson.dds"
+				small="gfx/leaders/ENG/Portrait_ENG_admiral_nelson.dds"
+			}
+		}
+		navy_leader={
+			traits={ career_officer politically_connected  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+    ENG_Arthur_Wellesley={
+		name="Arthur Wellesley"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Arthur_Wellesley.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_Arthur_Wellesley.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist defensive_doctrine }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+    ENG_Rowland_hill={
+		name="Rowland hill"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Rowland_hill.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_Rowland_hill.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+    ENG_George_Gordon={
+		name="George Gordon"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_George_Gordon.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_George_Gordon.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+    ENG_George_Ramsay_Dalhousie={
+		name="George Ramsay Dalhousie"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_George_Ramsay_Dalhousie.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_George_Ramsay_Dalhousie.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+    ENG_John_Moore={
+		name="John Moore"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_John_Moore.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_John_Moore.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+
+    ENG_Prince_Frederick_Duke_of_York={
+		name="Prince Frederick Duke of York"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Prince_Frederick_Duke_of_York.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_Prince_Frederick_Duke_of_York.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	
+    ENG_Hew_Dalrymple={
+		name="Hew Dalrymple"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Hew_Dalrymple.dds"
+				small="gfx/leaders/ENG/Portrait_Britain_Hew_Dalrymple.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+  }

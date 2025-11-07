@@ -1,0 +1,16 @@
+characters={
+    NAP_Ferdinand_IV_of_Naples={ #Democratic Leader
+        name="Ferdinand IV"
+        portraits={
+            civilian={
+                large="gfx/leaders/NAP/NAP_Ferdinand_IV_of_Naples.dds"
+            }
+        }
+        country_leader={
+            ideology=Despotism
+            traits={ dictator }
+            expire="1824.6.18.24"
+            id=-1
+        }
+    }
+}

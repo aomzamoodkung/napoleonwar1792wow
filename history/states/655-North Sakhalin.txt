@@ -1,0 +1,19 @@
+
+state = {
+	id = 655
+	name = "STATE_655"
+	manpower = 94759
+	
+	state_category = pastoral
+	history = {
+		owner = TRB
+		add_core_of = TRB
+		add_core_of = QNG
+	}
+
+	provinces = {
+		855 1742 1755 
+	}
+
+	local_supplies = 0.0 
+}

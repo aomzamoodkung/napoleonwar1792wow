@@ -1,0 +1,117 @@
+﻿l_english:
+
+##########################
+## FRENCH COSMETIC TAGS ##
+##########################
+
+## Spanish Colonies ##
+ RLP_ARG:0 "Rio de la Plata"
+ RLP_ARG_DEF:0 "the Viceroyalty of Río de la Plata"
+
+ NGA_COL:0 "New Granada"
+ NGA_COL_DEF:0 "the Viceroyalty of New Granada"
+ 
+ SPR_PRU:0 "Spanish Peru"
+ SPR_PRU_DEF:0 "the Viceroyalty of Peru"
+
+## Kingdom of France ##
+
+ KIN_FRA:0 "Kingdom of France" 
+ KIN_FRA_DEF:0 "Kingdom of France"
+
+## First French Republic ##
+
+ FRP_FRA:0 "First French Republic" 
+ FRP_FRA_DEF:0 "the First French Republic"
+
+## Revolutionary France ##
+
+ REV_FRA:0 "Revolutionary France"
+ REV_FRA_DEF:0 "Revolutionary France"
+
+#########################
+## DUTCH COSMETIC TAGS ##
+#########################
+
+## Dutch Sister Republic ##
+
+ BAT_HOL:0 "Batavian Republic"
+ BAT_HOL_DEF:0 "the Batavian Republic"
+ 
+ ## Dutch Republic ##
+ 
+ DRP_HOL:0 "Dutch Republic"
+ DRP_HOL_DEF:0 "the Dutch Republic"
+ 
+ #########################
+ ## SWISS COSMETIC TAGS ##
+ #########################
+ 
+ ## Cisalpine Republic ##
+
+ HEL_SWI:0 "Helvetic Republic"
+ HEL_SWI_DEF:0 "the Helvetic Republic"
+
+############################
+## AUSTRIAN COSMETIC TAGS ##
+############################
+
+## Austrian Habsburgs ##
+
+HAB_AUS:0 "Austrian Habsburgs"
+HAB_AUS_DEF:0 "the Austrian Habsburgs"
+
+## Austro-Hungarian Empire ##
+
+AHU_AUS:0 "Austro-Hungarian Empire"
+AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
+
+## Austrian Empire ##
+
+EMP_AUS_DEF:0 "the Austrian Empire"
+EMP_AUS:0 "Austrian Empire"
+
+
+###########################
+## BELGIAN COSMETIC TAGS ##
+###########################
+
+## Austrian Netherlands ##
+
+AUN_BEL:0 "Austrian Netherlands"
+AUN_BEL_DEF:0 "the Austrian Netherlands"
+
+##########################
+## Sister Republic Tags ##
+##########################
+
+LIG_GEN:0 "Ligurian Republic"
+LIG_DEF:0 "the Ligurian Republic"
+
+FRA_LUC:0 "French Republic of Lucca"
+FRA_LUC_DEF:0 "the French Republic of Lucca"
+
+
+############################
+## COLONIAL COSMETIC TAGS ##
+############################
+
+## Portuguese Colonial Tags ##
+
+POB_BRA:0 "Portuguese Brazil"
+
+## British Colonial Tags ##
+
+ BBN_BAN:0 "British Bengal"
+ BBN_BAN_DEF:0 "British Bengal" 
+ 
+ BRA_AND:0 "British Andhra"
+ BRA_AND_DEF:0 "British Andhra"
+
+ BAS_AST:0 "British Australia"
+ BAS_AST:0 "British Australia"
+ NSW_AST:0 "New South Wales"
+
+
+
+

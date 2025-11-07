@@ -1,0 +1,235 @@
+###################
+## FRENCH EVENTS ##
+###################
+
+add_namespace = france
+
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_storming_the_tuileries
+	
+	is_triggered_only = yes
+	
+	option = { # 
+		name = france.1.a
+		ai_chance = {
+			factor = 100	
+		}	
+	}
+}
+
+
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.2.a
+		ai_chance = {
+			factor = 1
+		}
+
+		news_event = { id = news.2 }
+
+	}
+}	
+
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.3.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			transfer_state = 8
+			transfer_state = 34
+			transfer_state = 6 
+			transfer_state = 837
+		}	
+	}
+	option = {
+		name = france.3.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}	
+
+country_event = {
+	id = france.4
+	title = france.4.t
+	desc = france.4.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.4.a
+		ai_chance = {
+			factor = 100
+		}	
+		AUS = {
+			transfer_state = 163
+
+		}
+		
+
+		ITA = {
+			transfer_state = 159
+			transfer_state = 914
+			transfer_state = 915
+			transfer_state = 911
+			transfer_state = 917
+			transfer_state = 916
+		}	
+
+		puppet = {
+    			target = ITA
+   				end_wars = no
+		}
+		ITA = {
+			add_country_leader_role = {
+				character = ITA_napoleon_puppet
+				promote_leader = yes
+				country_leader = {
+					ideology = authoritarian_democracy
+					expire = ""
+					traits = { popular_figurehead }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = france.4.b
+		ai_chance = {
+			factor = 0
+		}
+		ITA = {
+			transfer_state = 159
+			transfer_state = 914
+			transfer_state = 915
+			transfer_state = 911
+			transfer_state = 917
+			transfer_state = 916
+		}	
+	}
+}
+
+country_event = {
+	id = france.5
+	title = france.5.t
+	desc = france.5.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.5.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HOL
+			}
+		}	
+	}
+	option = {
+		name = france.5.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = france.6
+	title = france.6.t
+	desc = france.6.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.6.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+		}	
+	}
+	option = {
+		name = france.6.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = france.7
+	title = france.7.t
+	desc = france.7.d
+	picture = GFX_report_french_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.7.a
+		ai_chance = {
+			factor = 100
+		}	
+		FRA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+		}	
+	}
+}
+
+country_event = {
+    id = france.8
+    title = france.8.t
+    desc = france.8.d
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = france.8.a
+        ai_chance = {
+            factor = 0
+        }
+        add_political_power = 150
+        add_stability = 0.10
+        set_global_flag = louis_xvi_executed
+        news_event = {
+            id = news.8
+        }
+    }
+}
+
+
+
+
+

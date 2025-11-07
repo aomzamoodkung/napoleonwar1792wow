@@ -1,0 +1,42 @@
+################
+# SUPER EVENTS #
+################
+
+add_namespace = super
+add_namespace = super_info
+
+
+country_event = {	#War of first coalition
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_sp_event_War_Of_The_First_Coalition
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			FRA = { has_government = authoritarian_democracy }
+			OR = {
+				FRA = { has_offensive_war_with = AUS }			}
+			NOT = {
+				has_global_flag = FRA_war_of_first_coalition
+			}
+		}
+	}
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = FRA_war_of_first_coalition
+		set_global_flag = Super_Event_Visible
+		play_song = "superevent0"
+		
+                set_global_flag = FRA_war_of_first_coalition
+		set_global_flag = Super_FRA_war_of_first_coalition
+	}
+}

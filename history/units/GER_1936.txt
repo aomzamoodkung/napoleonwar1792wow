@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		gun_cannon = { x = 2 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Leichte Kavallerie" 			# SS division
+	# Note: actually a grouping of 3 independent SS-mot regiments
+	regiments = {
+		lancers = { x = 0 y = 0 }
+	    lancers = { x = 0 y = 1 }
+		lancers = { x = 0 y = 2 }
+		
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Gebirgsjäger-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 11499
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 11431
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 6488
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "GER"
+		}
+		requested_factories = 7
+		progress = 0.79
+		efficiency = 100
+	}
+}

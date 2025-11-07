@@ -1,0 +1,16 @@
+characters={
+    TUS_Ferdinand_III={ #Democratic Leader
+        name="Ferdinand III"
+        portraits={
+            civilian={
+                large="gfx/leaders/TUS/TUS_Ferdinand_III.dds"
+            }
+        }
+        country_leader={
+            ideology=Despotism
+            traits={ dictator }
+            expire="1824.6.18.24"
+            id=-1
+        }
+    }
+}

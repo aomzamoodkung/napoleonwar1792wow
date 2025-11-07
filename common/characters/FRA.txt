@@ -1,0 +1,914 @@
+characters={
+	FRA_Georges_Danton={ 
+		name="Georges Danton"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_Georges_Danton.dds"
+			}
+		}
+	}
+
+
+	FRA_maximilien_robespierre={ 
+		name="Maximilien Robespierre"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_maximilien_robespierre.dds"
+			}
+		}
+	}
+	
+	FRA_The_People={ 
+		name="The People"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_The_People.dds"
+			}
+		}
+	}
+
+	FRA_the_directory={ 
+		name="The Directory"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_the_directory.dds"
+			}
+		}
+	}
+
+	FRA_national_convention={ 
+		name="National-Convention"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_national_convention.dds"
+			}
+		}
+	}
+
+	FRA_the_revolutionaries={ 
+		name="The Revolutionaries"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_the_revolutionaries.dds"
+			}
+		}
+	}
+
+	FRA_Napoleon_Bonaparte={ #Democratic Leader
+		name="Napoleon Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_Napoleon.dds"
+			}
+		}
+	}
+
+	FRA_Louis_XVI={ 
+		name="Louis XVI"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_Louis_XVI.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ unpopular_monarch indecisive_king }
+			expire="1793.1.21.1"
+			id=-2
+		}
+	}
+
+	## Advisors ##
+
+	## Political ##
+
+	FRA_Jacques-Louis_David={
+		name="Jacques-Louis David"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 75
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+
+	FRA_Charles_Maurice_de_Talleyrand_Perigord={
+		name="Charles Maurice de Talleyrand-Périgord"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+
+	FRA_Pierre_Daru={
+		name="Pierre Daru"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 125
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				prince_of_terror
+			}
+		}
+	}
+
+	FRA_Jean-Baptiste_Collin_de_Sussy={
+		name="Jean-Baptiste Collin de Sussy"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 125
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+
+	FRA_Francois_Barbé-Marbois={
+		name="François Barbé-Marbois"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+
+	FRA_Napoleon_Bonaparte_Command={
+		name="Napoleon Bonaparte"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+		advisor={
+			cost = 250
+			slot = high_command
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				army_infantry_3
+			}
+		}
+	}
+
+	FRA_Pasquale_Paoli={
+		name="Pasquale Paoli"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+
+	
+	FRA_Emmanuel_Joseph_Sieyès={
+		name="Emmanuel Joseph Sieyès"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				popular_figurehead
+			}
+		}
+	}
+
+	FRA_Lucien_Bonaparte={
+		name="Lucien Bonaparte"
+		portraits={
+			army={
+				small="GFX_idea_FRA_Jacques-Louis_David"
+		}
+	}
+
+	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = jacques_louis_david
+			allowed = {
+				original_tag = FRA
+				ruling_party = democratic
+			}
+			available = {	
+				has_government = authoritarian_democracy
+			}
+			
+			ai_will_do = {
+			}
+
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+
+
+	## Generals ##
+
+	FRA_Napoleon_Bonaparte_General={
+		name="Napoleon Bonaparte"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
+				small="gfx/leaders/FRA/Portrait_France_Napoleon.dds"
+			}
+		}
+		corps_commander={
+			traits={  bearer_of_artillery trickster }
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	
+	FRA_Eugene_De_Beauharnais={
+		name="Eugène de Beauharnais"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
+				small="gfx/leaders/FRA/Portrait_France_Eugene_De_Beauharnais.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	FRA_Adam_Philippe_Custine={
+		name="Adam Philippe Custine"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Adam_Philippe_Custine.dds"
+				small="gfx/leaders/FRA/Portrait_France_Adam_Philippe_Custine.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	FRA_Gilbert_du_Motier_de_Lafayette={
+		name="Gilbert du Motier de Lafayette"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
+				small="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
+			}
+		}
+		corps_commander={
+			traits={ inspirational_leader politically_connected   }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+
+	FRA_Pierre_Augereau={
+		name="Pierre Augereau"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
+				small="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
+			}
+		}
+		corps_commander={ 
+			traits={ offensive_doctrine politically_connected }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	FRA_Jean_Charles_Pichegru={
+		name="Jean-Charles Pichegru"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Charles_Pichegru.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Charles_Pichegru.dds"
+			}
+		}
+		corps_commander={
+			traits={ Offensive Doctrine }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	FRA_Francois_Kellermann={
+		name="Francois Christophe Kellermann"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Francois_Christophe_Kellermann.dds"
+				small="gfx/leaders/FRA/Portrait_France_Francois_Christophe_Kellermann.dds"
+			}
+		}
+		corps_commander={
+			traits={ Cavalry Leader   }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	
+    FRA_Jean_Baptiste_Kleber={
+		name="Jean Baptiste Kleber"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Baptiste_Kleber.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Baptiste_Kleber.dds"
+			}
+		}
+		corps_commander={
+			traits={ Defensive Expert  }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	
+     FRA_Scherer={
+		name="Scherer"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Scherer.dds"
+				small="gfx/leaders/FRA/Portrait_France_Scherer.dds"
+			}
+		}
+		corps_commander={
+			traits={ Infantry Specialist   }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+     FRA_Desaix={
+		name="Desaix"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Desaix.dds"
+				small="gfx/leaders/FRA/Portrait_France_Desaix.dds"
+			}
+		}
+		corps_commander={
+			traits={ Inspirational Leader:   }
+			skill=5
+			attack_skill=6
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+     FRA_Louis_Alexandre_Berthier={
+		name="Louis Alexandre Berthier"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Louis_Alexandre_Berthier.dds"
+				small="gfx/leaders/FRA/Portrait_France_Louis_Alexandre_Berthier.dds"
+			}
+		}
+		corps_commander={
+			traits={ Master Organizer   }
+			skill=6
+			attack_skill=4
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+     FRA_Timbrune={
+		name="Timbrune"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Timbrune.dds"
+				small="gfx/leaders/FRA/Portrait_France_Timbrune.dds"
+			}
+		}
+		corps_commander={
+			traits={ Reliable Commander   }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+     FRA_Moreau={
+		name="Moreau"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Moreau.dds"
+				small="gfx/leaders/FRA/Portrait_France_Moreau.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Dampierre={
+		name="Dampierre"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Dampierre.dds"
+				small="gfx/leaders/FRA/Portrait_France_Dampierre.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Antoine_Charles_Louis_Lasalle={
+		name="Antoine Charles Louis Lasalle"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Antoine Charles Louis Lasalle.dds"
+				small="gfx/leaders/FRA/Portrait_France_Antoine Charles Louis Lasalle.dds"
+			}
+		}
+		corps_commander={
+			traits={  Cavalry Officer }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Henri-Amedee-Mercure_de_Turenne={
+		name="Henri-Amedee-Mercure de Turenne"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Henri-Amedee-Mercure_de_Turenne.dds"
+				small="gfx/leaders/FRA/Portrait_France_Henri-Amedee-Mercure_de_Turenne.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Domouriez={
+		name="Domouriez"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Domouriez.dds"
+				small="gfx/leaders/FRA/Portrait_France_Domouriez.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Barthelemy_Catherine_Joubert={
+		name="Barthelemy Catherine Joubert"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Barthelemy_Catherine_Joubert.dds"
+				small="gfx/leaders/FRA/Portrait_France_Barthelemy_Catherine_Joubert.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Auguste_de_Marmont={
+		name="Auguste de Marmont"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Auguste_de_Marmont.dds"
+				small="gfx/leaders/FRA/Portrait_France_Auguste_de_Marmont.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Gabriel_Jean_Joseph_Molitor={
+		name="Gabriel Jean Joseph Molitor"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Gabriel_Jean_Joseph_Molitor.dds"
+				small="gfx/leaders/FRA/Portrait_France_Gabriel_Jean_Joseph_Molitor.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Louis_Nicolas_Davout={
+		name="Louis Nicolas Davout"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Louis_Nicolas_Davout.dds"
+				small="gfx/leaders/FRA/Portrait_France_Louis_Nicolas_Davout.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Michel_Ney={
+		name="Michel Ney"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Michel_Ney.dds"
+				small="gfx/leaders/FRA/Portrait_France_Michel_Ney.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Jean_Jacques_Mcdonald={
+		name="Jean Jacques Mcdonald"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Jacques_Mcdonald.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Jacques_Mcdonald.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Jean-Baptiste_Bessieres={
+		name="Jean Baptiste Bessieres"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean-Baptiste_Bessieres.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean-Baptiste_Bessieres.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Murat={
+		name="Murat"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Murat.dds"
+				small="gfx/leaders/FRA/Portrait_France_Murat.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Jourdan={
+		name="Jourdan"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jourdan.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jourdan.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Alexandre_Francois_De_Beauharnais={
+		name="Alexandre Francois De Beauharnais"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Alexandre_Francois_De_Beauharnais.dds"
+				small="gfx/leaders/FRA/Portrait_France_Alexandre_Francois_De_Beauharnais.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Jean_Andoche={
+		name="Jean Andoche"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Andoche.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Andoche.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Nicolas_Soult={
+		name="Nicolas Soult"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Nicolas_Soult.dds"
+				small="gfx/leaders/FRA/Portrait_France_Nicolas_Soult.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Jean_Baptiste_Carrier={
+		name="Jean Baptiste Carrier"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_Baptiste_Carrier.dds"
+				small="gfx/leaders/FRA/Portrait_France_Jean_Baptiste_Carrier.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+     FRA_Bob the Placeholder={
+		name="Bob the Placeholder"
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_bob_the_placeholder.dds"
+				small="gfx/leaders/FRA/Portrait_France_bob_the_placeholder.dds"
+			}
+		}
+		corps_commander={
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}

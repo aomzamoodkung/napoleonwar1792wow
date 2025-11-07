@@ -1,0 +1,50 @@
+characters={
+	DEN_Christian_VII={ #Democratic Leader
+		name="Christian VII"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/DEN_Christian_VII.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1808.3.13.0"
+			id=-1
+		}
+	}
+
+	DEN_Frederick_VI={ #Democratic Leader
+		name="Frederick VI"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/DEN_Frederick_VI.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ dictator }
+			expire="1840.10.6.1"
+			id=-1
+		}
+	}
+	
+	DEN_Jens_Peter_Jensen={
+		name="Jens_Peter_Jensen"
+		portraits={
+			army={
+				large="gfx/leaders/DEN/Portrait_Denmark_Jens_Peter_Jensen.dds"
+				small="gfx/leaders/DEN/Portrait_Denmark_Jens_Peter_Jensen.dds"
+			}
+		}
+		corps_commander={
+			traits={  bearer_of_artillery trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+        }
+    }
+}

@@ -1,0 +1,212 @@
+bookmarks = {
+	bookmark = {
+		name = "RISE_OF_NAPOLEON_NAME"
+		desc = "RISE_OF_NAPOLEON_DESC"
+		date = 1792.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+		
+		###################
+		## MAJOR NATIONS ##
+		###################
+		
+		"FRA"={
+			history = FRA_RISE_OF_NAPOLEON_DESC
+			ideology = Monarchist 
+			ideas = {
+				
+				catholic
+				FRA_King_Louis
+				FRA_Constitutional_Guard
+				
+			}
+
+			focuses = {
+
+				FRA_the_french_republic
+				FRA_fear_of_the_counter_revolution
+				FRA_form_the_national_convention
+
+			}
+		}
+
+		"PRE"={
+			history = PRE_RISE_OF_NAPOLEON_DESC
+			ideology = Monarchist
+			ideas = {	
+				protestant
+			}
+			focuses = {
+			}	
+		}
+
+
+		"ENG"={
+			history = ENG_RISE_OF_NAPOLEON_DESC
+			ideology = Monarchist
+			ideas = {
+
+				protestant
+				ENG_british_empire
+				
+			}
+			focuses = {
+			}	
+		}
+
+		"AUS"={
+			history = AUS_RISE_OF_NAPOLEON_DESC
+			ideology = Monarchist
+			ideas = {	
+				catholic
+				AUS_francis_the_great
+				AUS_centre_of_europe
+			}
+			focuses = {
+
+				AUS_the_holy_roman_empire
+				AUS_habsburg_monarchy_of_europe
+				AUS_austrian_netherlands
+				
+			}	
+		}
+
+		"TUR"={
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				sunni
+			}
+			focuses = {	
+			}	
+		}
+
+		"RUS"={
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				orthodox
+			}
+			focuses = {
+			}	
+		}
+
+		"GER"={
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				catholic
+			}
+			focuses = {	
+			}	
+		}
+
+
+		"SPR"={
+			history = ""
+			ideology = Monarchist
+			ideas = {
+				catholic
+			}
+			focuses = {
+			}	
+		}	
+		
+		###################
+		## MINOR NATIONS ##
+		###################
+
+		"POR"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				catholic
+			}
+			focuses = {
+			}	
+		}
+		
+		"POL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				catholic
+			}
+			focuses = {
+			}	
+		}	
+
+		"USA"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {
+			}
+			focuses = {
+			}	
+		}	
+		
+		"PPL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			#available = { has_dlc = "La Resistance" } 
+			ideas = {
+				catholic
+			}
+			focuses = {
+			}	
+		}
+
+		"BAY"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				catholic
+			}
+			focuses = {
+			}	
+		}
+
+		"HOL"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				protestant
+			}
+			focuses = {
+			}	
+		}
+
+		"MEK"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				protestant
+			}
+			focuses = {
+			}	
+		}
+
+		"VNI"={
+			minor = yes
+			history = ""
+			ideology = Monarchist
+			ideas = {	
+				catholic
+			}
+			focuses = {
+			}	
+		}
+	}
+}
+
+
+			
+

@@ -1,0 +1,218 @@
+###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+	}
+}
+
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+	}
+}
+
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+	}
+}
+
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_004
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+	}
+}
+
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_004
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = news.5.a
+		ai_chance = {
+			factor = 1
+		} 
+
+		RUS = {
+			set_state_owner = 199
+			set_state_owner = 198
+			set_state_owner = 201
+			set_state_owner = 202
+			set_state_owner = 194
+			set_state_owner = 204
+			set_state_owner = 206
+		}
+
+		PRE = {
+			set_state_owner = 86
+			set_state_owner = 85
+			set_state_owner = 918
+			set_state_owner = 87
+		}
+	}
+}
+
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_004
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = news.5.a
+		ai_chance = {
+			factor = 1
+		} 
+
+		RUS = {
+			set_state_owner = 93
+			set_state_owner = 94
+			set_state_owner = 95
+			set_state_owner = 96
+			set_state_owner = 784
+			set_state_owner = 814
+			set_state_owner = 11
+			set_state_owner = 815
+			set_state_owner = 809
+			set_state_owner = 189
+			set_state_owner = 190
+			set_state_owner = 97
+
+		}
+
+		PRE = {
+			set_state_owner = 98
+			set_state_owner = 188
+			
+
+		}
+
+		AUS = {
+			set_state_owner = 919
+			set_state_owner = 90
+			set_state_owner = 92
+			set_state_owner = 10
+			set_state_owner = 920
+			set_state_owner = 921
+			set_state_owner = 922
+		}
+	}
+}
+
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_004
+
+	available = {
+		FRA = {
+			has_war_with = AUS
+		}
+	}
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+
+		AUS = { add_to_faction = ENG }
+		AUS = { add_to_faction = HOL }
+		ENG = {
+			add_to_war = {
+				targeted_alliance = AUS
+				enemy = FRA
+				hostility_reason = asked_to_join
+			}
+		}
+		HOL = {
+			add_to_war = {
+				targeted_alliance = AUS
+				enemy = FRA
+				hostility_reason = asked_to_join
+			}
+		}
+	}
+}
+
+news_event = {
+    id = news.8
+    title = news.8.t
+    desc = news.8.d
+    picture = GFX_report_death_of_Louis XVI
+
+    is_triggered_only = yes
+
+    option = {
+        name = news.8.a
+    }
+}
+
+country_event = {
+    id = news.9
+    title = news.9.t
+    desc = news.9.d
+
+    trigger = { }
+    is_triggered_only = yes
+
+
+    option = {
+        name = news.9.a
+    }
+}

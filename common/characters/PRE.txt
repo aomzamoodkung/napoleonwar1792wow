@@ -1,0 +1,88 @@
+characters = {
+    PRE_Frederick_William_II = {
+        name = "Frederick William II"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PRE/PRE_Frederick_William_II.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { stout_defender }
+            expire = "1797.11.16.1"
+            id = -1
+        }
+    }
+
+    PRE_Frederick_William_III = {
+        name = "Frederick William III"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PRE/PRE_Frederick_William_III_young.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { stout_defender }
+            expire = "1840.6.7.0"
+            id = -1
+        }
+    }
+
+    PRE_Charles_William_Ferdinand = {
+        name = "Charles William-Ferdinand, Duke of Brunswick"
+        portraits = {
+            army = {
+                large = "gfx/leaders/PRE/Portrait_Prussia_Charles_William-Ferdinand.dds"
+                small = "gfx/leaders/PRE/Portrait_Prussia_Charles_William-Ferdinand.dds"
+            }
+        }
+        corps_commander = {
+            traits = { }
+            skill = 4
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 5
+            logistics_skill = 5
+            legacy_id = 0
+        }
+    }
+
+    PRE_Gebhard_Leberecht = {
+        name = "Gebhard Leberecht von Blücher"
+        portraits = {
+            army = {
+                large = "gfx/leaders/PRE/Portrait_Prussia_Gebhard_Leberecht.dds"
+                small = "gfx/leaders/PRE/Portrait_Prussia_Gebhard_Leberecht.dds"
+            }
+        }
+        corps_commander = {
+            traits = { }
+            skill = 5
+            attack_skill = 6
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 3
+            legacy_id = 0
+        }
+    }
+
+    PRE_Ernest_I = {
+        name = "Ernest I"
+        portraits = {
+            army = {
+                large = "gfx/leaders/PRE/Portrait_Prussia_Ernest-I.dds"
+                small = "gfx/leaders/PRE/Portrait_Prussia_Ernest-I.dds"
+            }
+        }
+        corps_commander = {
+            traits = { }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+            legacy_id = 0
+        }
+    }
+}

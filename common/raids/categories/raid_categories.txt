@@ -1,0 +1,8 @@
+categories = {
+
+	air_raids = {
+	    visible = { always = no }
+	    intel_source = air
+	}
+
+}

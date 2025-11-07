@@ -1,0 +1,14 @@
+types = {
+	facility_strike = {
+		days_to_prepare = 90
+		
+		allowed = {
+			has_dlc = "Gotterdammerung"
+		}
+
+		# Raid Type is visible
+		visible = {
+			always = no
+		}
+	}
+}

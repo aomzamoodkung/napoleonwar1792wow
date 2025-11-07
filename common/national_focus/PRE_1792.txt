@@ -1,0 +1,14 @@
+focus_tree = {
+    id = PRE_1792
+    continuous_focus_position = { x =  y =  } 
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = RUS
+        }
+    }
+
+ ######################
+ ##  Prussia         ##
+ ######################
