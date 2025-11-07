@@ -2,7 +2,7 @@ ideas = {
 	## Starting Ideas ##
 	country = {
 		POL_Constitution_of_May = {
-			picture = POL_Constitution_of_May
+			picture = GFX_POL_Constitution_of_May
 			allowed = {
 				original_tag = POL
 				always = no
@@ -20,5 +20,89 @@ ideas = {
 				political_power_gain = 0.50
 				stability_weekly = 0.0002
 				training_time_factor = -0.005
+			}
+		}
+		POL_new_constitution = {
+			picture = POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.0001
+				consumer_goods_factor = -0.08
+				political_power_gain = 0.001
+				war_support_factor = 0.04
+				army_org_factor = 0.05
+			}
+		}
+		POL_small_army = {
+			picture = GFX_POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = -0.1
+				supply_factor = -0.2
+				experience_gain_army_factor = -0.5
+				army_org_factor = -0.1
+			}
+		}
+		POL_small_army_reforms = {
+			picture = GFX_POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = -0.2
+				experience_gain_army_factor = -0.1
+				army_org_factor = -0.01
+			}
+		}
+		POL_new_begining = {
+			picture = GFX_POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = 0.002
+				war_support_factor = 0.01
+				autonomy_gain = 0.1
+				consumer_goods_factor = 0.1
 			}
 		}

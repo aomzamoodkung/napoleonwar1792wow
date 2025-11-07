@@ -18,10 +18,8 @@ focus = {
         icon = 
         x = 2
         y = 0
-        cost = 3.6
-        search_filters = {
-            FOCUS_FILTER_POLITICAL
-        }
+        cost = 5
         completion_reward = {
+		country_event = rus.1
         }
     }

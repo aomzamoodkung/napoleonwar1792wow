@@ -1,0 +1,21 @@
+focus_tree = {
+	id = POL_not
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+
+	focus = {
+		id = POL_intoduction
+		icon = GFX_focus_fra_le_deluge
+		x = 14
+		y = 0
+		cost = 3.6
+		completion_reward = {
+				country_event = pol.1
+		}
+	}

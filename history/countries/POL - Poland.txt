@@ -1,6 +1,13 @@
 capital = 112
 
-set_convoys = 300
+oob = POL_1936
+
+set_convoys = 88
+
+set_technology = {
+	infantry_weapons = 1
+
+set_research_slots = 3
 
 add_ideas = {
 	
@@ -20,8 +27,29 @@ set_popularities = {
 }
 add_ideas = {
 	catholic
+	POL_Constitution_of_May
+	POL_small_army
 }
 puppet = BRA
 
 recruit_character = POL_Stanislaw
+recruit_character = POL_Micha_Kazimierz_Oginski
+recruit_character = POL_jan_henryk_dabrowski
+recruit_character = POL_Stanislaw_new
+recruit_character = POL_tadeusz
+
+
+
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 1242
+	producer = POL
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 421
+	producer = POL
+}
 

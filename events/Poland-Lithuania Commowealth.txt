@@ -1,0 +1,99 @@
+add_namespace = pol
+
+add_namespace = pol
+
+country_event = {
+    id = pol.1
+    title = pol.1.t
+    desc = pol.1.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.1.a
+        ai_chance = { factor = 100 }
+    }
+}
+country_event = {
+    id = pol.2
+    title = pol.2.t
+    desc = pol.2.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.2.a
+        ai_chance = { factor = 100 }
+		add_political_power = 150
+        add_stability = 0.10
+    }
+}
+country_event = {
+    id = pol.3
+    title = pol.3.t
+    desc = pol.3.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.3.a
+        ai_chance = { factor = 100 }
+        add_stability = 0.005
+		add_ideas = POL_new_constitution
+    }
+}
+country_event = {
+    id = pol.5
+    title = pol.5.t
+    desc = pol.5.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.5.a
+        ai_chance = { factor = 100 }
+    }
+}
+country_event = {
+    id = pol.6
+    title = pol.6.t
+    desc = pol.6.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.6.a
+        ai_chance = { factor = 100 }
+		      declare_war_on = {
+        type = take_state
+  target = RUS
+  generator = { 306 }
+}
+    }
+}
+country_event = {
+    id = pol.7
+    title = pol.7.t
+    desc = pol.7.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.7.a
+        ai_chance = { factor = 100 }
+		set_politics = {
+    ruling_party = Liberalism
+    elections_allowed = no
+    last_election = "1935.12.17"
+    election_frequency = 48
+    long_name = POL_party_k_long
+    name = POL_party_k
+}
+    }
+}

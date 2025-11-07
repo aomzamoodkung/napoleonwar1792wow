@@ -1,0 +1,26 @@
+spriteTypes= {
+
+    ## Generals ##
+
+    spriteTypes = {
+        name = "GFX_POL_Micha_Kazimierz_Oginski.dds"
+        texturefile = "gfx/leaders/POL/POL_Micha_Kazimierz_Oginski.dds"
+    }
+	spriteTypes = {
+        name = "GFX_POL_Stanislaw_new.dds"
+        texturefile = "gfx/leaders/POL/POL_Stanislaw_new.dds"
+    }
+	spriteTypes = {
+        name = "GFX_POL_jan_henryk_dabrowski.dds"
+        texturefile = "gfx/leaders/POL/POL_jan_henryk_dabrowski.dds"
+    }
+	spriteTypes = {
+        name = "GFX_POL_tadeusz_kosciuszko.dds"
+        texturefile = "gfx/leaders/POL/POL_tadeusz_kosciuszko.dds"
+    }
+	spriteTypes = {
+        name = "GFX_POL_young_poniatowski.dds"
+        texturefile = "gfx/leaders/POL/POL_young_poniatowski.dds"
+    }
+    
+}

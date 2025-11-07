@@ -1,6 +1,11 @@
 spriteTypes = {	
 
 	#### Generic continuous goal icons
+	
+	SpriteType = {
+	name = "GFX_POL_Liberalism_group"
+	texturefile = "gfx/interface/ideologies/POL_Liberalism_group.dds"			
+	}
 
 	SpriteType = {
 	name = "GFX_ideology_Monarchist_group"
@@ -90,6 +95,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_POL_Monarchist_group"
 		texturefile = "gfx/interface/ideologies/POL_Monarchist_group.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_POL_Liberalism_group"
+		texturefile = "gfx/interface/ideologies/POL_Liberalism_group.dds"			
 	}
 	
 }

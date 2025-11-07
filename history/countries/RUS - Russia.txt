@@ -1,5 +1,7 @@
 capital = 195
 
+oob = RUS_1936
+
 set_convoys = 300
 
 add_ideas = {
@@ -23,5 +25,9 @@ add_ideas = {
 	orthodox	
 }
 
+puppet = POL
+
 recruit_character = RUS_Catherine_II
 recruit_character = RUS_Paul_I
+
+puppet = POL

@@ -1,6 +1,25 @@
 ﻿l_english:
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
 
+
+## poland/lithuania ## 
+
+ pol.1.t:0 "Sytuacja Rzeczypospolitej Obojga Narodów"
+ pol.1.d:0 "The once-mighty Polish–Lithuanian Commonwealth stands at a crossroads. Decades of foreign interference, internal corruption, and political paralysis have brought the Republic to the brink of collapse. Yet, hope flickers anew — the Constitution of May 3rd has breathed life into the dream of a modern, reformed state. But not all share this vision. Reactionary nobles, fearing the loss of their ancient privileges, have turned to Russia for aid, forming the Targowica Confederation. As Russian armies cross the border, the Commonwealth faces its greatest trial: to defend its newfound liberty or to succumb once again to the will of its powerful neighbors. The year is 1792 — and the destiny of Poland and Lithuania hangs in the balance."
+ pol.1.a:0 "Einam"
+ 
+ pol.2.t:0 "The Commonwealth Stands"
+ pol.2.d:0 "With courage and determination, the Commonwealth has chosen not merely to resist, but to strengthen itself from within. Inspired by the Constitution of May 3rd, reformers across the land begin to shape a new era — modernizing governance, reorganizing the army, and fostering a spirit of civic pride.Though dangers still loom, the people sense a brighter future. The Republic moves forward, guided by wisdom, courage, and the hope of lasting liberty."
+ pol.2.a:0 "Start Reforms"
+ 
+ pol.3.t:0 "The New Constitution of the Commonwealth"
+ pol.3.d:0 "After long debate and reflection on the perilous state of our realm, the Sejm and the Crown have at last reached agreement. The Commonwealth shall no longer endure the weight of foreign meddling and internal discord. A new Constitution is proclaimed — one that grants the government strength to act, the army power to defend, and the nation unity of purpose.Across Poland and Lithuania, bells ring and banners rise. Reformers speak of renewal, while the old guard watches with wary eyes. Yet one truth is clear: the days of weakness are past. The Commonwealth stands reformed, resolved to guard its motherland against all who would subdue it."
+ pol.3.a:0 "For the strength of the motherland!"
+ 
+ pol.5.t:0 "The Northern Question"
+ pol.5.d:0 "The time has come to look once more toward the Baltic. The port of Gdynia — our gateway to the sea and symbol of lost sovereignty — lies under Prussian rule, taken during our nation’s years of weakness. Now, with the Commonwealth stirring anew, many voices within the Sejm call for its return.Our armies are not yet at full strength, and the treasury strains under the weight of reform. Yet to remain passive would invite further humiliation. The question before us is one of courage — shall we risk war to reclaim what is rightfully ours?"
+ pol.5.a:0 "Prepare the plans for war!"
+ 
 ## France ##
  france.1.t:0 "Storming The Tuileries"
  france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"
@@ -32,6 +51,10 @@
  france.7.t:0 "Austria Refuse"
  france.7.a:0 "So Its Annihilation They Want."
 
+ france.8.t:0 "Execution of Louis XVI"
+ france.8.d:0 "In a dramatic culmination of revolutionary fervor, King Louis XVI has been tried and found guilty of treason by the National Convention. Today, he was executed by guillotine in the Place de la Révolution. France now enters a new era — a Republic born in blood."
+
+ france.8.a:0 "The King is dead. Long live the Revolution!"
 
 ## Austria ##
 
@@ -92,6 +115,10 @@
  news.7.t:0 "Britain and Holland Join The Coalition"
  news.7.a:0 "What Does This Mean For The War?"
  my_peace_tt1:0 "Austria Accepted Our Demands"
+
+ news.8.t:0 "Louis XVI Executed"
+ news.8.d:0 "In a shocking turn of events, the revolutionary French government has executed King Louis XVI by guillotine. The monarch's death has sent ripples throughout Europe, with monarchies alarmed at the radical turn of events in France. The Revolution, it seems, has only just begun."
+ news.8.a:0 "A new chapter begins for France."
 
 ## Tool Tips ##
 

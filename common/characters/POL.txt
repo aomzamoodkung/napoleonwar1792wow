@@ -13,4 +13,104 @@ characters={
 			id=-1
 		}
 	}
-}
+		POL_Stanislaw_new={ 
+		name="Stanisław August Poniatowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_Stanislaw_new.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ unpopular_monarch }
+			expire="1798.2.12.1"
+			id=-1
+		}
+	}
+	POL_tadeusz={ #Democratic Leader
+		name="Tadeusz Kościuszko"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_tadeusz.dds"
+			}
+		}
+		country_leader={
+			ideology=Liberalism
+			traits={  }
+			expire="1800.2.12.1"
+			id=-1
+		}
+	}
+    POL_Micha_Kazimierz_Oginski={
+		name="Micha Kazimierz Oginski"
+		portraits={
+			army={
+				large="gfx/leaders/POL/POL_Micha_Kazimierz_Oginski.dds"
+				small="gfx/leaders/POL/POL_Micha_Kazimierz_Oginski.dds"
+			}
+		}
+		field_marshal={
+			traits={  bearer_of_artillery }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	POL_jan_henryk_dabrowski={
+		name="Jan Henryk Dabrowski"
+		portraits={
+			army={
+				large="gfx/leaders/POL/POL_jan_henryk_dabrowski.dds"
+				small="gfx/leaders/POL/POL_jan_henryk_dabrowski.dds"
+			}
+		}
+		corps_commander={
+			traits={ Offensive Doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	POL_young_poniatowski={
+		name="Józef Poniatowski"
+		portraits={
+			army={
+				large="gfx/leaders/POL/POL_young_poniatowski.dds"
+				small="gfx/leaders/POL/POL_young_poniatowski.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	POL_tadeusz_kosciuszko={
+		name="Tadeusz Kościuszko"
+		portraits={
+			army={
+				large="gfx/leaders/POL/POL_tadeusz_kosciuszko.dds"
+				small="gfx/leaders/POL/POL_tadeusz_kosciuszko.dds"
+			}
+		}
+		field_marshal={
+			traits={  old_guard }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=6
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+   

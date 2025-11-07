@@ -1,0 +1,18 @@
+add_namespace = rus
+
+country_event = {
+    id = rus.1
+    title = rus.1.t
+    desc = rus.1.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = rus.1.a
+        ai_chance = { factor = 100 }
+		RUS = {
+		    transfer_state = 834
+			transfer_state = 192
+    }
+}

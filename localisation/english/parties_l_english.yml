@@ -81,6 +81,14 @@ anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the 
  PPL_Monarchist_party:0 "the Holy See"
  SPR_Monarchist_party:0 "House of Bourbon"
  SWI_Democratic_party:0 "Tagsatzung"
+ 
+ 
+ POL_monarchist_party:0 "Patriotic Party"
+ POL_monarchist_party_long:0 "Patriotic Party-Stronnictwo Patriotyczne"
+ POL_despotism_party:0 "Patriotic Party"
+ POL_despotism_party_long:0 "Patriotic Party-Stronnictwo Patriotyczne"
+ POL_party_k:0 "RTR"
+ POL_party_k_long:0 "Rząd Tymczasowy Rzeczypospolitej"
 
 
  GER_authoritarian_party:0 "NSDAP"
@@ -90,21 +98,6 @@ anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the 
  GER_neutrality_party_civil_war:0 "Militärregierung"
  GER_neutrality_party_kaiserreich:0 "DNVP"
  GER_neutrality_party_kaiserreich_long:0 "Deutschnationale Volkspartei"
- POL_authoritarian_party:0 "ONR-Falanga"
- POL_authoritarian_party_long:0 "Oboz Narodowo Radykalny-Falanga"
- POL_natdem_party:0 "ND"
- POL_natdem_party_long:0 "Narodowa Demokracja"
- POL_socialism_party:1 "KPP"
- POL_socialism_party_long:2 "Komunistyczna Partja Polski"
- POL_democratic_party:0 "PSL"
- POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
- POL_neutrality_party:1 "Sanacja"
- POL_OZON_party:1 "OZN"
- POL_OZON_party_long:0 "Obóz Zjednoczenia Narodowego" #Camp of National Unity
- POL_POS_party:0 "POS"
- POL_POS_party_long:0 "Powszechna Organizacja Społeczeństwa" #Common Organization of Society
- POL_exile_democratic_party:0 "PLD"
- POL_exile_democratic_party_long:0 "Partia Liberalno-Demokratyczna"
  ENG_socialism_party:0 "CPGB"
  ENG_democratic_party:0 "Conservative Party"
  ENG_authoritarian_party:0 "British Union of Fascists"
