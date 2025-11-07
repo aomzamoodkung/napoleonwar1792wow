@@ -35,7 +35,7 @@ add_ideas = {
 	limited_exports	
 	PTY_house_of_bourbon
 	catholic
-	absolute
+	constitutional
 	interveneinaffairs
 }
 set_politics = {
