@@ -3156,5 +3156,9 @@ spriteTypes = {
 	    name = "GFX_trial_louisxvi"
 	    texturefile = "gfx/interface/goals/FRA/GFX_trial_louisxvi.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_longlive_france"
+	    texturefile = "gfx/interface/goals/FRA/longlive_france.dds"			
+	}
 
 }
