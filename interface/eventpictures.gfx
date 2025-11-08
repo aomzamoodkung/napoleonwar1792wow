@@ -34,6 +34,10 @@ spriteTypes = {
 		name = "GFX_rebirth_poland"
 		texturefile = "gfx/event_pictures/rebirth_poland.dds"
 	}
+	spriteType = {
+		name = "GFX_report_lafayette_flee"
+		texturefile = "gfx/event_pictures/report_lafayette_flee.dds"
+	}
 
 }
 
