@@ -132,7 +132,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_reorginise_the_french_navy
-		icon = GFX_poland_desert
+		icon = GFX_french_navy
 		x = -12
 		y = 0
 		cost = 10
@@ -366,8 +366,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			add_ideas = {
-				FRA_get_rid_of_the_catholic_church_idea
+			add_timed_idea = {
+				idea = FRA_get_rid_of_the_catholic_church_idea
+				days = 1000
 			}
 		}
 	}

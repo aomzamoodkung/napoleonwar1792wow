@@ -34,7 +34,8 @@
  FRA_pre_10_august_army_desc: "§RThe French army is trapped between a dying monarchy and a suspicious revolution. Noble officers desert or sabotage, common soldiers distrust their commanders, and parliamentary politicians meddle in every command. Regiments exist more on paper than in the field, and doctrine lags behind the realities of coalition warfare. Until the political crisis is resolved and the army is rebuilt on a new basis, France cannot fight at its full potential.§!"
  FRA_pre_10_august_army_1: "§YFrench Army§!"
  FRA_pre_10_august_army_1_desc: "§RWith royalist officers purged and command entrusted to men loyal to the Revolution, the army is beginning to function as a coherent force. Volunteers mix with veterans, discipline is rough but improving, and doctrine is rewritten to match the needs of a nation at war. France is not yet invincible, but no longer an easy prey for the Habsburgs.§!"
-
+ FRA_get_rid_of_the_catholic_church_idea: "Dissident Priest"
+ 
 ####################
 ## Austrian Ideas ##
 ####################

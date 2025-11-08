@@ -230,9 +230,9 @@ characters={
 		name="Napoleon Bonaparte"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+				small="gfx/interface/ideas/FRA/napoleon_idea"
+		    }
+	    }
 
 		advisor={
 			cost = 250
