@@ -172,6 +172,51 @@ ideas = {
 
 		}
 	}
+	
+    FRA_pre_10_august_army = {
+        picture = army_corruption
+        
+        allowed = {
+            original_tag = FRA
+        }
+
+        modifier = {
+            army_org_factor = -0.15
+            division_attack_factor = -0.10
+            division_defense_factor = -0.10
+            land_doctrine_cost_factor = 0.25
+            conscription_factor = -0.40
+            training_time_army_factor = 0.20
+            army_leader_start_level = -1
+            army_leader_cost_factor = -0.25
+            experience_gain_army_factor = -0.20
+        }
+
+        removal_cost = -1
+    }
+
+    FRA_pre_10_august_army_1 = {
+        picture = army_reform
+
+        allowed = {
+            original_tag = FRA
+        }
+
+        modifier = {
+            army_org_factor = -0.08
+            division_attack_factor = -0.10
+            division_defense_factor = 0.05
+            land_doctrine_cost_factor = 0.20
+            experience_gain_army_factor = 0.10
+			conscription_factor = -0.20
+			army_leader_start_level = -1
+            army_leader_cost_factor = -0.20
+            training_time_army_factor = -0.05
+        }
+
+        removal_cost = -1
+    }
+
 
 	}
 }

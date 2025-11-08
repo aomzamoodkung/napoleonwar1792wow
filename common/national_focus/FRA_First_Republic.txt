@@ -308,7 +308,7 @@ focus_tree = {
 		completion_reward = {	
 			set_country_flag = FRA_no_king
 
-			country_event = { id = france.2.1 }
+			country_event = { id = france.500 }
 		}
 	}
 
@@ -328,7 +328,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_create_the_cult_of_reason
+		id = FRA_purge_royalist_officer
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 2
@@ -339,6 +339,7 @@ focus_tree = {
 		completion_reward = {	
 			add_stability = 0.15
 			add_political_power = 2
+			swap_ideas = { remove_idea = FRA_pre_10_august_army add_idea = FRA_pre_10_august_army_1 }
 
 		}
 	}
@@ -348,7 +349,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		cost = 3.6
-		prerequisite = { focus = FRA_create_the_cult_of_reason }
+		prerequisite = { focus = FRA_purge_royalist_officer }
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	

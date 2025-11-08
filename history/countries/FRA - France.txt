@@ -37,6 +37,7 @@ add_ideas = {
 	catholic
 	constitutional
 	interveneinaffairs
+	FRA_pre_10_august_army
 }
 set_politics = {
 	ruling_party = monarchist
