@@ -358,7 +358,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_get_rid_of_the_catholic_church
-		icon = GFX_goal_get_rid_of_the_catholic_church
+		icon = GFX_attack_catholic
 		x = -2
 		y = 2
 		cost = 3.6
@@ -408,7 +408,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_trial_of_louis_XVI
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_trial_louisxvi
 		x = 0
 		y = 5
 		cost = 3.6
@@ -2023,7 +2023,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_enlist_foreigners
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_foreign_ally
 		x = -23
 		y = 5
 		cost = 10
