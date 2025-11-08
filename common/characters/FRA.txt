@@ -229,15 +229,15 @@ characters={
 	FRA_Napoleon_Bonaparte_Command={
 		name="Napoleon Bonaparte"
 		portraits={
-			army={
-				small="gfx/interface/ideas/FRA/napoleon_idea"
+			civilian={
+				small= "gfx/interface/ideas/FRA/napoleon_idea.dds"
 		    }
 	    }
 
 		advisor={
 			cost = 250
 			slot = high_command
-			idea_token = jacques_louis_david
+			idea_token = FRA_Napoleon_Bonaparte_Command
 			allowed = {
 				original_tag = FRA
 				ruling_party = democratic
