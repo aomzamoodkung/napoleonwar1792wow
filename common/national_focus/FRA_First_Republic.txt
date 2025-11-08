@@ -306,9 +306,9 @@ focus_tree = {
 		prerequisite = { focus = FRA_form_the_national_convention }
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			set_country_flag = FRA_no_king
 
-			country_event = { id = france.2 }
+			country_event = { id = france.2.1 }
 		}
 	}
 
