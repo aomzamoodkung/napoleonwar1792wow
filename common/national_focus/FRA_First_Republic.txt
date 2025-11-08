@@ -132,7 +132,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_reorginise_the_french_navy
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_poland_desert
 		x = -12
 		y = 0
 		cost = 10
@@ -1292,7 +1292,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_promote_napoleon
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_promote_napoleon
 		x = -4
 		y = 7
 		cost = 2
@@ -2091,7 +2091,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_polish_deserters
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_poland_desert
 		x = 2
 		y = 1
 		cost = 10

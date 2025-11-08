@@ -7300,6 +7300,8 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
-	
-			
+	spriteType = {
+		name = "GFX_idea_french_army_bad"
+		texturefile = "gfx/interface/ideas/FRA/french_army_bad.dds"
+	}			
 }

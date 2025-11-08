@@ -3160,5 +3160,17 @@ spriteTypes = {
 	    name = "GFX_longlive_france"
 	    texturefile = "gfx/interface/goals/FRA/longlive_france.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_promote_napoleon"
+	    texturefile = "gfx/interface/goals/FRA/GFX_promote_napoleon.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_french_navy"
+	    texturefile = "gfx/interface/goals/FRA/GFX_french_navy.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_poland_desert"
+	    texturefile = "gfx/interface/goals/FRA/poland_desert.dds"			
+	}
 
 }

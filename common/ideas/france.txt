@@ -174,7 +174,7 @@ ideas = {
 	}
 	
     FRA_pre_10_august_army = {
-        picture = army_corruption
+        picture = french_army_bad
         
         allowed = {
             original_tag = FRA
@@ -196,7 +196,7 @@ ideas = {
     }
 
     FRA_pre_10_august_army_1 = {
-        picture = army_reform
+        picture = french_army_bad
 
         allowed = {
             original_tag = FRA
