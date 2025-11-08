@@ -190,19 +190,6 @@ news_event = {
 	}
 }
 
-news_event = {
-    id = news.8
-    title = news.8.t
-    desc = news.8.d
-    picture = GFX_report_death_of_Louis XVI
-
-    is_triggered_only = yes
-
-    option = {
-        name = news.8.a
-    }
-}
-
 country_event = {
     id = news.9
     title = news.9.t
