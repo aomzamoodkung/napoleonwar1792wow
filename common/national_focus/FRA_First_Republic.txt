@@ -1299,9 +1299,19 @@ focus_tree = {
 		cost = 2
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		completion_reward = {	
-			promote_character = FRA_Napoleon_Bonaparte_General		
+            set_country_flag = FRA_appoint_napoleon_hc			
 			transfer_state = 735				
 			transfer_state = 835
+			custom_effect_tooltip = FRA_appoint_napoleon_hc_tt
+			add_field_marshal_role = {
+                    character = FRA_Napoleon_Bonaparte_General
+                    skill = 5
+                    attack_skill = 5
+                    defense_skill = 4
+                    planning_skill = 5
+                    logistics_skill = 5
+                    traits = { trickster }
+            }
 		}
 	}
 
