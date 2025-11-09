@@ -1,0 +1,90 @@
+FRA_integrate_category = {
+    FRA_integrate_rhine_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+
+        available = {
+            42 = {
+                is_owned_and_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+			51 = {
+                is_owned_and_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+			has_completed_focus = FRA_rhine_integration
+        }
+
+        complete_effect = {
+            FRA = {
+                add_state_core = 42
+				add_state_core = 51
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	FRA_create_cisalpine_republic = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+
+        available = {
+            915 = {
+                is_owned_and_controlled_by = FRA
+            }
+			911 = {
+                is_owned_and_controlled_by = FRA
+            }
+			914 = {
+                is_owned_and_controlled_by = FRA
+            }
+			159 = {
+                is_owned_and_controlled_by = FRA
+            }
+			has_completed_focus = FRA_sister_republics
+        }
+
+        complete_effect = {
+		    release_puppet = CIS
+            CIS = {
+                add_state_core = 915
+				add_state_core = 911
+				add_state_core = 914
+				add_state_core = 159
+            }
+			CIS = {
+			
+			    transfer_state = 159
+                transfer_state = 914
+			    transfer_state = 911
+			    transfer_state = 915
+			}	
+
+            add_stability = -0.03
+            add_war_support = 0.05
+            add_political_power = -50
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+}	

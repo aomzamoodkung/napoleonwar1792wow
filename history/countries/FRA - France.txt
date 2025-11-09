@@ -82,7 +82,6 @@ recruit_character = FRA_maximilien_robespierre
 recruit_character = FRA_The_People
 recruit_character = FRA_the_directory
 recruit_character = FRA_Napoleon_Bonaparte
-recruit_character = FRA_Napoleon_Bonaparte_General
 recruit_character = FRA_Eugene_De_Beauharnais
 recruit_character = FRA_Jacques-Louis_David
 recruit_character = FRA_Charles_Maurice_de_Talleyrand_Perigord

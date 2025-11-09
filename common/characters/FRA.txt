@@ -363,6 +363,15 @@ characters={
 			logistics_skill=5
 			legacy_id=0
 		}
+		field_marshal={
+			traits={  bearer_of_artillery trickster }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
 	}
 	
 	FRA_Eugene_De_Beauharnais={

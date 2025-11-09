@@ -1,0 +1,31 @@
+capital = 159
+
+oob = "CIS_1797"
+
+set_politics = {
+    ruling_party = democratic
+    elections_allowed = yes
+    election_frequency = 48
+    last_election = "1792.1.1"
+
+    stability = 0.45
+    war_support = 0.25
+}
+
+set_popularities = {
+    democratic = 0.70
+    neutrality = 0.20
+    communism = 0.05
+    fascism = 0.05
+}
+
+create_country_leader = {
+    name = "Directory of the Cisalpine Republic"
+    desc = "CIS_DIRECTORY_LEADER_DESC"
+    picture = "GFX_portrait_CIS_directory"
+
+    expire = "1820.1.1"
+    ideology = democratic
+
+    traits = { }
+}

@@ -3172,5 +3172,9 @@ spriteTypes = {
 	    name = "GFX_poland_desert"
 	    texturefile = "gfx/interface/goals/FRA/poland_desert.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_annex_rhine"
+	    texturefile = "gfx/interface/goals/FRA/GFX_annex_rhine.dds"			
+	}
 
 }

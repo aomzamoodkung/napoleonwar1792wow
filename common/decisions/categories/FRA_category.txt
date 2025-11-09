@@ -10,7 +10,7 @@ fra_mobilization_gui_decisions = {
 	priority = 61
 
 	scripted_gui = fra_mobolization_gui
-	visible_when_empty = yes
+	visible_when_empty = no
 }
 
 FRA_revolutionary_category = {
@@ -24,4 +24,17 @@ FRA_revolutionary_category = {
 	
 	priority = 61
 	visible_when_empty = yes
+}
+FRA_integrate_category = {
+icon = GFX_decision_category_border_war
+	allowed = {
+		tag = FRA
+	}
+	visible = {
+		original_tag = FRA
+		has_completed_focus = FRA_annex_belgium
+	}
+	
+	priority = 80
+	visible_when_empty = no
 }

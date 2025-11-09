@@ -272,6 +272,7 @@ FRA_guarantees_of_anti_royalism:0 "Guarantees Of Anti Royalism"
 
 FRA_appoint_napoleon_hc:0 "§BYou Promoted Napoleon§!"
 FRA_appoint_napoleon_hc_tt:0 "§OYou Unlocked Napoleon As Military High Command§!"
+unlock_rhine_intergate_tt:0 "§RYou Unlocked Rhine Integration Decision§!"
 
 
 FRA_brother_republic_in_the_carribean:0 "Brother Republic In The Carribean"

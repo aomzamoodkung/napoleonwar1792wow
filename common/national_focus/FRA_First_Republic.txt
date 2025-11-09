@@ -1303,15 +1303,7 @@ focus_tree = {
 			transfer_state = 735				
 			transfer_state = 835
 			custom_effect_tooltip = FRA_appoint_napoleon_hc_tt
-			add_field_marshal_role = {
-                    character = FRA_Napoleon_Bonaparte_General
-                    skill = 5
-                    attack_skill = 5
-                    defense_skill = 4
-                    planning_skill = 5
-                    logistics_skill = 5
-                    traits = { trickster }
-            }
+			recruit_character = FRA_Napoleon_Bonaparte_general	
 		}
 	}
 
@@ -1335,7 +1327,7 @@ focus_tree = {
 		
 
 		completion_reward = {		
-			add_state_core = 34
+	        add_state_core = 34
 			add_state_core = 6
 			add_state_core = 8
 			add_state_core = 837
@@ -1790,7 +1782,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_rhine_campaign
-		icon = GFX_focus_fra_le_deluge
+		icon =
 		x = -2
 		y = 5
 		cost = 10
@@ -1798,10 +1790,6 @@ focus_tree = {
 		prerequisite = { focus = FRA_three_pronged_attack }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
@@ -2020,14 +2008,15 @@ focus_tree = {
 
 	focus = {
 		id = FRA_rhine_integration
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_annex_rhine
 		x = 0
 		y = 3
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_make_napoleon_commander_of_itallian_forces }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
+		completion_reward = {
+            custom_effect_tooltip = unlock_rhine_intergate_tt		
 
         }
     }
