@@ -348,11 +348,12 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 3
-		cost = 3.6
+		cost = 4
 		prerequisite = { focus = FRA_purge_royalist_officer }
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
+		    add_ideas = { FRA_republican_calendar }
 		}
 	}
 
@@ -1985,25 +1986,6 @@ focus_tree = {
 			news_event = { id = news.2 }
 		}
 	}
-
-	focus = {
-		id = FRA_Make_Napoleon_Commander_of_Italian_Forces
-		icon = GFX_goal_make_napoleon_commander_of_italian_forces
-		x = 0
-		y = 2
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_annex_belgium }
-		relative_position_id = FRA_promote_napoleon
-
-		available = {
-			has_war_with = AUS	
-		}
-
-		completion_reward = {
-
-			}
-		}
 	
 
 	focus = {
@@ -2013,7 +1995,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_make_napoleon_commander_of_itallian_forces }
+		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {
             custom_effect_tooltip = unlock_rhine_intergate_tt		

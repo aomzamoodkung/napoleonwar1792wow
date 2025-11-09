@@ -7303,5 +7303,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_french_army_bad"
 		texturefile = "gfx/interface/ideas/FRA/french_army_bad.dds"
-	}			
+	}
+    spriteType = {
+		name = "GFX_idea_republican_calendar"
+		texturefile = "gfx/interface/ideas/FRA/republic_calender.dds"
+	}	
 }
