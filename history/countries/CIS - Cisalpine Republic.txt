@@ -3,7 +3,7 @@ capital = 159
 oob = "CIS_1797"
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = authoritarian_democracy
     elections_allowed = yes
     election_frequency = 48
     last_election = "1792.1.1"
