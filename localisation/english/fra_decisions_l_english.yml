@@ -11,3 +11,7 @@
 
  FRA_revolution:0 "Vive La Revolution"
  FRA_revolution_desc:0 "The revolutionary embers are burning, now our revolutionary republic has been established we must stabilise the nation."
+ FRA_create_cisalpine_republic: "Proclaim the Cisalpine Republic"
+ FRA_create_cisalpine_republic_desc: "Northern Italy lies under French arms and French influence. By reorganising these lands into a sister republic, we can dress our domination in republican ideals, secure a loyal buffer state, and push the borders of the Revolution beyond the Alps."
+ FRA_integrate_rhine_state: "Integrate the Rhine Territory"
+ FRA_integrate_rhine_state_desc: "With resistance broken and compliance secured, this stretch of the Rhine can finally be bound to France in law and administration. Local privileges will be swept away, French institutions imposed, and the province turned from occupied land into an integral part of the Republic."
