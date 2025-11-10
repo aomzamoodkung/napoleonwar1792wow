@@ -19,13 +19,9 @@ set_popularities = {
     fascism = 0.05
 }
 
-create_country_leader = {
-    name = "Directory of the Cisalpine Republic"
-    desc = "CIS_DIRECTORY_LEADER_DESC"
-    picture = "GFX_portrait_CIS_directory"
+################
+## CHARACTERS ##
+################
 
-    expire = "1820.1.1"
-    ideology = democratic
-
-    traits = { }
-}
+recruit_character = CIS_council_2
+recruit_character = CIS_council_1

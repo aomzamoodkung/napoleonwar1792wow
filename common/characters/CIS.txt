@@ -1,0 +1,31 @@
+characters={
+	CIS_council_1={
+		name="Parliament of Cisalpine Republic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CIS/CIS_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+	
+	CIS_council_2={
+		name="Parliament of Cisalpine Republic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CIS/CIS_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=jacobinism
+			traits={ }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

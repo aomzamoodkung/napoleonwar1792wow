@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Cisalpine Division"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	division_names_group = CIS_1797
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+division_template = {
+	name = "Cisalpine Housemen"
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3780
+		division_template = "Cisalpine Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3780
+		division_template = "Cisalpine Housemen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 6606
+		division_template = "Cisalpine Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CIS"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CIS"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}
