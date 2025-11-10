@@ -326,7 +326,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_purge_royalist_officer
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_purge_royalist_officers
 		x = 2
 		y = 2
 		cost = 3.6
@@ -373,7 +373,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_destroy_religious_values
-		icon = GFX_focus_fra_destroy_religious_values
+		icon = GFX_FRA_destory_catholic
 		x = -2
 		y = 3
 		cost = 3.6
@@ -420,7 +420,7 @@ focus_tree = {
                  country_event = { id = france.8 }
 		
 		
-		}
+		    }
 	}
  }
 
