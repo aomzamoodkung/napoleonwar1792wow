@@ -341,6 +341,29 @@ ideas = {
 		removal_cost = -1
     }
 
+    FRA_committee_of_public_safety = {
+        icon = ARG_banco_central_de_la_republica_argentina
+        allowed = {
+            original_tag = FRA
+        }
+
+        modifier = {
+            war_support = 0.10
+            division_organization_factor = 0.05
+            industrial_capacity_factory = 0.05
+            recruitable_population_factor = 0.05
+            drift_defence_factor = 0.15
+
+            stability_factor = -0.10
+            political_power_gain = -0.15
+            consumer_goods_factor = 0.05
+            compliance_gain = -0.03
+        }
+		removal_cost = -1
+    }
+}
+
+
 
 
 	}
