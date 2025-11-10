@@ -3200,5 +3200,9 @@ spriteTypes = {
 	    name = "GFX_FRA_italy_campaign"
 	    texturefile = "gfx/interface/goals/FRA/FRA_italy_campaign.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_march_vienna"
+	    texturefile = "gfx/interface/goals/FRA/GFX_march_vienna.dds"			
+	}
 
 }

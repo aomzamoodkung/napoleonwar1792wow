@@ -1901,7 +1901,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_march_on_vienna
-		icon = GFX_goal_march_on_vienna
+		icon = GFX_march_vienna
 		x = 0
 		y = 7
 		cost = 7
