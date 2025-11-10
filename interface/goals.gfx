@@ -3188,5 +3188,9 @@ spriteTypes = {
 	    name = "GFX_FRA_purge_royalist_officers"
 	    texturefile = "gfx/interface/goals/FRA/FRA_purge_royalist_officers.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_sister_republic"
+	    texturefile = "gfx/interface/goals/FRA/FRA_sister_republic.dds"			
+	}
 
 }

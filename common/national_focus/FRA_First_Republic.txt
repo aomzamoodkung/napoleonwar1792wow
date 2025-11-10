@@ -1334,7 +1334,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_sister_republics
-		icon = GFX_goal_sister_republics
+		icon = GFX_FRA_sister_republic
 		x = -2
 		y = 2
 		cost = 7
