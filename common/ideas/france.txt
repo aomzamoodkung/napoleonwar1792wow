@@ -348,7 +348,7 @@ ideas = {
         }
 
         modifier = {
-            war_support = 0.10
+            war_support_factor = 0.10
             division_organization_factor = 0.05
             industrial_capacity_factory = 0.05
             recruitable_population_factor = 0.05
