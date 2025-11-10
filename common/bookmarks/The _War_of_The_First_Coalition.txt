@@ -18,7 +18,7 @@ bookmarks = {
 				
 				catholic
 				FRA_King_Louis
-				FRA_Constitutional_Guard
+				france_navy
 				
 			}
 
