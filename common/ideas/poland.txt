@@ -2,7 +2,7 @@ ideas = {
 	## Starting Ideas ##
 	country = {
 		POL_Constitution_of_May = {
-			picture = GFX_POL_Constitution_of_May
+			picture = constitution_of_may_3
 			allowed = {
 				original_tag = POL
 				always = no

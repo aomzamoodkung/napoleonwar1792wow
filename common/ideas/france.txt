@@ -7,10 +7,6 @@ ideas = {
 				original_tag = FRA
 				always = no
 			}
-
-			available = {
-				has_government = monarchist
-			}
 	
 
 			removal_cost = -1
@@ -134,6 +130,120 @@ ideas = {
 			annex_cost_factor = -0.15
 		}
 	}
+	
+    france_navy = {
+        picture = french_navy
+
+        allowed = { tag = FRA }
+
+        modifier = {
+            navy_max_range_factor           = -0.35
+            naval_speed_factor              = -0.10
+            naval_org_factor                = -0.15
+            naval_coordination              = -0.25
+            navy_capital_ship_attack_factor = -0.15
+            navy_screen_attack_factor       = -0.10
+            naval_strike_attack_factor      = -0.10
+
+            dockyard_output                 = -0.20
+            dockyard_max_efficiency_factor  = -0.10
+            convoy_production_speed         = -0.20
+
+            naval_doctrine_cost_factor      = 0.25
+            navy_fuel_consumption_factor    = 0.15
+        }
+    }
+	
+	france_navy_2 = {
+        picture = french_navy
+
+        allowed = { tag = FRA }
+
+        modifier = {
+            navy_max_range_factor           = -0.20
+            naval_speed_factor              = -0.10
+            naval_org_factor                = -0.10
+            naval_coordination              = -0.25
+            navy_capital_ship_attack_factor = -0.10
+            navy_screen_attack_factor       = -0.10
+            naval_strike_attack_factor      = -0.10
+
+            dockyard_output                 = -0.10
+            dockyard_max_efficiency_factor  = -0.10
+            convoy_production_speed         = -0.10
+
+            naval_doctrine_cost_factor      = 0.25
+            navy_fuel_consumption_factor    = 0.15
+        }
+    }
+	
+	france_navy_3 = {
+        picture = french_navy
+
+        allowed = { tag = FRA }
+
+        modifier = {
+            navy_max_range_factor           = -0.05
+            naval_speed_factor              = -0.05
+            naval_org_factor                = -0.05
+            naval_coordination              = -0.15
+            navy_capital_ship_attack_factor = -0.10
+            navy_screen_attack_factor       = -0.10
+            naval_strike_attack_factor      = -0.10
+
+            dockyard_output                 = -0.10
+            dockyard_max_efficiency_factor  = -0.10
+            convoy_production_speed         = -0.10
+
+            naval_doctrine_cost_factor      = 0.05
+            navy_fuel_consumption_factor    = 0.10
+        }
+    }
+	france_navy_4 = {
+        picture = french_navy
+
+        allowed = { tag = FRA }
+
+        modifier = {
+            navy_max_range_factor           = 0.05
+            naval_speed_factor              = 0.05
+            naval_org_factor                = 0.05
+            naval_coordination              = -0.05
+            navy_capital_ship_attack_factor = -0.05
+            navy_screen_attack_factor       = -0.05
+            naval_strike_attack_factor      = -0.10
+
+            dockyard_output                 = 0.05
+            dockyard_max_efficiency_factor  = 0.10
+            convoy_production_speed         = 0.10
+
+            naval_doctrine_cost_factor      = -0.05
+            navy_fuel_consumption_factor    = 0.05
+        }
+    }
+	france_navy_5 = {
+        picture = french_navy
+
+        allowed = { tag = FRA }
+
+        modifier = {
+            navy_max_range_factor           = 0.05
+            naval_speed_factor              = 0.05
+            naval_org_factor                = 0.05
+            naval_coordination              = 0.05
+            navy_capital_ship_attack_factor = 0.05
+            navy_screen_attack_factor       = 0.05
+            naval_strike_attack_factor      = -0.10
+
+            dockyard_output                 = 0.05
+            dockyard_max_efficiency_factor  = 0.05
+            convoy_production_speed         = 0.10
+
+            naval_doctrine_cost_factor      = -0.05
+            navy_fuel_consumption_factor    = 0.05
+        }
+    }
+
 
 	FRA_three_pronged_attack = {
 		picture = spa_carlism

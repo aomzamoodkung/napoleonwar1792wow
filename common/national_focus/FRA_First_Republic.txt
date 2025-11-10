@@ -138,10 +138,7 @@ focus_tree = {
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = { remove_idea = france_navy add_idea = france_navy_2 }
 		}
 	}
 

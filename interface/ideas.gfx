@@ -7308,4 +7308,12 @@ spriteTypes = {
 		name = "GFX_idea_republican_calendar"
 		texturefile = "gfx/interface/ideas/FRA/republic_calender.dds"
 	}	
+	spriteType = {
+		name = "GFX_idea_constitution_of_may_3"
+		texturefile = "gfx/interface/ideas/POL/constitution_of_may_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_french_navy"
+		texturefile = "gfx/interface/ideas/FRA/french_navy.dds"
+	}
 }

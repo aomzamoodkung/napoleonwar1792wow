@@ -38,6 +38,7 @@ add_ideas = {
 	constitutional
 	interveneinaffairs
 	FRA_pre_10_august_army
+	france_navy
 }
 set_politics = {
 	ruling_party = monarchist
