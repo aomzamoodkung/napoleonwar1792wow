@@ -79,6 +79,11 @@ FRA_integrate_category = {
 			    transfer_state = 911
 			    transfer_state = 915
 			}	
+			hidden_effect = {
+			    CIS = {
+			        load_oob = CIS_1797
+				}	
+			}	
 
             add_stability = -0.03
             add_war_support = 0.05
