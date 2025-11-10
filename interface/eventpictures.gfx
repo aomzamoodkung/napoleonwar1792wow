@@ -38,6 +38,10 @@ spriteTypes = {
 		name = "GFX_report_lafayette_flee"
 		texturefile = "gfx/event_pictures/report_lafayette_flee.dds"
 	}
+	spriteType = {
+		name = "GFX_report_trial_louisxvi"
+		texturefile = "gfx/event_pictures/report_trial_louisxvi.dds"
+	}
 
 }
 

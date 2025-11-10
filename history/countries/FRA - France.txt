@@ -32,7 +32,6 @@ add_ideas = {
     civilian_economy
 	limited_conscription
 	limited_exports	
-	PTY_house_of_bourbon
 	catholic
 	constitutional
 	interveneinaffairs
