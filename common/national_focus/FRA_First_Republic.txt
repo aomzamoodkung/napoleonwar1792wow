@@ -1863,7 +1863,7 @@ focus_tree = {
 
 		focus = {
 		id = FRA_itallian_campaign
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_italy_campaign
 		x = 0
 		y = 5
 		cost = 4
@@ -2112,7 +2112,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_austrian_deserters
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_austria_desert
 		x = -2
 		y = 2
 		cost = 10

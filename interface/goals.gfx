@@ -3192,5 +3192,13 @@ spriteTypes = {
 	    name = "GFX_FRA_sister_republic"
 	    texturefile = "gfx/interface/goals/FRA/FRA_sister_republic.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_austria_desert"
+	    texturefile = "gfx/interface/goals/FRA/FRA_austria_desert.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_italy_campaign"
+	    texturefile = "gfx/interface/goals/FRA/FRA_italy_campaign.dds"			
+	}
 
 }
