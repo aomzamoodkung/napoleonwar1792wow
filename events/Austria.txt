@@ -199,10 +199,7 @@ country_event = {
     is_triggered_only = yes
 
     immediate = {
-        create_faction = "First Coalition"
-        add_to_faction = PRU
-        add_to_faction = AUS
-        add_to_faction = GER
+        add_to_faction = ENG
     }
 
     option = {

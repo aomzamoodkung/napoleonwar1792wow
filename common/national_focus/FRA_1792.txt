@@ -82,6 +82,12 @@ focus_tree = {
    				ideology = authoritarian_democracy
     			popularity = 0.2
 			}
+			AUS = {
+			    create_faction = "First Coalition"
+                add_to_faction = PRU
+                add_to_faction = AUS
+                add_to_faction = GER
+			}	
 		}
 	}
 
