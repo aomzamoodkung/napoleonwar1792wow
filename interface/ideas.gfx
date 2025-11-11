@@ -7316,4 +7316,12 @@ spriteTypes = {
 		name = "GFX_idea_french_navy"
 		texturefile = "gfx/interface/ideas/FRA/french_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_maurice_de_Talleyrand_Perigord"
+		texturefile = "gfx/interface/ideas/FRA/maurice_de_Talleyrand_Perigord_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Jacques-Louis_David"
+		texturefile = "gfx/interface/ideas/FRA/louis_david_idea.dds"
+	}
 }

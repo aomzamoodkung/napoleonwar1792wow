@@ -114,7 +114,7 @@ characters={
 		name="Charles Maurice de Talleyrand-Périgord"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_maurice_de_Talleyrand_Perigord"
 		}
 	}
 
