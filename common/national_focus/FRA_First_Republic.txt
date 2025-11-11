@@ -873,7 +873,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_economic_issues
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_economy_problem
 		x = -7
 		y = 24
 		cost = 10
@@ -1697,7 +1697,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_allow_the_revolutionary_committees_to_take_charge
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_rev_com
 		x = -11
 		y = 5
 		cost = 10
@@ -1705,16 +1705,12 @@ focus_tree = {
 		prerequisite = { focus = FRA_the_dutch_versailles }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
 	focus = {
 		id = FRA_establish_south_african_republics
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_south_afr
 		x = -11
 		y = 6
 		cost = 10

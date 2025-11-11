@@ -3204,5 +3204,17 @@ spriteTypes = {
 	    name = "GFX_march_vienna"
 	    texturefile = "gfx/interface/goals/FRA/GFX_march_vienna.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_rev_com"
+	    texturefile = "gfx/interface/goals/FRA/GFX_rev_com.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_south_afr"
+	    texturefile = "gfx/interface/goals/FRA/GFX_south_afr.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_economy_problem"
+	    texturefile = "gfx/interface/goals/FRA/GFX_economy_problem.dds"			
+	}
 
 }
