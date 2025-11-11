@@ -32,6 +32,7 @@ ideas = {
 
 		constitutional = {
 			available = {
+				has_government = monarchist
 				NOT = {
 					is_puppet = yes
 				}
