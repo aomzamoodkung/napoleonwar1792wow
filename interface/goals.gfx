@@ -3216,5 +3216,13 @@ spriteTypes = {
 	    name = "GFX_economy_problem"
 	    texturefile = "gfx/interface/goals/FRA/GFX_economy_problem.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_helvetic"
+	    texturefile = "gfx/interface/goals/FRA/GFX_helvetic.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_prussia_desert"
+	    texturefile = "gfx/interface/goals/FRA/FRA_prussia_desert.dds"			
+	}
 
 }
