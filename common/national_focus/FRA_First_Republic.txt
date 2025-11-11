@@ -2056,7 +2056,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 6
 		y = 2
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_itallians }
 		relative_position_id = FRA_enlist_foreigners
@@ -2070,7 +2070,7 @@ focus_tree = {
 		icon = GFX_poland_desert
 		x = 2
 		y = 1
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
@@ -2084,7 +2084,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 2
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_polish_deserters }
 		relative_position_id = FRA_enlist_foreigners
@@ -2098,7 +2098,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -2
 		y = 1
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
@@ -2112,12 +2112,13 @@ focus_tree = {
 		icon = GFX_FRA_austria_desert
 		x = -2
 		y = 2
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_prussian_deserters }
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 15000
+			add_ideas = { FRA_austria_desert }
 		}
 	}
 
