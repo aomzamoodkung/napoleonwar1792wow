@@ -2028,7 +2028,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -6
 		y = 2
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_dutchmen }
 		relative_position_id = FRA_enlist_foreigners
@@ -2042,7 +2042,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 6
 		y = 1
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
@@ -2095,7 +2095,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_prussian_deserters
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_prussia_desert
 		x = -2
 		y = 1
 		cost = 6
