@@ -173,20 +173,6 @@ news_event = {
 
 		AUS = { add_to_faction = ENG }
 		AUS = { add_to_faction = HOL }
-		ENG = {
-			add_to_war = {
-				targeted_alliance = AUS
-				enemy = FRA
-				hostility_reason = asked_to_join
-			}
-		}
-		HOL = {
-			add_to_war = {
-				targeted_alliance = AUS
-				enemy = FRA
-				hostility_reason = asked_to_join
-			}
-		}
 	}
 }
 
