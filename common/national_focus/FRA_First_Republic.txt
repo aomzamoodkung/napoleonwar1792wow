@@ -2104,6 +2104,7 @@ focus_tree = {
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 15000
+			add_ideas = { FRA_prussia_desert }
 		}
 	}
 

@@ -346,9 +346,6 @@ ideas = {
 		picture = spa_carlism
 		allowed = {
 			original_tag = FRA
-			always = no
-		}
-		available = {
 		}
 
 		removal_cost = -1
@@ -357,6 +354,23 @@ ideas = {
 			tag = AUS
 			attack_bonus_against = 0.05
 			defense_bonus_against = 0.05
+
+		}
+	}
+	
+	FRA_prussia_desert = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+		}
+
+		removal_cost = -1
+		
+		targeted_modifier = {					
+			tag = PRE
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+			terrain_penalty_reduction = -0.02
 
 		}
 	}
