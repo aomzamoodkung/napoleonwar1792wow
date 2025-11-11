@@ -1,5 +1,5 @@
 characters={
-	DEN_Christian_VII={ #Democratic Leader
+	DEN_Christian_VII={
 		name="Christian VII"
 		portraits={
 			civilian={
@@ -14,7 +14,7 @@ characters={
 		}
 	}
 
-	DEN_Frederick_VI={ #Democratic Leader
+	DEN_Frederick_VI={
 		name="Frederick VI"
 		portraits={
 			civilian={
