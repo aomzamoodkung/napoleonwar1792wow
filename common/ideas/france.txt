@@ -95,10 +95,6 @@ ideas = {
 		picture = spa_carlism
 		allowed = {
 			original_tag = FRA
-			always = no
-		}
-		available = {
-			has_government = democratic
 		}
 
 		removal_cost = -1

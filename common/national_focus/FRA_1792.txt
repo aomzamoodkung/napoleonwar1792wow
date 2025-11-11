@@ -84,9 +84,8 @@ focus_tree = {
 			}
 			AUS = {
 			    create_faction = "First Coalition"
-                add_to_faction = PRU
-                add_to_faction = AUS
-                add_to_faction = GER
+                add_to_faction = PRE
+                add_to_faction = POR
 			}	
 		}
 	}
