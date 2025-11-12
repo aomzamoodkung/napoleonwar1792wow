@@ -120,39 +120,42 @@ news_event = {
 		ai_chance = {
 			factor = 1
 		} 
+		custom_effect_tooltip = news.5_tt	
+        hidden_effect = {
 
-		RUS = {
-			set_state_owner = 93
-			set_state_owner = 94
-			set_state_owner = 95
+		    RUS = {
+			    set_state_owner = 93
+			    set_state_owner = 94
+			    set_state_owner = 95
 			set_state_owner = 96
-			set_state_owner = 784
-			set_state_owner = 814
-			set_state_owner = 11
-			set_state_owner = 815
-			set_state_owner = 809
-			set_state_owner = 189
-			set_state_owner = 190
-			set_state_owner = 97
+			    set_state_owner = 784
+			    set_state_owner = 814
+			    set_state_owner = 11
+			    set_state_owner = 815
+			    set_state_owner = 809
+			    set_state_owner = 189
+			    set_state_owner = 190
+			    set_state_owner = 97
 
-		}
+		    }
 
-		PRE = {
-			set_state_owner = 98
-			set_state_owner = 188
+		    PRE = {
+			    set_state_owner = 98
+			    set_state_owner = 188
 			
 
-		}
+		    }
 
-		AUS = {
-			set_state_owner = 919
-			set_state_owner = 90
-			set_state_owner = 92
-			set_state_owner = 10
-			set_state_owner = 920
-			set_state_owner = 921
-			set_state_owner = 922
-		}
+		    AUS = {
+			    set_state_owner = 919
+			    set_state_owner = 90
+			    set_state_owner = 92
+			    set_state_owner = 10
+			    set_state_owner = 920
+			    set_state_owner = 921
+			    set_state_owner = 922
+		    }
+		}	
 	}
 }
 
