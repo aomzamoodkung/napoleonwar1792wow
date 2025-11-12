@@ -225,7 +225,6 @@ ideas = {
 		picture = spa_carlism
 		allowed = {
 			original_tag = FRA
-			always = no
 		}
 		available = {
 		}
@@ -233,9 +232,9 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {					
-			army_org_factor = 0.2
-			consumer_goods_factor = -0.1
-			army_speed_factor = 0.15
+			army_org_factor = 0.1
+			consumer_goods_factor = -0.05
+			army_speed_factor = 0.06
 
 		}
 	}
@@ -244,7 +243,6 @@ ideas = {
 		picture = spa_carlism
 		allowed = {
 			original_tag = FRA
-			always = no
 		}
 		available = {
 		}
@@ -298,6 +296,27 @@ ideas = {
 			conscription_factor = -0.60
             army_leader_cost_factor = 0.20
             training_time_army_factor = -0.05
+        }
+
+        removal_cost = -1
+    }
+	
+	FRA_pre_10_august_army_2 = {
+        picture = french_army_bad
+
+        allowed = {
+            original_tag = FRA
+        }
+
+        modifier = {
+            army_org_factor = -0.14
+            army_defence_factor = 0.30
+			army_attack_factor = -0.45
+            land_doctrine_cost_factor = 0.60
+            experience_gain_army_factor = -0.10
+			conscription_factor = -0.40
+            army_leader_cost_factor = 0.20
+            training_time_army_factor = -0.10
         }
 
         removal_cost = -1

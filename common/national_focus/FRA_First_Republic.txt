@@ -446,7 +446,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_1 add_idea = FRA_pre_10_august_army_2 }
 
 			add_war_support = 0.20
 		}
