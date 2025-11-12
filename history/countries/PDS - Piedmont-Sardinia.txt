@@ -1,6 +1,7 @@
 capital = 16
 
 set_convoys = 300
+oob = PDS_1792
 
 add_ideas = {
 	catholic
