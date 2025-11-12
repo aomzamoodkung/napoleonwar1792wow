@@ -108,9 +108,10 @@
  news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
  news.4.a:0 "What will this mean for Europe?"
 
- news.5.t:0 "Second Partition of Poland"
- news.5.d:0 ""
- news.5.a:0 "Bad Day For Poland."
+ news.5.t: "Second Partition of Poland"
+ news.5.d: "In a devastating blow to Polish sovereignty, the Commonwealth has been carved up once more by its ravenous neighbors. Prussian and Russian forces have completed their territorial seizures, with the Tsarina's armies securing vast eastern territories while Frederick William II claims valuable western lands./n/The Polish-Lithuanian Commonwealth, already weakened by the First Partition of 1772, now faces existential crisis as nearly half its remaining territory falls under foreign control. Polish reformists' desperate attempts at constitutional revival have been crushed beneath the boots of imperial ambition."
+ news.5.a: "Bad Day For Poland."
+ news.5_tt: "§RPoland Will be Partition§!"
 
  news.6.t:0 "Third Partition of Poland"
  news.6.d:0 ""

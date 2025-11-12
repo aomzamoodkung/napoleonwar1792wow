@@ -79,24 +79,27 @@ news_event = {
 		name = news.5.a
 		ai_chance = {
 			factor = 1
-		} 
-
-		RUS = {
-			set_state_owner = 199
-			set_state_owner = 198
-			set_state_owner = 201
-			set_state_owner = 202
-			set_state_owner = 194
-			set_state_owner = 204
-			set_state_owner = 206
 		}
+        custom_effect_tooltip = news.5_tt	
+        hidden_effect = {		
 
-		PRE = {
-			set_state_owner = 86
-			set_state_owner = 85
-			set_state_owner = 918
-			set_state_owner = 87
-		}
+		    RUS = {
+			    set_state_owner = 199
+			    set_state_owner = 198
+			    set_state_owner = 201
+			    set_state_owner = 202
+			    set_state_owner = 194
+			    set_state_owner = 204
+			    set_state_owner = 206
+		    }
+
+		    PRE = {
+			    set_state_owner = 86
+			    set_state_owner = 85
+			    set_state_owner = 918
+			    set_state_owner = 87
+		    }
+		}	
 	}
 }
 
