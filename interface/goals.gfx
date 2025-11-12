@@ -3225,7 +3225,7 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/FRA/FRA_prussia_desert.dds"			
 	}
 	SpriteType = {
-	    name = "GFX_goal_batavian"
+	    name = "GFX_goal_batavian_rep"
 	    texturefile = "gfx/interface/goals/FRA/goal_batavian.dds"			
 	}
 	SpriteType = {
@@ -3238,7 +3238,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 	    name = "GFX_goals_deport"
-	    texturefile = "gfx/interface/goals/FRA/goal_three_pronged_attack.dds"			
+	    texturefile = "gfx/interface/goals/FRA/goals_deport.dds"			
 	}
 
 }

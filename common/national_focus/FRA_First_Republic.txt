@@ -1678,7 +1678,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_the_dutch_versailles
-		icon = GFX_goal_batavian
+		icon = GFX_goal_batavian_rep
 		x = -11
 		y = 4
 		cost = 2
