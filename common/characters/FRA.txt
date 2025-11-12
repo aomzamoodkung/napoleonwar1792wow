@@ -85,9 +85,9 @@ characters={
 	FRA_Jacques-Louis_David={
 		name="Jacques-Louis David"
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
+		    }
 	}
 
 		advisor={
@@ -113,18 +113,17 @@ characters={
 	FRA_Charles_Maurice_de_Talleyrand_Perigord={
 		name="Charles Maurice de Talleyrand-Périgord"
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_maurice_de_Talleyrand_Perigord"
-		}
+		    }
 	}
 
 		advisor={
 			cost = 100
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Charles_Maurice_de_Talleyrand_Perigord
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_government = authoritarian_democracy
@@ -142,15 +141,15 @@ characters={
 	FRA_Pierre_Daru={
 		name="Pierre Daru"
 		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+			civilian={
+				small="gfx/interface/ideas/FRA/FRA_Pierre_Daru.dds"
+		    }
+	    }
 
 		advisor={
 			cost = 125
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Pierre_Daru
 			allowed = {
 				original_tag = FRA
 				ruling_party = democratic
@@ -171,18 +170,17 @@ characters={
 	FRA_Jean-Baptiste_Collin_de_Sussy={
 		name="Jean-Baptiste Collin de Sussy"
 		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+			civilian={
+				small="gfx/interface/ideas/FRA/FRA_Jean-Baptiste_Collin_de_Sussy.dds"
+		    }
+	    }
 
 		advisor={
 			cost = 125
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Jean-Baptiste_Collin_de_Sussy
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_government = authoritarian_democracy
@@ -200,18 +198,17 @@ characters={
 	FRA_Francois_Barbé-Marbois={
 		name="François Barbé-Marbois"
 		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+			civilian={
+				small="gfx/interface/ideas/FRA/FRA_Francois_Barbé-Marbois.dds"
+		    }
+	    }
 
 		advisor={
 			cost = 150
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Francois_Barbé-Marbois
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_government = authoritarian_democracy
@@ -229,7 +226,7 @@ characters={
 	FRA_Napoleon_Bonaparte_Command={
 		name="Napoleon Bonaparte"
 		portraits={
-			civilian={
+			army={
 				small= "gfx/interface/ideas/FRA/napoleon_idea.dds"
 		    }
 	    }
@@ -240,7 +237,6 @@ characters={
 			idea_token = FRA_Napoleon_Bonaparte_Command
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_country_flag = FRA_appoint_napoleon_hc
@@ -258,18 +254,17 @@ characters={
 	FRA_Pasquale_Paoli={
 		name="Pasquale Paoli"
 		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+			civilian={
+				small="gfx/interface/ideas/FRA/FRA_Pasquale_Paoli.dds"
+		    }
+	    }   
 
 	advisor={
 			cost = 150
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Pasquale_Paoli
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_government = authoritarian_democracy
@@ -288,18 +283,17 @@ characters={
 	FRA_Emmanuel_Joseph_Sieyès={
 		name="Emmanuel Joseph Sieyès"
 		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
+			civilian={
+				small="gfx/interface/ideas/FRA/FRA_Emmanuel_Joseph_Sieyès.dds"
+		    }
+	    }
 
 	advisor={
 			cost = 100
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = FRA_Emmanuel_Joseph_Sieyès
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
 				has_government = authoritarian_democracy
@@ -310,35 +304,6 @@ characters={
 
 			traits = {
 				popular_figurehead
-			}
-		}
-	}
-
-	FRA_Lucien_Bonaparte={
-		name="Lucien Bonaparte"
-		portraits={
-			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
-		}
-	}
-
-	advisor={
-			cost = 100
-			slot = political_advisor
-			idea_token = jacques_louis_david
-			allowed = {
-				original_tag = FRA
-				ruling_party = democratic
-			}
-			available = {	
-				has_government = authoritarian_democracy
-			}
-			
-			ai_will_do = {
-			}
-
-			traits = {
-				backroom_backstabber
 			}
 		}
 	}
