@@ -24,7 +24,6 @@ bookmarks = {
 
 			focuses = {
 
-				FRA_the_french_republic
 				FRA_fear_of_the_counter_revolution
 				FRA_march_on_vienna
 
