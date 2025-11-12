@@ -3224,5 +3224,21 @@ spriteTypes = {
 	    name = "GFX_FRA_prussia_desert"
 	    texturefile = "gfx/interface/goals/FRA/FRA_prussia_desert.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_goal_batavian"
+	    texturefile = "gfx/interface/goals/FRA/goal_batavian.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_goal_utter"
+	    texturefile = "gfx/interface/goals/FRA/goal_utter.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_goal_three_pronged_attack"
+	    texturefile = "gfx/interface/goals/FRA/goal_three_pronged_attack.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_goals_deport"
+	    texturefile = "gfx/interface/goals/FRA/goal_three_pronged_attack.dds"			
+	}
 
 }
