@@ -22,5 +22,16 @@ set_popularities = {
 add_ideas = {
 	INT_italian_identity
 	}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 22000
+	producer = PDS
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 10000
+	producer = PDS
+}
 
 recruit_character = PDS_Victor_Amadeus_III

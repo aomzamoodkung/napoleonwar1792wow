@@ -1,6 +1,5 @@
 capital = 159
 
-oob = "CIS_1797"
 
 set_politics = {
     ruling_party = authoritarian_democracy
@@ -17,6 +16,18 @@ set_popularities = {
     neutrality = 0.20
     communism = 0.05
     fascism = 0.05
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 22000
+	producer = CIS
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 10000
+	producer = CIS
 }
 
 ################
