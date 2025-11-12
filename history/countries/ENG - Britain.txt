@@ -25,6 +25,17 @@ add_ideas = {
 	constitutional
 	splendidisolation
 }
+ add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 6000
+	producer = ENG
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 3400
+	producer = ENG
+}
 
 puppet = LCA
 puppet = CAN

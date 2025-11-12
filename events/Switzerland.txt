@@ -12,7 +12,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # switzerland Accept
+	option = {
 		name = switzerland.1.a
 		ai_chance = {
 			factor = 70
