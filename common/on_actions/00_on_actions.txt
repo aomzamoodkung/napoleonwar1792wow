@@ -148,7 +148,7 @@ on_actions = {
 			if = {
 				NOT = {
 						has_government = monarchist 
-					}
+				}
 					
 				add_ideas = no_monarch
 			}
@@ -159,11 +159,11 @@ on_actions = {
 				limit = { 
 					has_government = monarchist
 					NOT = {
-						has_idea = constitutional
+						has_idea = { constitutional }
 					}
 				}
+				add_ideas = { absolute }
 			}
-			add_ideas = absolute
 		}	
 		
 		
@@ -173,20 +173,6 @@ on_actions = {
 			if = {
 				limit = { is_subject = yes }
 				add_ideas = puppet
-			}
-		}
-		
-
-		effect = {
-			if = {
-				limit = { 
-					is_subject = no 
-					has_government = monarchist
-					NOT = {
-						has_idea = constitutional
-					}
-				}
-				add_ideas = absolute
 			}
 		}
 
