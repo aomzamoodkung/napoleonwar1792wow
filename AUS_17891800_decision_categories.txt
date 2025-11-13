@@ -1,0 +1,78 @@
+Vienna_Program = {
+	icon = GFX_decision_cat_generic_austria_hungary_icon
+	allowed = {
+		target = AUS
+	}
+	visible = {
+		has_completed_focus = AUS_Vienna_Program
+	}
+}
+
+austrian_coup_de_tat = {
+	icon = GFX_decision_category_eng_organize_the_blackshirts
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		AUS = {
+			controls_state = 1111
+		}
+	}
+}
+territorial_management = {
+	icon = GFX_decision_category_army_reform
+	allowed = {
+		target = AUS
+	}
+	visible = {
+tag = AUS
+	}
+}
+hre_industry = {
+	icon = GFX_decision_category_generic_arms_trade
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		has_completed_focus = hre_industrial_scheme
+	}
+}
+napoleonic_wars = {
+	icon = GFX_decision_category_AUS_becoming_grossosterreich_category
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+}
+rekindle_the_fires_of_industry = {
+	icon = GFX_decision_generic_military
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		has_completed_focus = rekindle_the_fires_of_industry_1
+	}
+}
+
+investment_offers = {
+	icon = GFX_decision_generic_military
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+		has_completed_focus = investment_offers
+	}
+}
+instablity_of_the_empire = {
+	icon = GFX_decision_category_SOV_propaganda
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+		has_completed_focus = a_unified_crownland_adminstration
+	}
+}
