@@ -109,12 +109,12 @@
  news.4.a:0 "What will this mean for Europe?"
 
  news.5.t: "Second Partition of Poland"
- news.5.d: "In a devastating blow to Polish sovereignty, the Commonwealth has been carved up once more by its ravenous neighbors. Prussian and Russian forces have completed their territorial seizures, with the Tsarina's armies securing vast eastern territories while Frederick William II claims valuable western lands./n/The Polish-Lithuanian Commonwealth, already weakened by the First Partition of 1772, now faces existential crisis as nearly half its remaining territory falls under foreign control. Polish reformists' desperate attempts at constitutional revival have been crushed beneath the boots of imperial ambition."
+ news.5.d: "In a devastating blow to Polish sovereignty, the Commonwealth has been carved up once more by its ravenous neighbors. Prussian and Russian forces have completed their territorial seizures, with the Tsarina's armies securing vast eastern territories while Frederick William II claims valuable western lands.\n\nThe Polish-Lithuanian Commonwealth, already weakened by the First Partition of 1772, now faces existential crisis as nearly half its remaining territory falls under foreign control. Polish reformists' desperate attempts at constitutional revival have been crushed beneath the boots of imperial ambition."
  news.5.a: "Bad Day For Poland."
  news.5_tt: "§RPoland Will be Partition§!"
 
  news.6.t:0 "Third Partition of Poland"
- news.6.d:0 "Poland has ceased to exist. In a final act of territorial dissolution, Russia, Prussia, and Austria have completed the complete dismemberment of the Polish-Lithuanian Commonwealth. What began in 1772 has reached its tragic conclusion - an entire nation wiped from the map of Europe./n/The Kościuszko Uprising's valiant resistance has been crushed. Russian forces under Suvorov have stormed Warsaw, while Prussian and Austrian armies secured their respective zones. The ancient Kingdom of Poland, once a great power spanning from the Baltic to the Black Sea, is no more."
+ news.6.d:0 "Poland has ceased to exist. In a final act of territorial dissolution, Russia, Prussia, and Austria have completed the complete dismemberment of the Polish-Lithuanian Commonwealth. What began in 1772 has reached its tragic conclusion - an entire nation wiped from the map of Europe.\n\nThe Kościuszko Uprising's valiant resistance has been crushed. Russian forces under Suvorov have stormed Warsaw, while Prussian and Austrian armies secured their respective zones. The ancient Kingdom of Poland, once a great power spanning from the Baltic to the Black Sea, is no more."
  news.6.a:0 "Poland Will Be Free Again... In 123 Years."
 
  news.7.t:0 "Britain and Holland Join The Coalition"
@@ -127,7 +127,7 @@
  
  ## Fate of nation ##
  france.9.t:0 "Fate of Switzerland"
- france.9.d:0 "The Swiss Confederation has fallen. After initial defiant resistance against Revolutionary France's demands, the stubborn mountaineers have been crushed beneath the weight of French military superiority. The old cantons, proud guardians of Alpine independence for centuries, now lie prostrate before the armies of the Republic./n/General Brune's forces have swept through the valleys, overwhelming the scattered cantonal militias. Bern has been occupied, its legendary treasury seized. The ancient Swiss Confederacy, which had maintained its independence through cunning diplomacy and formidable defensive terrain, has finally met its match in Revolutionary fervor and modern warfare./n/We are now holds Switzerland's destiny in its hands."
+ france.9.d:0 "The Swiss Confederation has fallen. After initial defiant resistance against Revolutionary France's demands, the stubborn mountaineers have been crushed beneath the weight of French military superiority. The old cantons, proud guardians of Alpine independence for centuries, now lie prostrate before the armies of the Republic.\n\nGeneral Brune's forces have swept through the valleys, overwhelming the scattered cantonal militias. Bern has been occupied, its legendary treasury seized. The ancient Swiss Confederacy, which had maintained its independence through cunning diplomacy and formidable defensive terrain, has finally met its match in Revolutionary fervor and modern warfare.\n\nWe are now holds Switzerland's destiny in its hands."
  france.9.a:0 "Establish the Helvetic Republic."
  france.9.b:0 "Establish the Helvetic Republic and Secure Strategic Territories."
 
