@@ -146,6 +146,9 @@ country_event = {
 	option = {
         name = pol.10.b
         ai_chance = { factor = 100 }
+		switch_tag = LIT
+		tag = LIT
+		tag LIT
 
     }
 }
