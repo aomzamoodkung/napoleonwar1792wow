@@ -67,7 +67,7 @@ news_event = {
 	id = news.5
 	title = news.5.t
 	desc = news.5.d
-	picture = GFX_news_event_004
+	picture = GFX_news_event_poland_divied
 
 	major = yes
 	is_triggered_only = yes
@@ -107,7 +107,7 @@ news_event = {
 	id = news.6
 	title = news.6.t
 	desc = news.6.d
-	picture = GFX_news_event_004
+	picture = GFX_news_event_poland_divied
 
 	major = yes
 	is_triggered_only = yes
@@ -116,7 +116,7 @@ news_event = {
 	}
 	
 	option = {
-		name = news.5.a
+		name = news.6.a
 		ai_chance = {
 			factor = 1
 		} 
