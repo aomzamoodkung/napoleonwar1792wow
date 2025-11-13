@@ -34,6 +34,7 @@ country_event = {
 	option = { # 
 		name = france.2.a
 		retire_character = FRA_Gilbert_du_Motier_de_Lafayette
+		manpower = -1
 		ai_chance = {
 			factor = 100	
 		}	
@@ -79,6 +80,7 @@ country_event = {
 	option = {
 		name = france.500.c
 		set_cosmetic_tag = FRP_FRA
+		add_ideas = no_monarch
 		ai_chance = {
 			factor = 100	
 		}	

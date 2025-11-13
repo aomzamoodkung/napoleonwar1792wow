@@ -2,6 +2,7 @@ capital = 64
 set_cosmetic_tag = DRP_HOL
 
 set_convoys = 300
+oob = HOL_1792
 
 add_ideas = {
 	protestant

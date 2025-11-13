@@ -142,54 +142,6 @@ on_actions = {
 			}
 		}
 	}
-	
-	on_weekly = {
-		effect = {
-			if = {
-				NOT = {
-						has_government = monarchist 
-				}
-					
-				add_ideas = no_monarch
-			}
-		}
-
-		effect = {
-			if = {
-				limit = { 
-					has_government = monarchist
-					NOT = {
-						has_idea = { constitutional }
-					}
-				}
-				add_ideas = { absolute }
-			}
-		}	
-		
-		
-
-
-		effect = {
-			if = {
-				limit = { is_subject = yes }
-				add_ideas = puppet
-			}
-		}
-
-		
-
-		effect = {
-			if = {
-				limit = { 
-					is_subject = no 
-					NOT = {
-						has_government = monarchist 
-					}
-				}
-				add_ideas = no_monarch
-			}
-		}
-	}
 }
 
 	
