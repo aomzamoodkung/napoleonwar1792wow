@@ -222,9 +222,6 @@ ideologies = {
 	Authoritarian = {
 	
 		types = {
-		
-			 = {
-			}
 
 			Monarchist = {
 			}

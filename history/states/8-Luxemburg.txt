@@ -10,8 +10,7 @@ state=
 		steel=5 # was: 8
 	}
 
-	history=
-	{
+	history = {
 		owner = AUS
 		buildings = {
 			infrastructure = 3
@@ -22,9 +21,9 @@ state=
 		add_core_of = BEL
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces = {
+        6583 	
+    }
 
 	local_supplies=0.0 
 }
