@@ -50,9 +50,11 @@ country_event = {
 	fire_only_once = yes
 	
 	option = { # 
-		name = france.2.a
-		create_wargoal = { type = { liberate_state } target = SWI }
-		manpower = -1
+		name = france.6.a
+		create_wargoal = { 
+		    target = SWI 
+		    type = { liberate_state }
+		}
 		ai_chance = {
 			factor = 100	
 		}	
