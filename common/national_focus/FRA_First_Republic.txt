@@ -1873,9 +1873,8 @@ focus_tree = {
 				remove_idea = FRA_plan_a_new_campaign
 				add_idea = FRA_italian_campaign
 			}
-			annex_country = {
+			declare_war_on = {
 				target = PDS
-				transfer_troops = yes
 			}
 		}
 	}
