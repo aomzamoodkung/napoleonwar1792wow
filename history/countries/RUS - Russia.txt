@@ -22,7 +22,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	orthodox	
+	orthodox
+    absolute	
 }
 
 puppet = POL
