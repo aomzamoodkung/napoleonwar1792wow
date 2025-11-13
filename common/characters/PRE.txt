@@ -9,7 +9,7 @@ characters = {
         country_leader = {
             ideology = despotism
             traits = { stout_defender }
-            expire = "1797.11.16.1"
+            expire = "1797.11.16"
             id = -1
         }
     }
@@ -24,7 +24,7 @@ characters = {
         country_leader = {
             ideology = despotism
             traits = { stout_defender }
-            expire = "1840.6.7.0"
+            expire = "1810.6.7"
             id = -1
         }
     }
