@@ -102,7 +102,12 @@ country_event = {
 		release_puppet = SWI
 		SWI = {
 		    set_cosmetic_tag = HEL_SWI
-		}	
+		}
+        hidden_effect = {
+            SWI = {
+                set_capital = "3"	
+            }
+        }			
 		ai_chance = {
 			factor = 80	
 		}	
