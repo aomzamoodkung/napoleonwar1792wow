@@ -11,6 +11,10 @@ spriteTypes= {
         texturefile = "gfx/leaders/POL/POL_Stanislaw_new.dds"
     }
 	spriteTypes = {
+        name = "GFX_POL_s.dds"
+        texturefile = "gfx/leaders/POL/POL_s.dds"
+    }
+	spriteTypes = {
         name = "GFX_POL_jan_henryk_dabrowski.dds"
         texturefile = "gfx/leaders/POL/POL_jan_henryk_dabrowski.dds"
     }

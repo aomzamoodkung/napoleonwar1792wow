@@ -5,11 +5,12 @@ ideas = {
 			picture = constitution_of_may_3
 			allowed = {
 				original_tag = POL
-				always = no
+				always = yes
 			}
 
 			available = {
 				has_government = monarchist
+				
 			}
 	
 
@@ -26,7 +27,7 @@ ideas = {
 			picture = POL_Constitution_of_May
 			allowed = {
 				original_tag = POL
-				always = no
+				always = yes
 			}
 
 			available = {
@@ -48,7 +49,7 @@ ideas = {
 			picture = GFX_POL_Constitution_of_May
 			allowed = {
 				original_tag = POL
-				always = no
+				always = yes
 			}
 
 			available = {
@@ -69,7 +70,7 @@ ideas = {
 			picture = GFX_POL_Constitution_of_May
 			allowed = {
 				original_tag = POL
-				always = no
+				always = yes
 			}
 
 			available = {
@@ -89,7 +90,7 @@ ideas = {
 			picture = GFX_POL_Constitution_of_May
 			allowed = {
 				original_tag = POL
-				always = no
+				always = yes
 			}
 
 			available = {
@@ -104,5 +105,26 @@ ideas = {
 				war_support_factor = 0.01
 				autonomy_gain = 0.1
 				consumer_goods_factor = 0.1
+			}
+		}
+		POL_panic = {
+			picture = GFX_POL_Constitution_of_May
+			allowed = {
+				original_tag = POL
+				always = yes
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = -0.1
+				stability_weekly = -0.0025
+				
+				
 			}
 		}

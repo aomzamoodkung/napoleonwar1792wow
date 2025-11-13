@@ -20,6 +20,20 @@
  pol.5.d:0 "The time has come to look once more toward the Baltic. The port of Gdynia — our gateway to the sea and symbol of lost sovereignty — lies under Prussian rule, taken during our nation’s years of weakness. Now, with the Commonwealth stirring anew, many voices within the Sejm call for its return.Our armies are not yet at full strength, and the treasury strains under the weight of reform. Yet to remain passive would invite further humiliation. The question before us is one of courage — shall we risk war to reclaim what is rightfully ours?"
  pol.5.a:0 "Prepare the plans for war!"
  
+ pol.8.t:0 "After the Second Partition"
+ pol.8.d:0 "The Second Partition has struck like a blade to the nation’s heart. Once-proud lands of the Commonwealth now lie beneath foreign banners, and the Sejm, bound by fear and foreign bayonets, can do nothing but watch.The streets of Warsaw are filled with whispers — of betrayal, of hopelessness, of an end long foretold. Merchants close their shops, soldiers abandon their posts, and nobles quarrel over what little remains.The dream of a free and united Commonwealth fades with each passing day. Some still speak of reform, others of submission. Yet for many, it is already too late — the motherland bleeds, and no hand rises to save her."
+ pol.8.a:0 "We can do nothing.."
+ 
+ pol.9.t:0 "The Commonwealth Falls Apart"
+ pol.9.d:0 "Chaos grips the land. Since the Second Partition, the Sejm has lost all authority, the army lies in confusion, and the treasury stands empty. Panic spreads through the provinces as foreign powers tighten their hold and the people lose faith in Warsaw’s rule.In Vilnius, the Lithuanian nobles, left without guidance or protection, have proclaimed their own administration — not in defiance, but in despair. The Grand Duchy now stands apart, seeking to survive where the Commonwealth cannot.Our once proud union, built upon faith and brotherhood, now collapses under its own weight. The government can do nothing but watch as centuries of shared history fade into ruin."
+ pol.9.a:0 "We Can Only Watch.."
+
+ 
+ pol.10.t:0 "What Remains of the Commonwealth"
+ pol.10.d:0 "The Commonwealth lies shattered.           The Sejm no longer sits, the crown’s authority is but a memory, and across the land, panic turns to resignation.In Vilnius, a new Lithuanian administration claims to act in the name of survival. In Warsaw, the remnants of government cling to hope that the heart of Poland might still endure. Both lands now face the same question: who shall lead the remnants of this broken union?The time has come to choose our path — to hold fast in Poland, or to follow Lithuania into uncertain independence."
+ pol.10.a:0 "We shall remain in Warsaw"
+ pol.10.b:0 "he future lies in Vilnius — Lithuania shall rise anew!"
+ 
 ## France ##
  france.1.t:0 "Storming The Tuileries"
  france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"

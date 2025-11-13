@@ -97,3 +97,55 @@ country_event = {
 }
     }
 }
+country_event = {
+    id = pol.8
+    title = pol.8.t
+    desc = pol.8.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.8.a
+        ai_chance = { factor = 100 }
+		add_ideas = POL_panic
+		remove_ideas = POL_new_begining
+
+    }
+	
+}
+country_event = {
+    id = pol.9
+    title = pol.9.t
+    desc = pol.9.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.9.a
+        ai_chance = { factor = 100 }
+		remove_ideas = POL_new_constitution
+		release = lit
+
+    }
+}
+country_event = {
+    id = pol.10
+    title = pol.10.t
+    desc = pol.10.d
+    picture = GFX_news_event_001
+
+    is_triggered_only = yes
+
+    option = {
+        name = pol.10.a
+        ai_chance = { factor = 100 }
+
+    }
+	option = {
+        name = pol.10.b
+        ai_chance = { factor = 100 }
+
+    }
+}
