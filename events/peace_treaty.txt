@@ -12,7 +12,7 @@ country_event = {
 	
 	trigger = {
 	    SWI = {
-		    surrender_limit > 0.68
+		    surrender_progress > 0.68
 		}
 		NOT = { has_global_flag = swiss_surrender }
     }
