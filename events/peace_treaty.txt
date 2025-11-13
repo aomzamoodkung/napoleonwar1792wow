@@ -1,0 +1,34 @@
+###################
+## Peace Treaty ##
+###################
+
+add_namespace = peace_treaty
+
+country_event = {
+	id = peace_treaty.1
+	title = peace_treaty.1.t
+	desc = peace_treaty.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	trigger = {
+	    SWI = {
+		    surrender_limit > 68
+		}
+		NOT = { has_global_flag = swiss_surrender }
+    }
+    fire_conly_once = yes	
+	
+	immediate = {
+	    FRA = {
+		    annex_country = { target = SWI transfer_troops = no }
+	    }
+        set_global_flag = swiss_surrender		
+    }		
+
+	option = {
+		name = peace_treaty.1.b
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}

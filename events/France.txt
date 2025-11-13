@@ -41,6 +41,24 @@ country_event = {
 	}
 }
 country_event = {
+	id = france.6
+	title = france.6.t
+	desc = france.6.d
+	picture = GFX_report_lafayette_flee
+	
+	is_triggered_only = yes	
+	fire_only_once = yes
+	
+	option = { # 
+		name = france.2.a
+		create_wargoal = { type = { liberate_state } target = SWI }
+		manpower = -1
+		ai_chance = {
+			factor = 100	
+		}	
+	}
+}
+country_event = {
 	id = france.8
 	title = france.8.t
 	desc = france.8.d
@@ -65,6 +83,42 @@ country_event = {
 		name = france.8.c
 		ai_chance = {
 			factor = 100	
+		}	
+	}
+}
+country_event = {
+	id = france.9
+	title = france.9.t
+	desc = france.9.d
+	picture = GFX_report_fate_swiss
+	
+	trigger = {
+	    tag = FRA
+		has_global_flag = swiss_surrender
+    }	
+	fire_only_once = yes
+	
+	option = {
+		name = france.9.a
+		release_puppet = SWI
+		SWI = {
+		    set_cosmetic_tag = HEL_SWI
+		}	
+		ai_chance = {
+			factor = 80	
+		}	
+	}
+	option = {
+		name = france.9.b
+		release_puppet = SWI
+		SWI = {
+		    set_cosmetic_tag = HEL_SWI
+		}
+		FRA = {
+		    transfer_state = 3
+		}
+		ai_chance = {
+			factor = 20	
 		}	
 	}
 }

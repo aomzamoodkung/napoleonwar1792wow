@@ -124,8 +124,14 @@
  news.8.t:0 "Louis XVI Executed"
  news.8.d:0 "In a shocking turn of events, the revolutionary French government has executed King Louis XVI by guillotine. The monarch's death has sent ripples throughout Europe, with monarchies alarmed at the radical turn of events in France. The Revolution, it seems, has only just begun."
  news.8.a:0 "A new chapter begins for France."
+ 
+ ## Fate of nation ##
+ france.9.t:0 "Fate of Switzerland"
+ france.9.d:0 "The Swiss Confederation has fallen. After initial defiant resistance against Revolutionary France's demands, the stubborn mountaineers have been crushed beneath the weight of French military superiority. The old cantons, proud guardians of Alpine independence for centuries, now lie prostrate before the armies of the Republic./n/General Brune's forces have swept through the valleys, overwhelming the scattered cantonal militias. Bern has been occupied, its legendary treasury seized. The ancient Swiss Confederacy, which had maintained its independence through cunning diplomacy and formidable defensive terrain, has finally met its match in Revolutionary fervor and modern warfare./n/We are now holds Switzerland's destiny in its hands."
+ france.9.a:0 "Establish the Helvetic Republic."
+ france.9.b:0 "Establish the Helvetic Republic and Secure Strategic Territories."
 
-## Tool Tips ##
+ ## Tool Tips ##
 
-MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
-SPIRIT_ADD_IDEA:0 "Click Here To Add An Idea"
+ MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
+ SPIRIT_ADD_IDEA:0 "Click Here To Add An Idea"
