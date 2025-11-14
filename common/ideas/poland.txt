@@ -17,10 +17,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_weekly = 0.0025
 				political_power_gain = 0.50
-				stability_weekly = 0.0002
-				training_time_factor = -0.005
+				stability_weekly = 0.02
+				custom_effect_tooltip = POL_cannot_create_troop_tt	
 			}
 		}
 		POL_new_constitution = {

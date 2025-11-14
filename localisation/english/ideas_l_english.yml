@@ -43,6 +43,8 @@
  FRA_committee_of_public_safety: "Committee of Public Safety"
  FRA_austria_desert: "Austrian Deserter"
  FRA_prussia_desert: "Prussian Deserter"
+ FRA_polish_desert: "Polish Deserter"
+ FRA_italian_soldier: "Italian Soldier"
  
 ####################
 ## Austrian Ideas ##

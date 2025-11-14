@@ -15,6 +15,7 @@ country_event = {
 		    surrender_progress > 0.8
 		}
 		NOT = { has_global_flag = swiss_surrender }
+		has_global_flag = swiss_fight
     }
     fire_conly_once = yes	
 	
@@ -22,11 +23,44 @@ country_event = {
 	    FRA = {
 		    annex_country = { target = SWI transfer_troops = no }
 	    }
-        set_global_flag = swiss_surrender		
+        set_global_flag = swiss_surrender
+        clr_global_flag	= swiss_fight	
     }		
 
 	option = {
 		name = peace_treaty.1.b
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}
+country_event = {
+	id = peace_treaty.2
+	title = peace_treaty.2.t
+	desc = peace_treaty.2.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	trigger = {
+	    PDS = {
+	        surrender_progress > 0.7
+		}
+		NOT = { has_global_flag = savoy_surrender_first }
+    }
+    fire_conly_once = yes	
+	
+	immediate = {
+	    FRA = {
+		    transfer_state = 158
+			white_peace = PDS
+	    }
+		PDS = {
+		    leave_faction = yes
+		}	
+        set_global_flag = savoy_surrender_first		
+    }		
+
+	option = {
+		name = peace_treaty.2.b
 		ai_chance = { 
 			factor = 100
 		}

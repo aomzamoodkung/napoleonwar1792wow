@@ -800,7 +800,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_execute_the_jacobin_revolutionary_tribunal
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_jacobin_court
 		x = 1
 		y = 20
 		cost = 10
@@ -1946,8 +1946,8 @@ focus_tree = {
 		}
 		completion_reward = {	
 
-			}
 		}
+	}
 
 	focus = {
 		id = FRA_first_treaty_of_base
@@ -1959,10 +1959,6 @@ focus_tree = {
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
@@ -2038,7 +2034,7 @@ focus_tree = {
 		icon = GFX_foreign_ally
 		x = -23
 		y = 5
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = {	
 			add_manpower = 50000
@@ -2050,7 +2046,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -6
 		y = 1
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
@@ -2084,6 +2080,7 @@ focus_tree = {
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 20000
+			add_ideas = FRA_italian_soldier
 		}
 	}
 
@@ -2112,6 +2109,7 @@ focus_tree = {
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 15000
+			add_ideas = { FRA_polish_desert }
 		}
 	}
 
