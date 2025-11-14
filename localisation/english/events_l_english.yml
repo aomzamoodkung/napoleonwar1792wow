@@ -30,7 +30,7 @@
 
  
  pol.10.t:0 "What Remains of the Commonwealth"
- pol.10.d:0 "The Commonwealth lies shattered.           The Sejm no longer sits, the crown’s authority is but a memory, and across the land, panic turns to resignation.In Vilnius, a new Lithuanian administration claims to act in the name of survival. In Warsaw, the remnants of government cling to hope that the heart of Poland might still endure. Both lands now face the same question: who shall lead the remnants of this broken union?The time has come to choose our path — to hold fast in Poland, or to follow Lithuania into uncertain independence."
+ pol.10.d:0 "The Commonwealth lies shattered.\n\nThe Sejm no longer sits, the crown’s authority is but a memory, and across the land, panic turns to resignation.In Vilnius, a new Lithuanian administration claims to act in the name of survival. In Warsaw, the remnants of government cling to hope that the heart of Poland might still endure. Both lands now face the same question: who shall lead the remnants of this broken union?The time has come to choose our path — to hold fast in Poland, or to follow Lithuania into uncertain independence."
  pol.10.a:0 "We shall remain in Warsaw"
  pol.10.b:0 "he future lies in Vilnius — Lithuania shall rise anew!"
  
@@ -54,6 +54,10 @@
  france.3.t:0 "Austria Offer peace deal"
  france.3.a:0 "We Accepted"
  france.3.b:0 "We Want Rhineland!"
+ austria.10.t:0 "French Want Rhineland"
+ austria.10.a:0 "For Peace...."
+ austria.10.b:0 "NO!"
+ POL_cannot_create_troop_tt:0 "§RUnits cannot be trained, disbanded or have their templates modified.§!"
 
  france.4.t:0 "The Cisalpine Republic?"
  france.4.d:0 ""

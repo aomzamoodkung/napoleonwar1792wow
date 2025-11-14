@@ -32,3 +32,27 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = peace_treaty.2
+	title = peace_treaty.2.t
+	desc = peace_treaty.2.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	trigger = {
+	    tag = POL
+    }
+    fire_conly_once = yes	
+	
+	immediate = {
+	    POL = {
+		    country_lock_all_division_template = yes
+	    }		
+    }		
+
+	option = {
+		name = peace_treaty.2.b
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}

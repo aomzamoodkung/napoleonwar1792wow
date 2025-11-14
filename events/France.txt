@@ -87,6 +87,9 @@ country_event = {
 	}
 	option = { 
 		name = france.3.b
+		AUS = {
+		    country_event = { id = austria.10 }
+		}
 		ai_chance = {
 			factor = 20	
 		}	

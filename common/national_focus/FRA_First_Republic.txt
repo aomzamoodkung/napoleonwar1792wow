@@ -1919,10 +1919,6 @@ focus_tree = {
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
 		}
 	}
 
