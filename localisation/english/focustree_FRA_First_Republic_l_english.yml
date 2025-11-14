@@ -13,7 +13,7 @@ FRA_change_the_christian_calendar:0 "Change The Christian Calendar"
 FRA_change_the_christian_calendar_desc:0 "Any trace of the monarchy will fall with the revolution, as did the clergy, allies of the crown. His influence will be undermined and no one will remember the acts he did, even if we have to change the calendar with its months and days: not a bit of a trace must remain of the Old Regime in our new revolutionary era. The First Estate will not do more harm to society."
 
 FRA_destroy_religious_values:0 "Destroy Religious Values"
-FRA_destroy_religious_values_desc:0 "Catholics make offerings and spend too much money to satisfy the needs of the clergy, one of them is relics which can be many centuries old; chalices, suchares, reliquaries, or even the crown of thorns from Notre Dame Cathedral, even the caterdals are too costly in labor and money. And why, to serve as a place of worship while those priests line their pockets? We will break his will by destroying his relics for our new era."
+FRA_destroy_religious_values_desc:0 "Catholics make offerings and spend too much money to satisfy the needs of the clergy, one of them is relics which can be many centuries old; chalices, suchares, reliquaries, or even the crown of thorns from Notre Dame Cathedral, even the caterdals are too costly in labor and money. And why, to serve as a place of worship while those priests line their pockets? We will break his will by destroying his relics for our era."
 
 FRA_deport_catholics:0 "Deport Catholics"
 FRA_deport_catholics_desc:0 "Reducing the power of the clergy has not been enough to break the faith of Catholics, but in the end we will convince them that clinging to the authority of the Pope is only a setback for progress, and they will prioritize our country more than faith. Then, its priests and bishops will be exiled to foreign lands to weaken the influence of the First Estate."
@@ -69,14 +69,17 @@ FRA_execture_baptiste_carrier:0 "Execute Baptiste Carrier"
 FRA_orders_from_carnot:0 "Orders From Carnot"
 
 FRA_execute_the_jacobin_revolutionary_tribunal:0 "Execute The Jacobin Revolutionary Tribunal"
+FRA_execute_the_jacobin_revolutionary_tribunal_desc:0 "The revolutionary court did too much damage to the republic. Thousands of innocent people, workers, nobles, officers, died under the guillotine for the accusation of treason, without the possibility of defending themselves. We will dissolve the revolutionary court and its laws to eliminate the murderous legacy of Robespierre."
 
 FRA_reign_of_terror_disarming_decree:0 "Reign Of Terror Disarming Decree"
 
 FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
+FRA_present_the_1792_constitution_desc:0 "The National Convention is, without a doubt, the main institution of the Republic, which will declare the constitution to reaffirm the new great principles of liberty, equality and fraternity. Very similar to that of 1789, but more rights will be added regarding education, public assistance, work and etc."
 
 FRA_inegrate_the_constitution:0 "Integrate The Constitution"
 
 FRA_create_the_directory:0 "Create The Directory"
+FRA_create_the_directory_desc:0 "Finally, Robespierre is dead and his reign of terror with him. The Jacobins have dissolved and the few remaining Girondists will establish the Directory; a new government divided into the upper house and the lower house, the lower house will propose laws for the upper house to approve. The two chambers exercise enough power to prevent an executive from establishing another genocidal dictatorship."
 
 FRA_economic_issues:0 "Economic Issues"
 
@@ -102,7 +105,7 @@ FRA_Napoleons_proposal:0 "Napoleons Proposal"
 
 FRA_basically_a_french_stamp_act:0 "The French Stamp Act"
 
-FRA_prepare_the_1792_legislative_election:0 "Prepare The 1792 Legislative Election"
+FRA_prepare_the_1792_legislative_election:0 "Prepare The New Legislative Election"
 
 FRA_pichegru_head_of_500:0 "Pichegru Head Of 500"
 
@@ -159,6 +162,7 @@ FRA_annex_belgium:0 "Annex Belgium"
 FRA_annex_belgium_desc:0 "Belgium has always been an area of vital strategy. Yes, the Habsburgs have had too much possession of said area for too long, just as another title for their hereditary incompetence. And yet, they continue to ignore the fact that a people different from theirs lives in that region. The Walloons are a French-speaking people who deserve to integrate along with their culture."
 
 FRA_sister_republics:0 "Sister Republics"
+FRA_sister_republics_desc:0 "We are the first nation in history, which can also be called the place where we belong instead of the fiefdom inherited from a king, of course not, we are not that insignificant, because of that same contempt we have ended up overthrowing the monarchy and becoming the first free country in Europe. At the same time that we expand the revolution to the east and fight against the absolutist world powers."
 
 FRA_plan_a_new_campaign:0 "Plan A New Campaign"
 

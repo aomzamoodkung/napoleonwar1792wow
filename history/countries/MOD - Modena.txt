@@ -23,5 +23,5 @@ add_ideas = {
 	INT_italian_identity
 		}
 
-recruit_character = 
+recruit_character = MOD_Ercole_III_d_Este
 

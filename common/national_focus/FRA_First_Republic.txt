@@ -856,7 +856,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_present_the_1792_constitution
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_goals_republic_con
 		x = -2
 		y = 21
 		cost = 10

@@ -3244,5 +3244,9 @@ spriteTypes = {
 	    name = "GFX_goals_deport"
 	    texturefile = "gfx/interface/goals/FRA/goals_deport.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_goals_republic_con"
+	    texturefile = "gfx/interface/goals/FRA/GFX_republic_con.dds"			
+	}
 
 }
