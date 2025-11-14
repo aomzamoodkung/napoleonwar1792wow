@@ -373,6 +373,23 @@ ideas = {
 		}
 	}
 	
+	FRA_arsenal_of_rochefort = {
+			picture = spa_carlism
+			allowed = {
+				original_tag = FRA
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				convoy_retreat_speed = 0.1
+				experience_gain_navy_unit_factor = 0.2
+				naval_defense_factor = 0.2
+				navy_org = 5
+			}
+		}
+	
 	FRA_prussia_desert = {
 		picture = spa_carlism
 		allowed = {

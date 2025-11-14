@@ -36,10 +36,29 @@ focus_tree = {
 		prerequisite = { focus = FRA_disband_the_naval_infantry }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			random_owned_controlled_state = {
+			prioritize = { 21 }
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = { building = arms_factory size > 0 include_locked = yes }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				level = 4
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 		}
 	}
 
@@ -70,10 +89,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_rebuild_toulon }	
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		add_ideas =	FRA_arsenal_of_rochefort
 		}
 	}
 
@@ -104,10 +120,34 @@ focus_tree = {
 		prerequisite = { focus = FRA_orignise_maritime_customs }
 		relative_position_id = FRA_reorginise_the_french_navy		
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			division_template = {
+				name = "Costal Guards "
+				priority = 2
+				division_names_group = POL_INF_01
+				regiments = {
+					marines = { x = 0 y = 0 }
+					marines = { x = 0 y = 1 }
+					marines = { x = 0 y = 2 }
+		
+					marines = { x = 1 y = 0 }
+					marines = { x = 1 y = 1 }
+					marines = { x = 1 y = 2 }
+		
+					marines = { x = 2 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				prioritize = { 21 } #Vilnius
+				create_unit = {
+					division = "name = \"Costal Guards \" division_template = \"Costal Guards \" start_experience_factor = 0.5" 
+					owner = FRA
+				}
+				create_unit = {
+					division = "name = \"Costal Guards \" division_template = \"Costal Guards \" start_experience_factor = 0.4" 
+					owner = FRA
+				}
+			}
 		}
 	}
 
