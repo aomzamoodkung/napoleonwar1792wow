@@ -1,0 +1,1067 @@
+###########################
+# austrian Events
+###########################
+
+add_namespace = aus_1789_event
+
+country_event = {
+	id = aus_1789_event.1
+	title = austria.1.t
+	desc = austria.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # Austria Accept
+		name = austria.1.a
+		ai_chance = {
+			factor = 70
+		} 
+
+		FRA = {
+			country_event = france.2
+		}
+		159 = { transfer_state_to = FRA }
+	
+	}
+	
+
+	option = { # Austria Decline
+		name = austria.1.b
+		ai_chance = { 
+			factor = 30
+			 }			
+	
+
+		FRA = {
+			country_event = france.3
+		}
+
+		FRA = {
+			create_wargoal = {
+    		type = annex_everything
+   			target = AUS
+
+			}	
+		}
+	}			
+}
+
+country_event = {
+	id = aus_1789_event.2
+	title = austria.2.t
+	desc = austria.2.d
+	picture = GFX_report_death_of_leopold
+
+	fire_only_once = yes
+
+	trigger = {
+		date > "1792.3.1"
+		tag = AUS
+	}
+	
+	option = { 
+		name = austria.2.a
+		ai_chance = {
+			factor = 1
+		} 
+
+		news_event = news.4
+
+		GER = {
+			retire_character = GER_Leopold_II
+		}
+		AUS = {
+			retire_character = AUS_Leopold_II
+		}
+	}
+}
+
+country_event = {
+	id = aus_1789_event.3
+	title = austria.3.t
+	desc = austria.3.d
+	picture = GFX_report_death_of_leopold
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	
+	option = { 
+		name = austria.3.a
+		ai_chance = {
+			factor = 1
+		}
+
+		puppet = BEL
+		release = BEL
+
+		BEL = {
+			set_cosmetic_tag = AUN_BEL
+		}
+	} 
+
+	option = { 
+		name = aus_1789_event.3.b
+		ai_chance = {
+				factor = 0
+		} 
+
+		AUS = {
+			add_state_core = 8
+			add_state_core = 34
+			add_state_core = 6
+			add_state_core = 837
+		}
+	}	
+}
+
+country_event = {   ## Puppet Refuse/Accept Style Event
+	id = aus_1789_event.4
+	title = austria.4.t
+	desc = austria.4.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	trigger = {
+        tag = FRA
+        controls_state = 940
+    }
+	
+	option = { # austria Accept
+		name = austria.4.a
+		ai_chance = {
+			factor = 1
+		} 
+		white_peace = {
+			tag = FRA
+			message = my_peace_tt1
+		}
+		BAY = {
+			transfer_state = 39
+			transfer_state = 153
+			transfer_state = 54
+		}
+		AUS = {
+			transfer_state = 836
+		}
+	}
+
+	option = { # austria Decline
+		name = austria.4.b
+		ai_chance = { 
+			factor = 0
+		}			
+		FRA = {
+			country_event = france.7
+		}
+	}
+}
+
+country_event = {   ## Puppet Refuse/Accept Style Event
+	id = aus_1789_event.5
+	title = austria.5.t
+	desc = austria.5.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # austria Accept
+		name = austria.4.a
+		ai_chance = {
+			factor = 1
+		} 
+		white_peace = {
+			tag = FRA
+			message = my_peace_tt1
+		}
+		FRA = {
+			country_event = france.4
+		}
+	}
+
+	option = { # austria Decline
+		name = austria.5.b
+		ai_chance = { 
+			factor = 0
+		}			
+	}
+}
+
+country_event = {
+    id = aus_1789_event.9
+    title = austria.9.t
+    desc = austria.9.d
+    picture = GFX_news_event_009
+
+    trigger = { }
+    is_triggered_only = yes
+
+    immediate = {
+        create_faction = "First Coalition"
+        add_to_faction = PRU
+        add_to_faction = AUS
+        add_to_faction = GER
+    }
+
+    option = {
+        name = "Together against our enemies!"
+    }
+}
+
+
+	country_event = {
+	id = aus_1789_event.14
+	title = "Dreams of an Augsleich?"
+	desc = augsleich.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	trigger = {
+		target = AUS
+		has_completed_focus = question_of_minorities
+	}
+	fire_only_once = yes
+	is_ai = yes
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = "Dreams? Don't make me laugh!"
+		complete_national_focus = supression_of_minorities
+	}
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = "a compromise looks fitting."
+		complete_national_focus = augsleich_of_1796
+	}
+}
+country_event = {
+	id = aus_1789_event.15
+	title = "Hungary demands liberation."
+	desc = war.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	trigger = {
+		target = AUS
+		has_completed_focus = integrate_the_crownlands
+	}
+	fire_only_once = yes
+	is_ai = yes
+	option = {
+		name = "Fine, Austria surrenders."
+		ai_chance = {
+			factor = 0
+		}
+		AUS = {
+			set_autonomy = {
+				target = HUN
+				autonomy_state = autonomy_free
+			}
+		}
+			set_autonomy = {
+				target = BOH
+				autonomy_state = autonomy_free
+			}
+			set_autonomy = {
+				target = GLL
+				autonomy_state = autonomy_free
+			}
+			set_autonomy = {
+				target = BTG
+				autonomy_state = autonomy_free
+			}
+	}
+	option = {
+		name = "Mobilize the military!"
+		ai_chance = {
+			factor = 100
+		}
+		AUS = {
+			declare_war_on = {
+				target = HUN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BOH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GLL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BTG
+				type = annex_everything
+			}
+		}
+		AUS = {
+			complete_national_focus = {focus = First_Hungary}
+			complete_national_focus = {
+				focus = Intergration_of_Salzburg
+			}
+			complete_national_focus = {
+				focus = Second_Bohemia
+			}
+			complete_national_focus = {
+				focus = Third_Galicia
+			}
+		}
+		BOH = {
+			load_oob = BOH_1789
+		}
+	}
+}
+country_event = {
+	id = aus_1789_event.16
+	title = "Offer Surrender Terms to France?"
+	desc = surrender.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	trigger = {
+		has_war = yes
+		has_completed_focus = {
+			focus = a_reborn_empire
+		}
+	}
+	is_ai = yes
+	option = {
+		name = "I suppose Austria doesn't has a choice."
+		ai_chance = {
+			factor = 100
+		}
+		white_peace = AUS
+	}
+	option = {
+		name = "Austrian surrender threatens the balance of Europe."
+		ai_chance = {
+			factor = 1
+		}
+		stability_factor = -0.56
+		war_support_factor = -0.65
+	}
+}
+country_event = {
+	id = aus_1789_event.17
+	title = "its made for other events to work"
+	desc = desc.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "koay"
+		ai_chance = {
+			factor = 1
+		}
+		transfer_state = 9
+	}
+}
+
+country_event = {
+	id = aus_1789_event.18
+	title = "Fate of Romania"
+	desc = romania.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_triggered_only = yes
+	fire_only_once = no
+	is_ai = yes
+	option = {
+		name = "Form a Romanian Monarchy!"
+		ai_chance = {factor = 100}
+		ROM = {
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 1228
+			transfer_state = 1204
+			transfer_state = 766
+			transfer_state = 46
+			transfer_state = 81
+			transfer_state = 79
+            transfer_state = 890
+            transfer_state = 1146
+            transfer_state = 78
+			transfer_state = 1147
+		}
+		AUS = {
+			set_autonomy = {
+				target = ROM
+				autonomy_state = autonomy_integrated_puppet
+			}
+		}
+	}
+	option = {
+		name = "Integrate it into our territory."
+		ai_chance = {factor = 1}
+		ROM = {
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 1228
+			transfer_state = 1204
+			transfer_state = 766
+			transfer_state = 46
+			transfer_state = 81
+			transfer_state = 79
+            transfer_state = 890
+            transfer_state = 1146
+            transfer_state = 78
+			transfer_state = 1147
+			transfer_state = 889
+		}
+	}
+}
+country_event = {
+	id = aus_1789_event.19
+	title = "Ottomans send Terms of Surrender."
+	desc = winyoo.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	trigger = {
+		controls_state = 46
+		controls_state = 81
+		controls_state = 79
+		controls_state = 958
+		controls_state = 104
+		controls_state = 953
+		controls_state = 804
+		controls_state = 955
+		controls_state = 954
+		controls_state = 105
+		
+	}
+	fire_only_once = no
+option = {
+	name = "A Major victory for Austria!"
+	ai_chance = {factor = 1}
+	add_political_power = 150
+		add_stability = 0.02
+		white_peace = OTO
+		white_peace = WAL
+		white_peace = MOL
+		AUS = {
+			transfer_state = 46
+			transfer_state = 81
+			transfer_state = 79
+			transfer_state = 889
+			transfer_state = 78
+			transfer_state = 776
+			transfer_state = 1146
+			transfer_state = 953
+			transfer_state = 958
+			transfer_state = 104
+			transfer_state = 954
+			transfer_state = 804
+			transfer_state = 955
+			transfer_state = 957
+			transfer_state = 890
+			transfer_state = 1147
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 1228
+			transfer_state = 1204
+			transfer_state = 766
+		}
+		OTO = {
+			add_timed_idea = {
+				idea = OTO_war_reperations
+				days = 365
+			}
+		}
+		AUS = {
+			add_timed_idea = {
+				idea = AUS_war_reps_victory
+				days = 365
+			}
+		}
+}
+}
+country_event = {
+	id = aus_1789_event.20
+	title = "Economical Route for Austria"
+	desc = econmicplan.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+    is_triggered_only = yes
+	option = {
+		name = "A Militaristic plan looks fitting."
+		ai_chance = {factor = 50}
+		add_ideas = {
+			idea = military_plan
+		}
+	}
+	option = {
+		name = "An industrial route looks fitting for Austria."
+		ai_chance = {
+			factor = 50
+		}
+		add_ideas = {
+			idea = industrial_plan
+		}
+	}
+}
+
+######################################
+#### INVESTMENT OFFER FROM AUSTRIA####
+######################################
+
+
+
+country_event = {
+	id = aus_1789_event.21
+	title = "Austria seeks Investments."
+	desc = investment.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	option = {
+		name = "We will invest into their country."
+		ai_chance = {factor = 25}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+		}
+	}
+	option = {
+		name = "We will have limited investments to Austria."
+		ai_chance = {factor = 50}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+		}
+}
+option = {
+	name = "We don't have any reason to invest."
+	ai_chance = {factor = 25}
+	AUS = {
+		country_event = {
+			id = aus_1789_event.22
+		}
+	}
+}
+}
+country_event = {
+	id = aus_1789_event.23
+	title = "Austria seeks Investments."
+	desc = investment.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	option = {
+		name = "We will invest into their country."
+		ai_chance = {factor = 25}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+		}
+	}
+	option = {
+		name = "We will have limited investments to Austria."
+		ai_chance = {factor = 50}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+		}
+		}
+			AUS = {
+				add_timed_idea = {
+					idea = limited_investments_from_a_foreign_country
+					days = 180
+				}
+			}
+	}
+}
+option = {
+	name = "We don't have any reason to invest."
+	ai_chance = {factor = 25}
+	AUS = {
+		country_event = {
+			id = aus_1789_event.24
+		}
+	}
+}
+
+
+country_event = {
+	id = aus_1789_event.28
+	title = "Austria seeks Investments."
+	desc = investment.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	option = {
+		name = "We will invest into their country."
+		ai_chance = {factor = 25}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+		}
+		}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+	}
+	option = {
+		name = "We will have limited investments to Austria."
+		ai_chance = {factor = 50}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_timed_idea = {
+			idea = limited_investments_in_austria
+			days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = limited_investments_from_a_foreign_country
+					days = 180
+				}
+			}
+	}
+		}
+}
+option = {
+	name = "We don't have any reason to invest."
+	ai_chance = {factor = 25}
+	AUS = {
+		country_event = {
+			id = aus_1789_event.25
+		}
+	}
+}
+
+
+country_event = {
+	id = aus_1789_event.29
+	title = "Austria seeks Investments."
+	desc = investment.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	option = {
+		name = "We will invest into their country."
+		ai_chance = {factor = 25}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+		}
+	}
+	option = {
+		name = "We will have limited investments to Austria."
+		ai_chance = {factor = 50}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_timed_idea = {
+			idea = limited_investments_in_austria
+			days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = limited_investments_from_a_foreign_country
+					days = 180
+				}
+			}
+	}
+}
+	}
+option = {
+	name = "We don't have any reason to invest."
+	ai_chance = {factor = 25}
+	AUS = {
+		country_event = {
+			id = aus_1789_event.26
+		}
+	}
+}
+}
+
+country_event = {
+	id = aus_1789_event.30
+	title = "Austria seeks Investments."
+	desc = investment.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	option = {
+		name = "We will invest into their country."
+		ai_chance = {factor = 25}
+		AUS = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_timed_idea = {
+				idea = consumer_goods_factor
+				days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = investments_from_a_foreign_country
+					days = 180
+				}
+			}
+		}
+		}
+	}
+	option = {
+		name = "We will have limited investments to Austria."
+		ai_chance = {factor = 50}
+		AUS = {
+			random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_timed_idea = {
+			idea = limited_investments_in_austria
+			days = 180
+			}
+			AUS = {
+				add_timed_idea = {
+					idea = limited_investments_from_a_foreign_country
+					days = 180
+				}
+			}
+	}
+		}
+}
+option = {
+	name = "We don't have any reason to invest."
+	ai_chance = {factor = 25}
+	AUS = {
+		country_event = {
+			id = aus_1789_event.27
+		}
+	}
+}
+}
+
+############################################
+##### DECLINE FOR FOREGIN INVESTMENTS#######
+############################################
+
+country_event = {
+	id = aus_1789_event.24
+	title = "Russia refuses to invest."
+	desc = ok.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Fine."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.22
+	title = "Prussia refuses to invest."
+	desc = ok.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Fine."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.25
+	title = "Britain refuses to invest."
+	desc = ok.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Fine."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.26
+	title = "Turkey refuses to invest."
+	desc = ok.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Fine."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.27
+	title = "Spain refuses to invest."
+	desc = ok.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Fine."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.31
+	title = "The Polish Question"
+	desc = polandquest.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	available = {
+		tag = AUS
+		controls_state = 92
+            controls_state = 90
+            controls_state = 1116
+			OR
+			GLL = {
+				controls_state = 92
+            controls_state = 90
+            controls_state = 1116
+			}
+	}
+	visible = {
+		tag = AUS
+	}
+	option = {
+		name = "Proclaim a Polish Monarchy!"
+		ai_chance = {
+			factor = 0
+		}
+		POL = {
+			set_cosmetic_tag = POL_uprising_neutrality
+			transfer_state = 92
+			transfer_state = 90
+			transfer_state = 1116
+		}
+		AUS = {
+			set_autonomy = {
+				target = POL
+				autonomy_state = autonomy_integrated_puppet
+			}
+		}
+	}
+	option = {
+		name = "Assimilate it into our territory"
+		ai_chance = {factor = 100}
+		add_stability = -0.05
+		AUS = {
+			92 = {
+				add_claim_by = AUS
+			}
+			90 = {
+				add_claim_by = AUS
+			}
+			1116 = {
+				add_claim_by = AUS
+			}
+		}
+	}
+	option = {
+		name = "Proclaim the Polish-Galician State!"
+		ai_chance = {factor = 0}
+	add_stability = 0.1
+	POL = {
+		set_cosmetic_tag = POL_uprising_neutrality
+			transfer_state = 92
+			transfer_state = 90
+			transfer_state = 1116
+			transfer_state = 88
+			transfer_state = 1114
+			transfer_state = 1008
+			transfer_state = 89
+			transfer_state = 888
+			transfer_state = 80
+			transfer_state = 91
+			transfer_state = 869
+			transfer_state = 1120
+		}
+		AUS = {
+			set_autonomy = {
+				target = POL
+				autonomy_state = autonomy_integrated_puppet
+			}
+		}
+	}
+}
+country_event = {
+	id = aus_1789_event.32
+	title = "Pressure Prussia on Intervention?"
+	desc = intervene.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	available = {tag = AUS}
+	visible = {tag = AUS}
+	option = {
+		name = "A Prussian Intervention would be perfect!"
+		ai_chance = {factor = 0}
+		PRE = {
+			country_event = {
+				id = pre_1789_event.129
+			}
+		}
+	}
+	option = {
+		name = "An idea like that is flawed."
+		ai_chance = {factor = 100}
+	}
+}
+country_event = {
+	id = aus_1789_event.33
+	title = "Prussia Declines."
+	desc = declineing.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Worthless scum."
+		ai_chance = {factor = 1}
+	}
+}
+country_event = {
+	id = aus_1789_event.34
+	title = "Prussia Accepts!"
+	desc = declineing.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_ai = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "A great day indeed!."
+		ai_chance = {factor = 1}
+		ENG = {
+			add_to_faction = PRE
+				}
+	}
+}
