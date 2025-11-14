@@ -389,10 +389,42 @@ ideas = {
 
 		}
 	}
-}
+	
+	FRA_polish_desert = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+		}
 
+		removal_cost = -1
+		
+		targeted_modifier = {					
+			tag = RUS
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
 
+		}
+		targeted_modifier = {					
+			tag = POL
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
 
+		}
+	}
+	
+	FRA_italian_soldier = {
+	    picture = spa_carlism
+	    allowed = {
+		    original_tag = FRA
+	    }
+
+	    removal_cost = -1
+	    targeted_modifier = {
+		    has_idea = INT_italian_identity
+		    attack_bonus_against = 0.05
+		    defense_bonus_against = 0.05
+	    }
+    }
 
 	}
 }

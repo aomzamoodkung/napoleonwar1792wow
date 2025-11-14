@@ -15,6 +15,7 @@ country_event = {
 		    surrender_progress > 0.8
 		}
 		NOT = { has_global_flag = swiss_surrender }
+		has_global_flag = swiss_fight
     }
     fire_conly_once = yes	
 	
@@ -22,7 +23,8 @@ country_event = {
 	    FRA = {
 		    annex_country = { target = SWI transfer_troops = no }
 	    }
-        set_global_flag = swiss_surrender		
+        set_global_flag = swiss_surrender
+        clr_global_flag	= swiss_fight	
     }		
 
 	option = {
@@ -39,14 +41,22 @@ country_event = {
 	picture = GFX_report_event_japan_army_mountainside
 	
 	trigger = {
-	    tag = POL
+	    PDS = {
+	        surrender_progress > 0.7
+		}
+		NOT = { has_global_flag = savoy_surrender_first }
     }
     fire_conly_once = yes	
 	
 	immediate = {
-	    POL = {
-		    country_lock_all_division_template = yes
-	    }		
+	    FRA = {
+		    transfer_state = 158
+			white_peace = PDS
+	    }
+		PDS = {
+		    leave_faction = yes
+		}	
+        set_global_flag = savoy_surrender_first		
     }		
 
 	option = {

@@ -1994,7 +1994,7 @@ focus_tree = {
 		icon = GFX_foreign_ally
 		x = -23
 		y = 5
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = {	
 			add_manpower = 50000
@@ -2006,7 +2006,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -6
 		y = 1
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
@@ -2068,6 +2068,7 @@ focus_tree = {
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 15000
+			add_ideas = { FRA_polish_desert }
 		}
 	}
 

@@ -123,6 +123,7 @@ country_event = {
 	option = { # 
 		name = france.6.a
 		FRA = { create_wargoal = { type = puppet_wargoal_focus target = SWI } }
+		set_global_flag = swiss_fight
 		ai_chance = {
 			factor = 100	
 		}	
