@@ -358,7 +358,7 @@ ideas = {
     }
 	
 	FRA_austria_desert = {
-		picture = spa_carlism
+		picture = austrian_deserters
 		allowed = {
 			original_tag = FRA
 		}

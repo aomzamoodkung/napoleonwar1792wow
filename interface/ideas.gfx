@@ -7324,4 +7324,8 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Jacques-Louis_David"
 		texturefile = "gfx/interface/ideas/FRA/louis_david_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_austrian_deserters"
+		texturefile = "gfx/interface/ideas/FRA/austrian_deserters.dds"
+	}
 }
