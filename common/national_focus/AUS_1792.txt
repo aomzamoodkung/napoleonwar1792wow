@@ -1,10 +1,10 @@
 focus_tree = {
-	id = AUS_1792
-	continuous_focus_position = { x = 2000 y = 2000 } 
+	id = austrian_focustree
+	continuous_focus_position = { x = 5 y = 750 } 
 	country = {
 		factor = 0
 		modifier = {
-			add = 100
+			add = 10
 			tag = AUS
 		}
 	}
@@ -591,57 +591,57 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-        id = continental_war
-        icon = GFX_focus_AUS_heeding_the_call_of_duty
-        x = 0
-        y = 8
-        cost = 4.3
+focus = {
+id = Continental_War
+icon = GFX_focus_AUS_heeding_the_call_of_duty
+relative_position_id = The_Constitution
+x = -0.5
+y = 8
+cost = 4.3
 
-        ai_will_do = {
-	        factor = 3
-        }
-        available ={
-	        has_war = yes
-        }
-        prerequisite = {
-	        focus = Augsleich
-        }
-        prerequisite = {
-	        focus = die_Finanzierung_erh hen
-        }
-        prerequisite = {
-	        focus = Improve_the_Military_Adminstration
-        }
+ai_will_do = {
+	factor = 3
+}
+available ={
+	has_war = yes
+}
+prerequisite = {
+	focus = Augsleich
+}
+prerequisite = {
+	focus = die_Finanzierung_erh hen
+}
+prerequisite = {
+	focus = Improve_the_Military_Adminstration
+}
 
-        if = {
-	        limit = {
-		        has_war = yes
-	        }
-        }
-
-        completion_reward = {
-	        add_political_power = 300
-	        add_war_support = 0.2
-	        add_stability = 0.1
-	        add_manpower = 200000
-	        add_ideas = {
-		        idea = war_council
-	        }
-        }
-    }
-    focus = {
+completion_reward = {
+	add_political_power = 300
+	add_war_support = 0.2
+	add_stability = 0.1
+	add_manpower = 200000
+	add_ideas = {
+		idea = war_council
+	}
+	set_country_flag = aus_first_war
+}
+}
+focus = {
 	id = Future_of_The_Empire
 	icon = GFX_focus_generic_befriend_austria
+	relative_position_id = The_Constitution
 	x = 0
 	y = 9
 	cost = 10
 
 	ai_will_do = {
-		factor = 1
+		factor = 3
+	}
+	allow_branch = {
+		set_country_flag = aus_first_war
 	}
 	prerequisite = {
-		focus = continental_war
+		focus = Continental_War
 	}
 	completion_reward = {
 		add_stability = 0.1
