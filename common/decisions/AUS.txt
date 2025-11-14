@@ -1,0 +1,841 @@
+Vienna_Program = {
+    Better_the_Working_Conditions = {
+        icon = GFX_decision_generic_factory
+        available = {
+            has_completed_focus = AUS_Vienna_Program
+        }
+        visible = {
+            has_completed_focus = AUS_Vienna_Program
+        }
+        cost = 75
+        fire_only_once = yes
+
+        days_remove = 150
+
+        modifier = {
+            industrial_capacity_factory = 0.1
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+            }
+        }
+    }
+}
+austrian_coup_de_tat = {
+    coup_the_goverment = {
+        icon = GFX_decision_bul_ban_media_zveno
+        available = {
+            has_completed_focus = democratic_coup
+        }
+        visible = {
+            has_completed_focus = democratic_coup
+        }
+        cost = 150
+        fire_only_once = yes
+
+        days_remove = 7
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+            }
+        }
+        modifier = {
+            set_politics = {
+                set_ruling_party = democratic
+            }
+        }
+    }
+}
+territorial_management = {
+    treaty_of_budapest = {
+        icon = GFX_decision_CHL_mapuche_liberate_hawaii
+        available = {
+            controls_state = 46
+			controls_state = 81
+			controls_state = 79
+        }
+        visible = {
+            has_completed_focus = claim_romanian_lands
+            AUS = {
+                has_war = yes
+            }
+        }
+        fire_only_once = yes
+        complete_effect = {
+            add_political_power = 150
+		add_stability = 0.02
+		white_peace = OTO
+		white_peace = WAL
+		white_peace = MOL
+		AUS = {
+			transfer_state = 46
+			transfer_state = 81
+			transfer_state = 79
+			transfer_state = 889
+			transfer_state = 78
+			transfer_state = 776
+			transfer_state = 1146
+			transfer_state = 953
+			transfer_state = 958
+			transfer_state = 104
+			transfer_state = 954
+			transfer_state = 804
+			transfer_state = 955
+			transfer_state = 957
+			transfer_state = 890
+			transfer_state = 1147
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 1228
+			transfer_state = 1204
+            transfer_state = 766
+		}
+		OTO = {
+			add_timed_idea = {
+				idea = OTO_war_reperations
+				days = 365
+			}
+		}
+		AUS = {
+			add_timed_idea = {
+				idea = AUS_war_reps_victory
+				days = 365
+			}
+		}
+        }
+        
+    }
+    fate_of_romania = {
+        icon = GFX_decision_CHL_mapuche_liberate_maya
+        fire_only_once = yes
+        available = {
+            controls_state = 46
+			controls_state = 81
+			controls_state = 79
+            controls_state = 890
+            controls_state = 1146
+            controls_state = 78
+        }
+        visible = {
+            AUS = {
+                has_war = no
+            }
+        }
+        complete_effect = {
+            country_event = {
+                id = aus_1789_event.18
+            }
+        }
+    }
+    polish_question = {
+        icon = GFX_decision_CHL_mapuche_liberate_maya
+        fire_only_once = yes
+        available = {
+            tag = AUS
+            controls_state = 92
+            controls_state = 90
+            controls_state = 1116
+            has_completed_focus = proclaim_the_austrian_empire
+            tag = AUS
+        }
+        complete_effect = {
+            country_event = {
+                id = aus_1789_event.31
+            }
+        }
+    }
+}
+hre_industry = {
+    invest_into_austrian_baden = {
+        icon = GFX_decision_CHL_mapuche_liberate_miskito
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 150
+        fire_only_once = yes
+        complete_effect = {
+            1250 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    sell_austrian_guns_to_bavaria = {
+        icon = GFX_decision_generic_industry
+        available = {
+            has_completed_focus = sell_austrian_guns
+        }
+        visible = {
+            has_completed_focus = sell_austrian_guns
+        }
+        cost = 120
+        fire_only_once = no
+        modifier = {
+            remove_equipment_from_stockpile = {
+                type = infantry_equipment_0
+                amount = -2000
+            }   
+        }
+        }
+    
+    saxon_mines = {
+        icon = GFX_decision_generic_industry
+        fire_only_once = yes
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 150
+        complete_effect = {
+            65 = {
+                add_resource = {
+                    type = steel
+                    amount = 55
+                }
+            }
+        }
+    }
+    military_factories_in_prague = {
+        icon = GFX_decision_CHL_mapuche_liberate_isthmo_amerindia
+        fire_only_once = yes
+        visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 120
+        complete_effect = {
+            9 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+            9 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    slovenian_industry = {
+        icon = GFX_decision_SWE_set_army_budget
+        fire_only_once = yes
+        visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 190
+        complete_effect = {
+            102 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+            940 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+            859 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    assist_prussia = {
+        icon = GFX_decision_CHL_mapuche_liberate_hawaii
+        fire_only_once = yes
+         visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 150
+        complete_effect = {
+            64 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+            862 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    mecklenburgian_military_factories = {
+        icon = GFX_decision_BRA_integralism
+        fire_only_once = yes
+        visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 100
+        complete_effect = {
+            61 = {
+                add_extra_state_shared_building_slots = 14
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+    }
+improve_austrian_roads = {
+    icon = GFX_decision_CHL_carabineros
+    fire_only_once = yes
+    visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 150
+        complete_effect = {
+            152 = {
+                add_extra_state_shared_building_slots = 5
+                add_building_construction = {
+                    type = infrastructure
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+}
+industrial_complex_of_vienna = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    fire_only_once = yes
+    visible = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        available = {
+            has_completed_focus = hre_industrial_scheme
+        }
+        cost = 150
+        complete_effect = {
+            4 = {
+                add_building_construction = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+        }
+}
+
+}
+napoleonic_wars = {
+    recruit_child_soldiers = {
+        icon = GFX_decision_CHL_mapuche_liberate_charrua
+        fire_only_once = no
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 150
+        complete_effect = {
+            add_manpower = 25000
+            add_stability = -0.4
+        }
+        days_remove = 120
+    }
+}
+rekindle_the_fires_of_industry = {
+    subsidize_heavy_industry = {
+        icon = GFX_decision_SOV_place_hq
+        fire_only_once = yes
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 250
+        complete_effect = {
+            69 = {
+                add_extra_state_shared_building_slots = 5
+                add_building_construction = {
+                    type = arms_factory
+                    level = 5
+                    instant_build = yes
+                }
+            }
+            74 = {
+                add_extra_state_shared_building_slots = 5
+                add_building_construction = {
+                    type = arms_factory
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+        days_remove = 120
+    }
+    attract_foreign_investment = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 150
+        complete_effect = {
+            4 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+}
+investment_offers = {
+    investment_offer_to_prussia = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 75
+        days_remove = 120
+        complete_effect = {
+            PRE = {
+                country_event = {
+                    id = aus_1789_event.23
+                }
+            }
+        }
+    }
+    investment_offer_to_russia = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 75
+        days_remove = 120
+        complete_effect = {
+            RUS = {
+                country_event = {
+                    id = aus_1789_event.23
+                }
+            }
+        }
+    }
+    investment_offer_to_britian = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 75
+        days_remove = 120
+        complete_effect = {
+            ENG = {
+                country_event = {
+                    id = aus_1789_event.28
+                }
+            }
+        }
+    }
+    investment_offer_to_turkey = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 75
+        days_remove = 120
+        complete_effect = {
+            OTO = {
+                country_event = {
+                    id = aus_1789_event.29
+                }
+            }
+        }
+    }
+    investment_offer_to_spain = {
+        icon = GFX_decision_SOV_place_hq
+        visible = {
+            tag = AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 75
+        days_remove = 120
+        complete_effect = {
+            SPR = {
+                country_event = {
+                    id = aus_1789_event.30
+                }
+            }
+        }
+    }
+}
+instablity_of_the_empire = {
+    suppress_protests_in_hungary = {
+        icon = GFX_decision_bul_imprison_leaders_nsm
+        visible = {
+            tag =  AUS
+        }
+        available = {
+            tag = AUS
+        }
+        cost = 120
+        fire_only_once = yes
+        complete_effect = {
+            add_stability = -0.1
+        }
+        days_remove = 7
+        ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+        remove_effect = {
+            43 = {
+                add_resistance_target = {
+                    id = 43
+                    amount = -30
+                    occupier = AUS
+                    occupied = HUN
+                }
+            }
+            swap_ideas = {
+                remove_idea = chaos_in_the_empire_1
+                add_idea = chaos_in_the_empire_2
+            }
+        }
+    }
+suppress_protests_in_bohemia = {
+    icon = GFX_decision_bul_imprison_leaders_nsm
+    visible = {
+        has_idea = chaos_in_the_empire_2
+    }
+    available = {
+        has_idea = chaos_in_the_empire_2
+    }
+    cost = 120
+    fire_only_once = yes
+    days_remove = 7
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+    remove_effect = {
+        swap_ideas = {
+            remove_idea = chaos_in_the_empire_2
+            add_idea = chaos_in_the_empire_3
+        }
+    }
+}
+suppress_protests_in_croatia = {
+    icon = GFX_decision_bul_imprison_leaders_nsm
+    visible = {
+        has_idea = chaos_in_the_empire_3
+    }
+    available = {
+        has_idea = chaos_in_the_empire_3
+    }
+    cost = 120
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+    fire_only_once = yes
+    days_remove = 7
+    remove_effect = {
+        swap_ideas = {
+            remove_idea = chaos_in_the_empire_3
+            add_idea = chaos_in_the_empire_4
+        }
+    }
+}
+suppress_protests_in_galicia = {
+    icon = GFX_decision_bul_imprison_leaders_nsm
+    visible = {
+        has_idea = chaos_in_the_empire_4
+    }
+    available = {
+        has_idea = chaos_in_the_empire_4
+    }
+    cost = 120
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+    fire_only_once = yes
+    days_remove = 7
+    remove_effect = {
+        swap_ideas = {
+            remove_idea = chaos_in_the_empire_4
+            add_idea = chaos_in_the_empire_5
+        }
+    }
+}
+suppress_protests_in_bukovina = {
+    icon = GFX_decision_bul_imprison_leaders_nsm
+    visible = {
+        has_idea = chaos_in_the_empire_5
+    }
+    available = {
+        has_idea = chaos_in_the_empire_5
+    }
+    cost = 200
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+    fire_only_once = yes
+    days_remove = 7
+    remove_effect = {
+        swap_ideas = {
+            remove_idea = chaos_in_the_empire_5
+            add_idea = chaos_in_the_empire_6
+        }
+    }
+}
+suppress_protests_in_transylvania = {
+    icon = GFX_decision_bul_imprison_leaders_nsm
+    visible = {
+        has_idea = chaos_in_the_empire_6
+    }
+    available = {
+        has_idea = chaos_in_the_empire_6
+    }
+    cost = 200
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            add = 10
+        }
+    }
+    fire_only_once = yes
+    days_remove = 7
+    remove_effect = {
+        swap_ideas = {
+            remove_idea = chaos_in_the_empire_6
+            add_idea = chaos_in_the_empire_7
+        }
+    }
+}
+allow_hungarian_ideals = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    visible = {
+        tag = AUS
+    }
+    available = {
+        tag = AUS
+    }
+    cost = 300
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            add = 10
+        }
+    }
+    days_remove = 100
+    fire_only_once = yes
+    remove_effect = {
+        add_stability = 0.05
+        43 = {
+            add_core_of = AUS
+        }
+        1168 = {
+            add_core_of = AUS
+        }
+        1167 = {
+            add_core_of = AUS
+        }
+        1170 = {
+            add_core_of = AUS
+        }
+        154 = {
+            add_core_of = AUS
+        }
+        928 = {
+            add_core_of = AUS
+        }
+        155 = {
+            add_core_of = AUS
+        }
+    }
+}
+croatian_equality = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    visible = {
+        tag = AUS
+    }
+    available = {
+        tag = AUS
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            add = 10
+        }
+    }
+    days_remove = 100
+    cost = 150
+    fire_only_once = yes
+    remove_effect = {
+        925 = {
+            add_core_of = AUS
+        }
+        109 = {
+            add_core_of = AUS
+        }
+        930 = {
+            add_core_of = AUS
+        }
+        956 = {
+            add_core_of = AUS
+        }
+        959 = {
+            add_core_of = AUS
+        }
+    }
+}
+galician_better_living_conditions = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    available = {
+        tag = AUS
+    }
+    visible = {
+        tag = AUS
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            add = 10
+        }
+    }
+    cost = 300
+    days_remove = 100
+    fire_only_once = yes
+    remove_effect = {
+        1114 = {add_core_of = AUS}
+        1008 = {add_core_of = AUS}
+        89 = {add_core_of = AUS}
+        869 = {add_core_of = AUS}
+        91 = {add_core_of = AUS}
+        888 = {add_core_of = AUS}
+        80 = {add_core_of = AUS}
+    }
+}
+transylvania_autonomy = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    available = {
+        tag = AUS
+    }
+    visible = {
+        tag = AUS
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            add = 10
+        }
+    }
+    cost = 150
+    days_remove = 100
+    fire_only_once = yes
+    remove_effect = {
+        946 = {add_core_of = AUS}
+        83 = {add_core_of = AUS}
+        84 = {add_core_of = AUS}
+        887 = {add_core_of = AUS}
+        76 = {add_core_of = AUS}
+    }
+}
+bohemian_autonomy = {
+    icon = GFX_decision_CHL_grant_full_rights_to_the_mapuche
+    available = {
+        tag = AUS
+    }
+    visible = {
+        tag = AUS
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            add = 10
+        }
+    }
+    cost = 150
+    days_remove = 100
+    fire_only_once = yes
+    remove_effect = {
+        9 = {add_core_of = AUS}
+        75 = {add_core_of = AUS}
+    }
+}
+}

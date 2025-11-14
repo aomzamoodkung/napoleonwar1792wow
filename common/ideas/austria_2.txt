@@ -1,0 +1,1405 @@
+ideas = {
+	## Starting Ideas ##
+	country = {
+
+		AUS_centre_of_europe = {
+			picture = idea_AUS_centre_of_europe
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.4		
+				monarchist_acceptance = 25
+			}
+		}
+
+		AUS_ethnic_tension = {
+			picture = idea_AUS_ethnic_tension
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.0015
+			}
+		}
+
+		AUS_francis_the_great = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.0010
+				political_power_gain = 0.5
+				command_power_gain = -0.1
+				max_training = -0.15
+			}
+		}
+
+		AUS_pro_habsburg_propaganda = {
+			picture = AUS_pro_habsburg_propaganda
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchism
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				GER = {
+					monarchist_drift = 0.03
+				}
+			}
+		}
+
+		AUS_french_aggression = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				guarantee_tension = 0.2
+				war_support_weekly = 0.005
+			}
+		}
+
+		AUS_the_empire_on_its_knees = {
+			picture = AUS_the_empire_on_its_knees
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				GER = {
+					is_puppet_of = AUS
+				}
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.003
+				political_power_gain = -0.5
+				war_support_weekly = -0.002
+			}
+		}
+
+		AUS_portraits_of_the_kaiser = {
+			picture = idea_AUS_francis_the_great
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			available = {
+				has_government = monarchist
+			}
+	
+
+			removal_cost = -1
+			
+			modifier = {
+				monarchist_drift = 0.03
+			}
+		}
+		Austria_at_War = {
+        picture = FRA_fortification_focus
+        modifier = {
+            production_speed_arms_factory_factor = 0.2
+        }
+    }
+    Aggressive_Stance = {
+        picture = generic_infantry_equipment_manufacturer_2
+
+    modifier = {
+        army_attack_against_minor_factor = 0.7
+        army_defense_against_minor_factor = 0.7
+    }
+    }
+    Defensive_Stance = {
+        picture = generic_infantry_equipment_manufacturer_2
+
+    modifier = {
+        army_defence_against_minor_factor = 0.3
+    }
+    }
+
+
+
+
+Leader_of_The_HRE = {
+    picture = generic_deal_with_the_devil
+    allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+    modifier = {
+        monthly_population = 0.2
+        ai_focus_aggressive_factor = 0.4
+        political_power_gain = -0.40
+    }
+}
+Austrian_Funding = {
+    picture = generic_supply_depot
+    allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_arms_factory_factor = 0.3
+                production_speed_industrial_complex_factor = 0.3
+            }
+}
+    
+
+
+erhöhte_Finanzierung = {
+    picture = generic_goods_red_bonus
+    allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_efficiency_cap = 0.4
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_start_efficiency_factor = 0.05
+            }
+}
+aus_the_extinction_of_the_house_of_habsburg_1 = {
+picture = AUS_empire_restored
+                always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                army_speed_factor = -0.15
+                stability_factor = -0.15
+                war_support_factor = -0.15
+            }
+}
+    
+Höherer_Arbeits_Dienst = {
+    picture = RAJ_private_military_complex
+    allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_arms_factory_factor = 0.2
+                stability_factor = 0.05
+                war_support_factor = 0.1
+            }
+
+}
+the_extinction_of_the_house_of_habsburg_2 = {
+picture = AUS_empire_restored
+                always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                army_speed_factor = -0.10
+                stability_factor = -0.10
+                war_support_factor = -0.10
+            }
+}
+the_extinction_of_the_house_of_habsburg_3 = {
+picture = AUS_empire_restored
+                always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                army_speed_factor = -0.05
+                stability_factor = -0.05
+                war_support_factor = -0.05
+            }
+}
+Austrian_Augsleich = {
+    picture = AUS_empire_restored
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                army_speed_factor = 0.1
+                stability_factor = 0.1
+                war_support_factor = 0.1
+                defence = 0.05
+            }
+}
+Improved_Adminstration = {
+    picture = HUN_hungarian_monarchy_habsburg
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = 1
+                stability_weekly = 0.005
+            }
+}
+Decreasing_Democratic_Support = {
+    picture = GFX_idea_generic_propaganda
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+    modifier = {
+         democratic_drift = -0.02
+    }
+} 
+Matters_of_democracy_support = {
+    picture = generic_democratic_opposition
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_weekly = -0.005
+            }
+}
+Embracing_of_Democracy = {
+    picture = HUN_hungarian_monarchy_democratic
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                democratic_drift = 0.05
+            }
+}
+AUS_Operation_Schnepfenjagd = {
+    picture = generic_war_preparation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = 0.1
+                ai_focus_aggressive_factor = 1
+            }
+}
+AUS_War_on_the_alps = {
+    picture = generic_war_preparation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = 0.4
+                ai_focus_aggressive_factor = 0.4
+            }
+}
+multi_ethnic_army = {
+    picture = NORDIC_army_communist
+always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = -0.15
+                defence = -0.1
+                speed = -0.1
+                army_org = -10.0
+                max_planning = 0.4
+                stability_weekly = -0.001
+                supply_consumption_factor = -0.3
+                attrition = -0.2
+            }
+}
+suppress_minorities = {
+    picture = FRA_scw_intervention_republicans_focus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.1
+                war_support_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industry_repair_factor = -0.2
+            }
+}
+austrian_compromise = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_industrial_complex_factor = 0.1
+                consumer_goods_factor = -0.1
+                conscription = 0.2
+            }
+}
+austrian_economic_intergration = {
+    picture = GER_economy_of_conquest
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                cic_to_overlord_factor = 0.5
+                mic_to_overlord_factor = 0.5
+                autonomy_gain_ll_to_overlord = 0.5
+            }
+}
+imperial_construction_scheme = {
+    picture = SOV_romanov_reconstruction_ccp_sov_compatibility
+    always = no
+    allowed_civil_war = {
+        always = yes
+    }
+    removal_cost = -1
+    modifier = {
+        production_speed_buildings_factor = 0.1
+    }
+}
+poor_galicia = {
+    picture = RAJ_partition_chaos_bad
+ always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.2
+                stability_weekly = -0.001
+                monthly_population = -0.3
+            }
+}
+poor_galicia_1 = {
+    picture = RAJ_partition_chaos_bad
+ always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.15
+                stability_weekly = 0.0001
+                monthly_population = -0.2
+            }
+}
+secure_federation = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = -0.2
+                surrender_limit = 0.4
+            }
+}
+poor_galicia_2 = {
+    picture = RAJ_partition_chaos_bad
+ always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.10
+                stability_weekly = 0.001
+                monthly_population = -0.1
+                consumer_goods_factor = 0.1
+            }
+}
+galicia_adminstration = {
+    picture = AUS_covering_the_phonix_insurance
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.05
+                production_speed_industrial_complex_factor = 0.1
+            }
+}
+stable_galicia = {
+    picture = RAJ_partition_chaos_bad
+ always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                consumer_goods_factor = 0.15
+            }
+}
+multi_ethnic_army_2 = {
+    picture = NORDIC_army_communist
+always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = -0.10
+                defence = -0.1
+                speed = -0.05
+                army_org = -10.0
+                max_planning = 0.3
+                stability_weekly = -0.001
+                supply_consumption_factor = -0.15
+                attrition = -0.15
+            }
+}
+military_schools = {
+    picture = GER_german_military
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_army_factor = 0.001
+            }
+}
+modernization_of_the_army = {
+    picture = NORDIC_army_democratic
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            army_core_attack_factor = 0.05
+            army_core_defence_factor = -0.1
+            }
+}
+modernization_of_the_army_2 = {
+    picture = FRA_scw_intervention_republicans_focus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                breakthrough_factor = 0.05
+                army_core_attack_factor = 0.05
+                army_core_defence_factor = -0.15
+            }
+}
+OTO_war_reperations = {
+picture = FRA_scw_intervention_republicans_focus
+always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.4
+                stability_factor = -0.2
+                war_support_factor = -0.7
+            }
+}
+AUS_war_reps_victory = {
+    picture = ARG_growing_nationalism_modifier
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.2
+                stability_factor = 0.05
+                war_support_factor = -0.1
+            }
+}
+anti_austrian_sentiment = {
+    picture = AUS_farr
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_weekly = -0.001
+                political_power_gain = -0.05
+                industry_free_repair_factor = -0.45
+                neutrality_acceptance = -0.2
+                compliance_growth_on_our_occupied_states = -0.2
+                resistance_activity = 0.1
+            }
+}
+modernization_of_the_army_3 = {
+    picture = FRA_scw_intervention_republicans_focus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                breakthrough_factor = 0.1
+                army_core_attack_factor = 0.05
+                army_core_defence_factor = -0.20
+                experience_gain_army_unit = 0.05
+            }
+}
+increased_labor = {
+    picture = ARG_public_works_investment
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                weekly_manpower = -650
+            }
+}
+foreign_workers = {
+    picture = generic_manpower_bonus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                weekly_manpower = 1000
+            }
+}
+modernization_of_the_army_4 = {
+     picture = FRA_scw_intervention_republicans_focus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                breakthrough_factor = 0.15
+                army_core_attack_factor = 0.1
+                army_core_defence_factor = -0.15
+                experience_gain_army_unit = 0.5
+            }
+}
+multi_ethnic_army_3 = {
+    picture = NORDIC_army_communist
+always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = -0.05
+                defence = -0.05
+                speed = 0.05
+                army_org = -10.0
+                max_planning = 0.3
+                stability_weekly = -0.001
+                supply_consumption_factor = -0.1
+                attrition = -0.05
+            }
+}
+unitied_army = {
+    picture = NORDIC_army_communist
+     picture = AFG_parliament_building
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = 0.05
+                defence = 0.05
+                spped = 0.05
+                army_org = 5.0
+                max_planning = 0.1
+                acclimatization_cold_climate_gain_factor = 0.2
+                army_breakthrough_against_major_factor = 0.25
+                army_morale = 0.05
+                command_power_gain = 0.1
+                experience_gain_army = 0.5
+                supply_consumption_factor = 0.15
+                attrition = 0.05
+            }
+}
+strenghten_ties_with_bohemia = {
+    picture = generic_deal_with_the_devil2
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                autonomy_gain_ll_to_overlord = -0.1
+                party_popularity_stability_factor = 0.2
+                political_power_gain = -0.15
+            }
+}
+bohemian_parliament = {
+    picture = AFG_parliament_building
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = 0.15
+                stability_weekly = -0.005
+                consumer_goods_factor = 0.4
+            }
+}
+limited_bohemian_parliament = {
+    picture = AFG_parliament_building
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = -0.15
+                stability_weekly = -0.001
+                consumer_goods_factor = 0.2
+            }
+}
+economy_in_decline = {
+    picture = generic_economic_crisis
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.3
+                industrial_capacity_factory = -0.25
+                consumer_goods_factor = 0.25
+                max_production_efficiency = -0.06
+            }
+}
+economy_in_decline_1 = {
+    picture = generic_economic_crisis
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.25
+                industrial_capacity_factory = -0.2
+                consumer_goods_factor = 0.2
+                max_production_efficiency = -0.01
+            }
+}
+economy_in_decline_2 = {
+    picture = generic_economic_crisis
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.15
+                industrial_capacity_factory = -0.15
+                consumer_goods_factor = 0.1
+                max_production_efficiency = 0.001
+            }
+}
+economy_in_decline_3 = {
+    picture = generic_economic_crisis
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = -0.05
+                industrial_capacity_factory = -0.1
+                consumer_goods_factor = 0.05
+                max_production_efficiency = 0.001
+            }
+}
+growing_economy = {
+    picture = generic_economic_crisis
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
+                consumer_goods_factor = -0.05
+                max_production_efficiency = 0.001
+            }
+}
+military_plan = {
+    picture = SOV_third_five_year_plan_military
+
+always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_arms_factory_factor = 0.2
+                industrial_capacity_factory = 0.15
+                production_efficiency_cap = 0.1
+}
+}
+industrial_plan = {
+    picture = SOV_third_five_year_plan_military
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                cic_construction_boost = 0.1
+                production_speed_buildings_factor = 0.05
+                production_efficiency_cap = 0.2
+                production_speed_industrial_complex_factor = 0.05
+            }
+}
+investments_in_austria = {
+    picture = ARG_civilian_economy_boost
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.1
+            }
+}
+investments_from_a_foreign_country = {
+    picture = ARG_civilian_economy_boost
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_industrial_complex_factor = 0.1
+                consumer_goods_factor = 0.08
+            }
+}
+limited_investments_in_austria = {
+    picture = ARG_civilian_economy_boost
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.05
+            }
+}
+limited_investments_from_a_foreign_country = {
+    picture = ARG_civilian_economy_boost
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_industrial_complex_factor = 0.05
+                consumer_goods_factor = 0.05
+            }
+}
+vereintes_reich = {
+    picture = ITA_new_roman_empire_ns
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = 0.15
+                stability_factor = 0.15
+                add_war_support = 0.15
+            }
+}
+war_council = {
+    picture = AUS_aggression
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                add_weekly_war_support = 0.001
+            }
+}
+the_hereditary_land_decree_1 = {
+    picture = HUN_treaty_of_triannon
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain = -0.15
+                stability_factor = 0.02
+            }
+}
+chaos_in_the_empire = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.4
+                stability_factor = -0.45
+                war_support_factor = -0.45
+                conscription = -0.01
+                production_speed_buildings_factor = -0.2
+            }
+}
+chaos_in_the_empire_1 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.35
+                stability_factor = -0.40
+                war_support_factor = -0.40
+                conscription = -0.01
+                production_speed_buildings_factor = -0.17
+            }
+}
+chaos_in_the_empire_2 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.32
+                stability_factor = -0.37
+                war_support_factor = -0.40
+                conscription = -0.01
+                production_speed_buildings_factor = -0.15
+            }
+}
+chaos_in_the_empire_3 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.29
+                stability_factor = -0.35
+                war_support_factor = -0.45
+                conscription = -0.01
+                production_speed_buildings_factor = -0.13
+            }
+}
+chaos_in_the_empire_4 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.27
+                stability_factor = -0.32
+                war_support_factor = -0.43
+                conscription = -0.01
+                production_speed_buildings_factor = -0.11
+            }
+}
+chaos_in_the_empire_5 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.20
+                stability_factor = -0.25
+                war_support_factor = -0.5
+                conscription = -0.01
+                production_speed_buildings_factor = -0.05
+            }
+}
+chaos_in_the_empire_6 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = -0.1
+                stability_factor = -0.05
+                war_support_factor = -0.53
+                conscription = -0.01
+                production_speed_buildings_factor = -0.03
+            }
+}
+chaos_in_the_empire_7 = {
+    picture = GER_holy_roman_empire_of_the_german_nation
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                defence = 0.05
+                stability_factor = 0.05
+                war_support_factor = -0.57
+                conscription = -0.01
+                production_speed_buildings_factor = 0.1
+            }
+}
+centralize_bureacracy = {
+    picture = ARG_maintain_neutrality
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_weekly = 0.001
+                political_power_gain 0.25
+            }
+}
+chancellary = {
+    picture = AFG_parliament_building
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_gain 0.25
+                production_speed_buildings_factor = 0.05
+                production_efficiency_gain_factor = 0.25
+                production_efficiency_cap_factor = 0.3
+            }
+}
+the_coalition_army = {
+    picture = AFG_adopt_nufus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = 0.05
+                defence = -0.15
+            }
+}
+british_money_help = {
+    picture = NOR_printing_money
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.2
+                stability_factor = -0.05
+                production_efficiency_gain_factor = 0.05
+                production_efficiency_cap_factor = 0.1
+            }
+}
+bunker_focus = {
+    picture = FRA_fortification_focus
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_bunker_factor
+            }
+}
+italian_campaign = {
+    picture = AUS_volunteers_to_italy
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                offence = 0.2
+                defence = 0.2
+            }
+}
+hofkiregsrat = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                max_command_power = 0.4
+                army_speed_factor = 0.1
+                army_strength_factor = 0.1
+                army_org = 5
+                dig_in_speed = 5
+                army_morale = 5
+                org_loss_when_moving = 0.2
+            }
+}
+hofkiregsrat_1 = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                max_command_power = 0.4
+                army_speed_factor = 0.1
+                army_strength_factor = 0.1
+                army_org = 5
+                dig_in_speed = 5
+                army_morale = 5
+                org_loss_when_moving = 0.2
+                army_artillery_attack_factor = 0.1
+                army_artillery_defence_factor = 0.05
+            }
+}
+hofkiregsrat_2 = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                max_command_power = 0.5
+                army_speed_factor = 0.15
+                army_strength_factor = 0.15
+                army_org = 7
+                dig_in_speed = 3
+                army_morale = 7
+                org_loss_when_moving = 0.05
+                army_artillery_attack_factor = 0.1
+                army_artillery_defence_factor = 0.05
+            }
+}
+hofkiregsrat_3 = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                max_command_power = 0.5
+                army_speed_factor = 0.15
+                army_strength_factor = 0.15
+                army_org = 7
+                dig_in_speed = 3
+                army_morale = 7
+                org_loss_when_moving = 0.05
+                army_artillery_attack_factor = 0.1
+                army_artillery_defence_factor = 0.05
+                infantry_attack_factor = 0.15
+                infantry_defence_factor = 0.05
+            }
+}
+hofkiregsrat_4 = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                max_command_power = 0.5
+                army_speed_factor = 0.15
+                army_strength_factor = 0.15
+                army_org = 7
+                dig_in_speed = 3
+                army_morale = 7
+                org_loss_when_moving = 0.05
+                army_artillery_attack_factor = 0.1
+                army_artillery_defence_factor = 0.05
+                infantry_attack_factor = 0.2
+                infantry_defence_factor = 0.1
+                experience_gain_army = 0.5
+            }
+}
+AUS_lose_austrletiz = {
+    picture = chi_war_of_resistance3
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                attack = 0.5
+                production_efficiency_gain_factor = -0.24
+                production_efficiency_cap_factor = -0.24
+            }
+}
+moneyyes = {
+    picture = YUG_federal_defense_council
+    always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.1
+            }
+}
+moneyyes_1 = {
+    picture = POL_april_constitution
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+
+            removal_cost = -1
+
+
+            modifier = {
+                consumer_goods_factor = -0.15
+            }
+}
+moneyyes_2 = {
+    picture = POL_april_constitution
+     always = no
+            
+
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.15
+                production_cost_industrial_complex_factor = -0.2
+            }
+}
+
+	}
+}
