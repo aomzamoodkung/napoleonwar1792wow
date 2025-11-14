@@ -29,7 +29,7 @@ country_event = {   ## Puppet Refuse/Accept Style Event
 			factor = 0
 		}			
 		FRA = {
-			country_event = france.5
+			country_event = france.112
 		}
 	}
 }			
