@@ -226,6 +226,8 @@ country_event = {
 			transfer_state = 34
 			transfer_state = 6
 			transfer_state = 837
+			transfer_state = 42
+			transfer_state = 51
 			white_peace = AUS
 		}
         ENG = {
@@ -248,13 +250,14 @@ country_event = {
         }
 
         ai_chance = {
-			factor = 80	
+			factor = 60	
 		}		
 	}
 	option = { 
 		name = austria.10.b
+		set_global_flag = austria_denied
 		ai_chance = {
-			factor = 20	
+			factor = 40	
 		}	
 	}
 }

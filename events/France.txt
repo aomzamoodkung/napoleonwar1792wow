@@ -96,6 +96,22 @@ country_event = {
 	}
 }
 country_event = {
+	id = france.4
+	title = france.4.t
+	desc = france.4.d
+	picture = GFX_report_lafayette_flee
+	
+	trigger = {
+	    tag = FRA 
+		has_global_flag = austria_denied
+	}	
+	fire_only_once = yes
+	
+	option = {
+		name = france.4.a
+	}	
+}
+country_event = {
 	id = france.6
 	title = france.6.t
 	desc = france.6.d

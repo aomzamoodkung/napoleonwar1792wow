@@ -28,7 +28,7 @@ focus_tree = {
 
 		add_popularity = {
 			ideology = Democratic
-			popularity = 0.15
+			popularity = 0.10
 			
 			}
 		}
@@ -614,10 +614,8 @@ completion_reward = {
 	add_ideas = {
 		idea = war_council
 	}
-	set_country_flag = aus_first_war
 }
 }
-
 focus = {
 	id = Future_of_The_Empire
 	icon = GFX_focus_generic_befriend_austria
@@ -696,6 +694,9 @@ focus = {
 	ai_will_do = {
 		factor = 1
 		add = 100
+	}
+	allow_branch = {
+	set_country_flag = austrian_empire_route
 	}
 	prerequisite = {
 		focus = status_quo
@@ -1450,7 +1451,6 @@ focus = {
 mutually_exclusive = {
 	focus = augsleich_of_1796
 }
-
 	prerequisite = {
 		focus = question_of_minorities
 	}
@@ -1458,6 +1458,7 @@ mutually_exclusive = {
 		add_ideas = {
 			idea = suppress_minorities
 		}
+		set_country_flag = austrian_empire_route
 	}
 }
 focus = {
@@ -1475,6 +1476,9 @@ focus = {
 mutually_exclusive = {
 	focus = suppression_of_minorities
 }
+available = {
+	always = no
+}
 
 	prerequisite = {
 		focus = question_of_minorities
@@ -1484,6 +1488,7 @@ mutually_exclusive = {
 		add_ideas = {
 			idea = austrian_compromise
 		}
+		set_country_flag = danubian_federation_route
 	}
 }
 focus = {
@@ -1496,6 +1501,9 @@ focus = {
 
 	ai_will_do = {
 		factor = 1
+	}
+	allow_branch = {
+		set_country_flag = danubian_federation_route
 	}
 	prerequisite = {
 		focus = augsleich_of_1796
@@ -1535,6 +1543,10 @@ focus = {
 	ai_will_do = {
 		factor = 1
 	}
+	allow_branch = {
+		set_country_flag = austrian_empire_route
+	}
+
 	prerequisite = {focus = suppression_of_minorities}
 	completion_reward = {
 		add_political_power = 70
@@ -1854,8 +1866,10 @@ focus = {
 		add_ideas = {
 			idea = chaos_in_the_empire
 		}
+		set_country_flag = aus_empire_reformed
 	}
 }
+
 focus = {
 	id = a_reborn_empire
 	icon = GFX_focus_GER_expand_ss_security_duties
@@ -2092,15 +2106,7 @@ focus = {
 			}
 		}
 		declare_war_on = {
-			target = OTO
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = WAL
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = MOL
+			target = TUR
 			type = annex_everything
 		}
 	}
@@ -3049,6 +3055,7 @@ focus = {
 	}
 	add_political_power = 150
 }
+
 focus = {
 	id = economy_8
 	icon = GFX_focus_AUS_apprentice_programmes
@@ -3132,6 +3139,9 @@ focus = {
 	prerequisite = {
 		focus = proclaim_the_austrian_empire
 	}
+	allow_branch = {
+		set_country_flag = aus_empire_reformed
+	}
 	completion_reward = {
 		add_political_power = 120
 		add_stability = 0.05
@@ -3153,6 +3163,9 @@ focus = {
 	}
 	prerequisite = {
 		focus = proclaim_the_austrian_empire
+	}
+	allow_branch = {
+		set_country_flag = aus_empire_reformed
 	}
 	complete_effect = {
 		add_ideas = {
@@ -3339,6 +3352,9 @@ focus = {
 	}
 	prerequisite = {
 		focus = proclaim_the_austrian_empire
+	}
+	allow_branch = {
+		set_country_flag = aus_empire_reformed
 	}
 	completion_reward = {
 		add_ideas = { idea = moneyyes }
@@ -3789,7 +3805,7 @@ focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = proclaim_the_austrian_empire
+		focus = manage_territorial_loses
 	}
 	completion_reward = {
 		remove_idea = Leader_of_The_HRE
