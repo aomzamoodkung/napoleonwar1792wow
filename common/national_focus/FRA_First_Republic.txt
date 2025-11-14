@@ -760,7 +760,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_execute_the_jacobin_revolutionary_tribunal
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_jacobin_court
 		x = 1
 		y = 20
 		cost = 10
