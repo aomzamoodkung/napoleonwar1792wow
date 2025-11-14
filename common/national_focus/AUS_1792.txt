@@ -1,10 +1,10 @@
 focus_tree = {
 	id = austrian_focustree
-	continuous_focus_position = { x = 5 y = 750 } 
+	continuous_focus_position = { x = 2000 y = 2000 } 
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 100
 			tag = AUS
 		}
 	}
@@ -605,15 +605,6 @@ ai_will_do = {
 available ={
 	has_war = yes
 }
-prerequisite = {
-	focus = Augsleich
-}
-prerequisite = {
-	focus = die_Finanzierung_erh hen
-}
-prerequisite = {
-	focus = Improve_the_Military_Adminstration
-}
 
 completion_reward = {
 	add_political_power = 300
@@ -626,6 +617,7 @@ completion_reward = {
 	set_country_flag = aus_first_war
 }
 }
+
 focus = {
 	id = Future_of_The_Empire
 	icon = GFX_focus_generic_befriend_austria
@@ -636,9 +628,6 @@ focus = {
 
 	ai_will_do = {
 		factor = 3
-	}
-	allow_branch = {
-		set_country_flag = aus_first_war
 	}
 	prerequisite = {
 		focus = Continental_War
