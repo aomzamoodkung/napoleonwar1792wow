@@ -419,11 +419,48 @@ ideas = {
 	    }
 
 	    removal_cost = -1
-	    targeted_modifier = {
-		    has_idea = INT_italian_identity
-		    attack_bonus_against = 0.05
-		    defense_bonus_against = 0.05
-	    }
+	    targeted_modifier = {					
+			tag = PDS
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = PPL
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = LUC
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = VNI
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = MOD
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = GEN
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = NAP
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
     }
 
 	}

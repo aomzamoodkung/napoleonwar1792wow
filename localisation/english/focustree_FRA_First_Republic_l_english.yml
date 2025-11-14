@@ -38,7 +38,7 @@ FRA_the_last_of_the_royals:0 "The Last Of The Royals"
 
 FRA_allow_dantons_reforms:0 "Allow Dantons Reforms"
 
-FRA_execute_georges_danton:0 "Execite Georges Dantons"
+FRA_execute_georges_danton:0 "Execute Georges Dantons"
 
 FRA_cult_of_the_supreme_being:0 "Cult Of The Supreme Being"
 
@@ -72,7 +72,7 @@ FRA_execute_the_jacobin_revolutionary_tribunal:0 "Execute The Jacobin Revolution
 
 FRA_reign_of_terror_disarming_decree:0 "Reign Of Terror Disarming Decree"
 
-FRA_present_the_1792_constitution:0 "Present The 1792 Constitution"
+FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
 
 FRA_inegrate_the_constitution:0 "Integrate The Constitution"
 
@@ -162,7 +162,6 @@ FRA_sister_republics:0 "Sister Republics"
 
 FRA_plan_a_new_campaign:0 "Plan A New Campaign"
 
-FRA_make_napoleon_commander_of_itallian_forces:0 "Make Napoleon Ruler of Italy"
 
 FRA_rhine_integration:0 "Rhine Integration"
 
@@ -178,11 +177,12 @@ FRA_complete_fail:0 "A Complete Fail"
 
 FRA_a_final_attempt:0 "A Final Attempt"
 
-FRA_itallian_campaign:0 "Itallian Campaign"
+FRA_itallian_campaign:0 "Italian Campaign"
 
 FRA_utter_destruction:0 "Utter Destruction"
 
 FRA_march_on_vienna:0 "March On Vienna"
+FRA_march_on_vienna_desc:0 "Our main enemy for centuries will fall humiliated when our soldiers march victoriously towards the royal palace of the Habsburgs. We will demonstrate that no world power can confront our republic's Grande Armée and they will fall before our judgment if we do not leave their lands devastated and destroyed. Then France will reign for centuries."
 
 FRA_first_treaty_of_base:0 "First Treaty Of Base"
 
@@ -257,7 +257,7 @@ FRA_polish_deserters_desc:0 "The Poles know that we are going to free them from 
 
 FRA_irish_deserters:0 "Irish Deserters"
 
-FRA_enlist_itallians:0 "Enlist Itallians"
+FRA_enlist_itallians:0 "Enlist Italians"
 
 FRA_enlist_swiss:0 "Enlist Swiss"
 
