@@ -27,7 +27,7 @@ country_event = {   ## Puppet Refuse/Accept Style Event
 		}
 		HOL = {
 		    transfer_state = 7
-			transfer_state = 35
+			transfer_state = 36
 			white_peace = FRA
 			set_cosmetic_tag = DSR_HOL
 		}

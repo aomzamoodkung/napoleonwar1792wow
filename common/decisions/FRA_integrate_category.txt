@@ -8,6 +8,13 @@ FRA_integrate_category = {
         fire_only_once = yes
         cancel_if_invalid = yes
         days_remove = 0
+		highlight_states = {
+			highlight_state_targets = { 
+			                            state = 42
+										state = 51
+										
+			} 
+		}
 
         available = {
             42 = {
@@ -42,6 +49,16 @@ FRA_integrate_category = {
         icon = GFX_decision_generic_occupation
 
         allowed = { original_tag = FRA }
+		   
+		    highlight_states = {
+		        highlight_state_targets = { 
+			                        state = 915
+									state = 911
+									state = 914
+									state = 159
+										
+		        } 
+			} 	
 
         cost = 50
         fire_only_once = yes
