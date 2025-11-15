@@ -16,18 +16,16 @@ set_politics = {
     war_support = 0.25
 }
 set_popularities = {
-	democratic = 20
-	authoritarian = 20
-	monarchist = 60
-	socialism = 0
+    authoritarian_democracy = 0.70
+    neutrality = 0.20
+    communism = 0.05
+    fascism = 0.05
 }
-give_guarantee = AUS
 	add_ideas = {
-		protestant
-		mildintervention
+		catholic
 		puppet
 	}
 }
 
-recruit_character = PRE_Frederick_William_II
+recruit_character = 
 
