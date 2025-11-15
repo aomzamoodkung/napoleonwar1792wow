@@ -191,13 +191,6 @@ FRA_utter_destruction:0 "Utter Destruction"
 FRA_march_on_vienna:0 "March On Vienna"
 FRA_march_on_vienna_desc:0 "Our main enemy for centuries will fall humiliated when our soldiers march victoriously towards the royal palace of the Habsburgs. We will demonstrate that no world power can confront our republic's Grande Armée and they will fall before our judgment if we do not leave their lands devastated and destroyed. Then France will reign for centuries."
 
-FRA_first_treaty_of_base:0 "First Treaty Of Base"
-
-FRA_second_treaty_of_base:0 "Second Treaty Of Base"
-
-FRA_third_treaty_of_base:0 "Third Treaty Of Base"
-
-FRA_second_treaty_of_san_ildefonso:0 "Second Treaty Of San Ildefonso"
 
 FRA_northern_republics:0 "Northern Republics"
 
@@ -250,7 +243,7 @@ FRA_exile_pope_pius_vi_to_france:0 "Exile Pope Pius VI To France"
 FRA_enlist_foreigners:0 "Enlist Foreigners"
 
 FRA_prussian_deserters:0 "Prussian Deserters"
-FRA_prussian_deserters:0 "The tricolor banners march over Germanic territory. It is a war of attrition, but with a political cause, we are a people who have decided freedom before servitude while the Prussian monarchy has still been left behind. But there are Prussians who are aware that the best thing is to prioritize their freedom before their identity; That is why we will welcome those who wish to march in our lines in the name of liberation."
+FRA_prussian_deserters_desc:0 "The tricolor banners march over Germanic territory. It is a war of attrition, but with a political cause, we are a people who have decided freedom before servitude while the Prussian monarchy has still been left behind. But there are Prussians who are aware that the best thing is to prioritize their freedom before their identity; That is why we will welcome those who wish to march in our lines in the name of liberation."
 
 FRA_austrian_deserters:0 "Austrian Deserters"
 FRA_austrian_deserters_desc:0 "They know us for our military power and for the victories of our regiments and generals. But above all because our cause is just, we are not massacring their armies because we want to, but because the Emperor of Austria fears us. The eagle no longer flies on the banners of some of their regiments, as they have joined our ranks to unite depose the emperor once and for all."
