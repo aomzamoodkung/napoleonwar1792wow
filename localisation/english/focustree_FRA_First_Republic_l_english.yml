@@ -250,8 +250,10 @@ FRA_exile_pope_pius_vi_to_france:0 "Exile Pope Pius VI To France"
 FRA_enlist_foreigners:0 "Enlist Foreigners"
 
 FRA_prussian_deserters:0 "Prussian Deserters"
+FRA_prussian_deserters:0 "The tricolor banners march over Germanic territory. It is a war of attrition, but with a political cause, we are a people who have decided freedom before servitude while the Prussian monarchy has still been left behind. But there are Prussians who are aware that the best thing is to prioritize their freedom before their identity; That is why we will welcome those who wish to march in our lines in the name of liberation."
 
 FRA_austrian_deserters:0 "Austrian Deserters"
+FRA_austrian_deserters_desc:0 "They know us for our military power and for the victories of our regiments and generals. But above all because our cause is just, we are not massacring their armies because we want to, but because the Emperor of Austria fears us. The eagle no longer flies on the banners of some of their regiments, as they have joined our ranks to unite depose the emperor once and for all."
 
 FRA_enlist_dutchmen:0 "Enlist Dutchmen"
 
@@ -345,7 +347,7 @@ FRA_direct_rule_from_paris:0 "Direct Rule From Paris"
 
 FRA_return_of_haitian_slavery:0 "Return Of Haitian Slavery"
 FRA_organizer_of_victory:0 "Organizer of Victory"
-FRA_representatives_on_mission:0 "Representatives on Mission"
+FRA_representatives_on_mission:0 "Representatives in Front"
 FRA_meritocratic_officer_corps:0 "Meritocratic Officer Corps"
 FRA_amalgame_reform:0 "Amalgame Reform"
 FRA_levee_en_masse:0 "Levée en Masse"
