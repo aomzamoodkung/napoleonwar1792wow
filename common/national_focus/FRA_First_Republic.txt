@@ -1490,13 +1490,12 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -20
 		y = 4
-		cost = 10
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
 		available = {
 			owns_state = 840
-			owns_state = 158
 		}
 
 		completion_reward = {
@@ -1508,40 +1507,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_republic_of_lucca
-		icon = GFX_focus_fra_le_deluge
-		x = -20
-		y = 5
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_ligurian_republic }
-		relative_position_id = FRA_promote_napoleon
-
-		available = {
-			FRA = {
-				owns_state = 911
-			}
-		}
-
-		completion_reward = {
-			FRA = {				
-				release = LUC
-			}
-			LUC = {
-				set_cosmetic_tag = FRA_LUC
-			}
-			puppet = LUC
-		}
-	}
-
-	focus = {
 		id = FRA_domination_of_southern_italy
 		icon = GFX_focus_fra_le_deluge
 		x = -20
-		y = 6
-		cost = 5
+		y = 5
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_republic_of_lucca }
+		prerequisite = { focus = FRA_ligurian_republic }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 			set_cosmetic_tag = FRP_FRA
