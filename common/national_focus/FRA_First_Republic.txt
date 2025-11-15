@@ -1512,20 +1512,19 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -20
 		y = 5
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_ligurian_republic }
 		relative_position_id = FRA_promote_napoleon
 
 		available = {
-			ITA = {
-				is_puppet_of = FRA
+			FRA = {
 				owns_state = 911
 			}
 		}
 
 		completion_reward = {
-			ITA = {				
+			FRA = {				
 				release = LUC
 			}
 			LUC = {
@@ -1536,11 +1535,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_parthenopean_republic
+		id = FRA_domination_of_southern_italy
 		icon = GFX_focus_fra_le_deluge
 		x = -20
 		y = 6
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_republic_of_lucca }
 		relative_position_id = FRA_promote_napoleon
@@ -1553,94 +1552,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_republic_of_sicily
-		icon = GFX_focus_fra_le_deluge
-		x = -20
-		y = 7
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_parthenopean_republic }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
-		}
-	}
-
-	focus = {
-		id = FRA_domination_of_southern_italy
-		icon = GFX_focus_fra_le_deluge
-		x = -20
-		y = 8
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_republic_of_sicily }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
-		}
-	}
-
-	focus = {
-		id = FRA_cispadane_republic
-		icon = GFX_focus_fra_le_deluge
-		x = -18
-		y = 4
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_southern_republics }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			
-		}
-	}
-
-	focus = {
 		id = FRA_establish_a_civic_guard
 		icon = GFX_focus_fra_le_deluge
 		x = -18
-		y = 5
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_cispadane_republic }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
-		}
-	}
-
-	focus = {
-		id = FRA_cisalpine_republic
-		icon = GFX_focus_fra_le_deluge
-		x = -17
-		y = 6
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_establish_a_civic_guard }
-		prerequisite = { focus = FRA_lombard_administration }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
-		}
-	}
-
-	focus = {
-		id = FRA_transpadane_republic
-		icon = GFX_focus_fra_le_deluge
-		x = -16
 		y = 4
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
@@ -1656,10 +1572,10 @@ focus_tree = {
 		id = FRA_lombard_administration
 		icon = GFX_focus_fra_le_deluge
 		x = -16
-		y = 5
+		y = 4
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_transpadane_republic }
+		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 			set_cosmetic_tag = FRP_FRA
@@ -1740,8 +1656,19 @@ focus_tree = {
 		y = 5
 		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_allow_the_revolutionary_committees_to_take_charge }
+		prerequisite = { focus = FRA_the_dutch_versailles }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+            681 = {
+                is_owned_and_controlled_by = FRA
+            }
+			719 = {
+                is_owned_and_controlled_by = FRA
+            }
+			275 = {
+                is_owned_and_controlled_by = FRA
+            }
+        }
 		completion_reward = {	
 			set_cosmetic_tag = FRP_FRA
 
@@ -1754,7 +1681,7 @@ focus_tree = {
 		id = FRA_defence_of_the_cape_colonies
 		icon = GFX_focus_fra_le_deluge
 		x = -11
-		y = 7
+		y = 6
 		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_establish_south_african_republics }

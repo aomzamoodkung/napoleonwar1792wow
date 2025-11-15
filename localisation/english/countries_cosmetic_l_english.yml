@@ -52,24 +52,24 @@
  HEL_SWI:0 "Helvetic Republic"
  HEL_SWI_DEF:0 "the Helvetic Republic"
 
-############################
-## AUSTRIAN COSMETIC TAGS ##
-############################
+ ############################
+ ## AUSTRIAN COSMETIC TAGS ##
+ ############################
 
 ## Austrian Habsburgs ##
 
-HAB_AUS:0 "Austrian Habsburgs"
-HAB_AUS_DEF:0 "the Austrian Habsburgs"
+ HAB_AUS:0 "Austrian Habsburgs"
+ HAB_AUS_DEF:0 "the Austrian Habsburgs"
 
 ## Austro-Hungarian Empire ##
 
-AHU_AUS:0 "Austro-Hungarian Empire"
-AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
+ AHU_AUS:0 "Austro-Hungarian Empire"
+ AHU_AUS_DEF:0 "the Austro-Hungarian Empire"
 
 ## Austrian Empire ##
 
-EMP_AUS_DEF:0 "the Austrian Empire"
-EMP_AUS:0 "Austrian Empire"
+ EMP_AUS_DEF:0 "the Austrian Empire"
+ EMP_AUS:0 "Austrian Empire"
 
 
 ###########################
@@ -78,18 +78,20 @@ EMP_AUS:0 "Austrian Empire"
 
 ## Austrian Netherlands ##
 
-AUN_BEL:0 "Austrian Netherlands"
-AUN_BEL_DEF:0 "the Austrian Netherlands"
+ AUN_BEL:0 "Austrian Netherlands"
+ AUN_BEL_DEF:0 "the Austrian Netherlands"
 
 ##########################
 ## Sister Republic Tags ##
 ##########################
 
-LIG_GEN:0 "Ligurian Republic"
-LIG_DEF:0 "the Ligurian Republic"
+ LIG_GEN:0 "Ligurian Republic"
+ LIG_DEF:0 "the Ligurian Republic"
 
-FRA_LUC:0 "French Republic of Lucca"
-FRA_LUC_DEF:0 "the French Republic of Lucca"
+ FRA_LUC:0 "French Republic of Lucca"
+ FRA_LUC_DEF:0 "the French Republic of Lucca"
+ DSR_HOL:0 "Batavian Republic"
+ DSR_HOL_DEF:0 "The Batavian Republic"
 
 
 ############################
@@ -98,7 +100,7 @@ FRA_LUC_DEF:0 "the French Republic of Lucca"
 
 ## Portuguese Colonial Tags ##
 
-POB_BRA:0 "Portuguese Brazil"
+ POB_BRA:0 "Portuguese Brazil"
 
 ## British Colonial Tags ##
 

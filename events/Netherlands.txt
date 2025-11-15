@@ -2,7 +2,7 @@
 # austrian Events
 ###########################
 
-add_namespace = Netherlands
+add_namespace = netherlands
 
 country_event = {   ## Puppet Refuse/Accept Style Event
 	id = netherlands.1
@@ -19,17 +19,17 @@ country_event = {   ## Puppet Refuse/Accept Style Event
 		} 
 		FRA = {
 			puppet = HOL
+			transfer_state = 35
+			transfer_state = 309
+			transfer_state = 890
+			transfer_state = 719
+			transfer_state = 275
 		}
-		set_cosmetic_tag = DSR_HOL
-	}
-
-	option = { # netherlands Decline
-		name = netherlands.1.b
-		ai_chance = { 
-			factor = 0
-		}			
-		FRA = {
-			country_event = france.112
+		HOL = {
+		    transfer_state = 7
+			transfer_state = 35
+			white_peace = FRA
+			set_cosmetic_tag = DSR_HOL
 		}
 	}
 }			
