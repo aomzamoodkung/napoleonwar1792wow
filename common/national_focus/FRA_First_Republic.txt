@@ -583,6 +583,7 @@ focus_tree = {
 		completion_reward = {	
 		    retire_character = FRA_Alexandre_Francois_De_Beauharnais
 			custom_effect_tooltip = remove_beauharnais_tt
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_5 add_idea = FRA_pre_10_august_army_6 }
 		}
 	}
 
@@ -1937,66 +1938,93 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_first_treaty_of_base
+		id = FRA_levee_en_masse
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 2
-		cost = 10
+		cost = 6.4
 		search_filters = { FOCUS_FILTER_POLITICAL }	
+		available = { 
+		    has_completed_focus = FRA_arm_youself_citizens 
+		}
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
+		    swap_ideas = { remove_idea = FRA_pre_10_august_army_2 add_idea = FRA_pre_10_august_army_3 }
 		}
 	}
 
 	focus = {
-		id = FRA_second_treaty_of_base
+		id = FRA_new_chief
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 3
-		cost = 10
+		cost = 4.4
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_first_treaty_of_base }
+		prerequisite = { focus = FRA_levee_en_masse }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			 swap_ideas = { remove_idea = FRA_pre_10_august_army_3 add_idea = FRA_pre_10_august_army_4 }
 		}
 	}
 
 	focus = {
-		id = FRA_third_treaty_of_base
+		id = FRA_amalgame_reform
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 4
-		cost = 10
+		cost = 4.2
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_second_treaty_of_base }
+		prerequisite = { focus = FRA_new_chief }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_4 add_idea = FRA_pre_10_august_army_5 }
 		}
 	}
 
 	focus = {
-		id = FRA_second_treaty_of_san_ildefonso
+		id = FRA_meritocratic_officer_corps
 		icon = GFX_focus_fra_le_deluge
 		x = 2
 		y = 5
-		cost = 10
+		cost = 4.2
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_third_treaty_of_base }
+		prerequisite = { focus = FRA_amalgame_reform }
+		available = { 
+		    has_completed_focus = FRA_the_last_of_the_royals
+		}
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_6 add_idea = FRA_pre_10_august_army_7 }
+		}
+	}
+	focus = {
+		id = FRA_representatives_on_mission
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 6
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_meritocratic_officer_corps }
+		available = { 
+		    has_completed_focus = FRA_the_last_of_the_royals
+		}
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_7 add_idea = FRA_pre_10_august_army_8 }
+		}
+	}
+	focus = {
+		id = FRA_organizer_of_victory
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_representatives_on_mission }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+			swap_ideas = { remove_idea = FRA_pre_10_august_army_8 add_idea = FRA_pre_10_august_army_10 }
 		}
 	}
 	
