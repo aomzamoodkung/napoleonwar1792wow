@@ -89,6 +89,7 @@ ideas = {
 
 		puppet = {
 			available = {
+			    always = no
 				is_puppet = yes	
 			}
 			

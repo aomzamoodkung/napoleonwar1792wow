@@ -30,6 +30,10 @@ add_equipment_to_stockpile = {
 	producer = CIS
 }
 
+add_ideas = {
+    puppet
+}	
+
 ################
 ## CHARACTERS ##
 ################
