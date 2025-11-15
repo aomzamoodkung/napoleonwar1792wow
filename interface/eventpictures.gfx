@@ -51,6 +51,10 @@ spriteTypes = {
 		name = "GFX_report_fate_swiss"
 		texturefile = "gfx/event_pictures/report_fate_swiss.dds"
 	}
+	spriteType = {
+		name = "GFX_report_fate_savoy"
+		texturefile = "gfx/event_pictures/report_fate_savoy.dds"
+	}
 
 }
 

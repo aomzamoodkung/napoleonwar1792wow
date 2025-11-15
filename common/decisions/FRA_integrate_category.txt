@@ -45,6 +45,46 @@ FRA_integrate_category = {
         ai_will_do = { factor = 1 }
     }
 	
+	FRA_integrate_savoy_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 100
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+		highlight_states = {
+			highlight_state_targets = { 
+			                        state = 158							
+			} 
+		}
+		
+		visible = {
+		    has_country_flag = FRA_intergate_savoy
+		}	
+
+        available = {
+            158 = {
+                is_owned_and_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+        }
+
+        complete_effect = {
+            FRA = {
+				add_state_core = 158
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
 	FRA_create_cisalpine_republic = {
         icon = GFX_decision_generic_occupation
 

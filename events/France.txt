@@ -217,6 +217,35 @@ country_event = {
 		}	
 	}
 }
+country_event = {
+	id = france.501
+	title = france.501.a
+	desc = france.501.b
+	picture = GFX_report_fate_savoy
+	
+	trigger = {
+	    tag = FRA
+		has_global_flag = savoy_surrender_first
+	}	
+	
+	option = {
+		name = france.501.c
+		release_puppet = PIR
+		PIR = {
+		    transfer_state = 158
+		}			
+		ai_chance = {
+			factor = 80	
+		}	
+	}
+	option = {
+		name = france.501.d
+		set_country_flag = FRA_intergate_savoy
+		ai_chance = {
+			factor = 20	
+		}	
+	}
+}
 
 
 
