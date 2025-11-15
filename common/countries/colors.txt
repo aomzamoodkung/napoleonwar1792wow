@@ -4,6 +4,14 @@ NFL = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
+CIS = {
+	color = rgb { 66 176 255 }
+	color_ui = rgb { 66 176 255 }
+}
+PIR = {
+	color = rgb { 66 176 255 }
+	color_ui = rgb { 66 176 255 }
+}
 RJT = {
 	color = rgb { 180  4  68 }
 	color_ui = rgb { 180  4  68 }
