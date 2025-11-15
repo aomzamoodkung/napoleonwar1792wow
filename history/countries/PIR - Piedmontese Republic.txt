@@ -1,0 +1,33 @@
+capital = 64
+
+oob = PIR_1795
+
+set_convoys = 300
+
+1792.1.1 = {
+
+set_politics = {
+    ruling_party = authoritarian_democracy
+    elections_allowed = yes
+    election_frequency = 48
+    last_election = "1792.1.1"
+
+    stability = 0.45
+    war_support = 0.25
+}
+set_popularities = {
+	democratic = 20
+	authoritarian = 20
+	monarchist = 60
+	socialism = 0
+}
+give_guarantee = AUS
+	add_ideas = {
+		protestant
+		mildintervention
+		puppet
+	}
+}
+
+recruit_character = PRE_Frederick_William_II
+
