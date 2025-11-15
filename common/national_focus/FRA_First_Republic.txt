@@ -1829,7 +1829,8 @@ focus_tree = {
 				add_idea = FRA_italian_campaign
 			}
 			declare_war_on = {
-				target = PDS
+  			target = PDS
+   		    type = annex_everything
 			}
 		}
 	}

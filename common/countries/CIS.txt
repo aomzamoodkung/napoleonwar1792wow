@@ -3,5 +3,4 @@ CIS = {
     graphical_culture_2d = western_european_2d
 
     color = { 66 176 255 }
-    color_ui = { 205 74 100 }
 }
