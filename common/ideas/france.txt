@@ -391,7 +391,7 @@ ideas = {
 		}
 	
 	FRA_prussia_desert = {
-		picture = spa_carlism
+		picture = prussian_deserters
 		allowed = {
 			original_tag = FRA
 		}
@@ -408,7 +408,7 @@ ideas = {
 	}
 	
 	FRA_polish_desert = {
-		picture = spa_carlism
+		picture = polish_deserters
 		allowed = {
 			original_tag = FRA
 		}

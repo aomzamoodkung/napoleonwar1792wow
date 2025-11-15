@@ -7328,4 +7328,12 @@ spriteTypes = {
 		name = "GFX_idea_austrian_deserters"
 		texturefile = "gfx/interface/ideas/FRA/austrian_deserters.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_polish_deserters"
+		texturefile = "gfx/interface/ideas/FRA/polish_deserters.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_prussian_deserters"
+		texturefile = "gfx/interface/ideas/FRA/prussian_deserters.dds"
+	}
 }
