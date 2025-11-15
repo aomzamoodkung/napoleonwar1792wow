@@ -1456,15 +1456,27 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -22
 		y = 5
-		cost = 10
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_helvetic_republics }
+		available = {
+            OR = {
+                controls_state = 3
+				controls_state = 151
+        
+                any_country = {
+                    is_subject = yes
+                    is_subject_of = FRA
+                    controls_state = 3
+					controls_state = 151
+                }
+            }
+        }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_political_power = 75
+			add_stability = -0.05
 		}
 	}
 
@@ -1473,15 +1485,25 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -22
 		y = 6
-		cost = 10
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_extract_swiss_riches }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+            OR = {
+                controls_state = 3
+				controls_state = 151
+        
+                any_country = {
+                    is_subject = yes
+                    is_subject_of = FRA
+                    controls_state = 3
+					controls_state = 151
+                }
+            }
+        }
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_ideas = { FRA_tax_swiss_canton }
 		}
 	}
 
@@ -1495,8 +1517,17 @@ focus_tree = {
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
 		available = {
-			owns_state = 840
-		}
+            OR = {
+                controls_state = 840
+        
+                any_country = {
+                    is_subject = yes
+                    is_subject_of = FRA
+                    controls_state = 840
+                }
+            }
+        }
+
 
 		completion_reward = {
 			release_puppet = GEN

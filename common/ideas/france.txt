@@ -674,6 +674,28 @@ ideas = {
 
 		}
     }
+	
+	FRA_tax_swiss_canton = {
+		picture = polish_deserters
+		allowed = {
+			original_tag = FRA
+		}
+		
+		modifier = {
+		    production_efficiency_cap_factor = 0.03
+			consumer_goods_factor = -0.02
+			trade_opinion_factor = -0.05
+		}	
+			
+		targeted_modifier = {					
+			tag = SWI
+			autonomy_gain = -10
+			resistance_growth_on_our_occupied_states = -0.05
+		}
+
+		removal_cost = -1
+		
+	}
 
 	}
 }
