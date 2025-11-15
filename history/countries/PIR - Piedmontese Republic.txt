@@ -19,7 +19,6 @@ set_popularities = {
     authoritarian_democracy = 0.70
     neutrality = 0.20
     communism = 0.05
-    fascism = 0.05
 }
 	add_ideas = {
 		catholic
