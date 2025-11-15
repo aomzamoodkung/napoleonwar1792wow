@@ -222,6 +222,7 @@ country_event = {
 	title = france.501.a
 	desc = france.501.b
 	picture = GFX_report_fate_savoy
+	fire_only_once = yes
 	
 	trigger = {
 	    tag = FRA
