@@ -163,7 +163,7 @@ news_event = {
 	id = news.7
 	title = news.7.t
 	desc = news.7.d
-	picture = GFX_news_event_004
+	picture = GFX_news_event_005
 
 	available = {
 		FRA = {
