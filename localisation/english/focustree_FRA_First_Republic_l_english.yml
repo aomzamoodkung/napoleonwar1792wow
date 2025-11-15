@@ -1,5 +1,6 @@
 ﻿l_english:
 FRA_vive_la_france:0 "Vive La France"
+FRA_vive_la_france_desc:0 "For an entire millennium France has been one of the greatest cultural, military and historical centers in all of Europe and the world. From the barbaric Gallic tribes to the Carolingian Empire, good and bad kings have reigned over the fertile and picturesque land of France during the colonial era, from the Valois to the Orléans."
 
 FRA_get_rid_of_the_catholic_church:0 "Get Rid Of The Catholic Church"
 FRA_get_rid_of_the_catholic_church_desc:0 "The Catholic Church has been the main source of faith for many centuries in our country. But times have changed and we have realized that religious fanaticism has only slowed down our destiny to progress as a society. Priests and bishops take our money, for what? Why do those who claim to speak in the name of God need our material goods? We must minimize the influence of the clergy as much as possible."
@@ -72,6 +73,7 @@ FRA_execute_the_jacobin_revolutionary_tribunal:0 "Execute The Jacobin Revolution
 FRA_execute_the_jacobin_revolutionary_tribunal_desc:0 "The revolutionary court did too much damage to the republic. Thousands of innocent people, workers, nobles, officers, died under the guillotine for the accusation of treason, without the possibility of defending themselves. We will dissolve the revolutionary court and its laws to eliminate the murderous legacy of Robespierre."
 
 FRA_reign_of_terror_disarming_decree:0 "Reign Of Terror Disarming Decree"
+FRA_reign_of_terror_disarming_decree_desc:0 "The Disarmament Decree does not refer to a single edict of physical disarmament, but to a set of laws and repressive actions that will disarm citizens of their rights and freedoms, This law authorizes authorities to arrest based on suspicion and not evidence."
 
 FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
 FRA_present_the_1792_constitution_desc:0 "The National Convention is, without a doubt, the main institution of the Republic, which will declare the constitution to reaffirm the new great principles of liberty, equality and fraternity. Very similar to that of 1789, but more rights will be added regarding education, public assistance, work and etc."
@@ -102,6 +104,7 @@ FRA_taxes_on_property_owners:0 "Taxes On Property Owners"
 FRA_treaty_of_leoben:0 "Treaty Of Leoben"
 
 FRA_Napoleons_proposal:0 "Napoleons Proposal"
+FRA_Napoleons_proposal_desc:0 "Our famous general Napoleon has proposed the plan of a military expedition to invade Egypt and thus block the connection of the British Empire with its colonies in India, but it sounds like a risky and difficult campaign to succeed, but in this way we will manage to keep the general away from politics for several months, given his ambition and disturbing charisma."
 
 FRA_basically_a_french_stamp_act:0 "The French Stamp Act"
 
@@ -255,11 +258,13 @@ FRA_enlist_dutchmen:0 "Enlist Dutchmen"
 FRA_enlist_belgians:0 "Enlist Belgians"
 
 FRA_free_men_are_brothers:0 "Free Men Are Brothers"
+FRA_free_men_are_brothers_desc:0 "Our fervor breaks borders, borders and identities, it is a desire that is too strong, we all want to be free, the search for freedom is a feeling that connects all human beings on Earth. All seekers of freedom will join our fight to sink once and for all the oppressive feudal and absolutist monarchies that have ruled the world."
 
 FRA_polish_deserters:0 "Polish Deserters"
 FRA_polish_deserters_desc:0 "The Poles know that we are going to free them from the Russian yoke that has plagued their country for centuries. While we march through their lands, they join our ranks to fight against the tsarism of the Russian Empire, which illegitimately rules over lands that belong to a people that should be independent. We will free them, as they join our just fight for the freedom of the people and their right to sovereignty."
 
 FRA_irish_deserters:0 "Irish Deserters"
+FRA_irish_deserters_desc:0 "The Irish people observe our victories from the oppressive British Empire, which has been occupying the Emerald Isle for centuries, attacking the right to sovereignty that the people of Ireland deserve. They desert and join our regiments to fight those who carry the flag that has been harassing their people and half the world. Ireland will be a free state when the Union Jack falls broken under our boots."
 
 FRA_enlist_itallians:0 "Enlist Italians"
 

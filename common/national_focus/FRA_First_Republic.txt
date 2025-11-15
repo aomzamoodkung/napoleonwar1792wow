@@ -1733,24 +1733,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_allow_the_revolutionary_committees_to_take_charge
-		icon = GFX_rev_com
-		x = -11
-		y = 5
-		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_the_dutch_versailles }
-		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-		}
-	}
-
-	focus = {
 		id = FRA_establish_south_african_republics
 		icon = GFX_south_afr
 		x = -11
-		y = 6
-		cost = 10
+		y = 5
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_allow_the_revolutionary_committees_to_take_charge }
 		relative_position_id = FRA_promote_napoleon
@@ -1767,7 +1754,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -11
 		y = 7
-		cost = 10
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_establish_south_african_republics }
 		relative_position_id = FRA_promote_napoleon
@@ -2057,7 +2044,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_enlist_belgians
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_enlist_bel
 		x = -6
 		y = 2
 		cost = 6
@@ -2066,12 +2053,13 @@ focus_tree = {
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 20000
+			add_ideas = FRA_bel_soldier
 		}
 	}
 
 	focus = {
 		id = FRA_enlist_itallians
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_enlist_italy
 		x = 6
 		y = 1
 		cost = 6
@@ -2115,7 +2103,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_irish_deserters
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_ireland_enlist
 		x = 2
 		y = 2
 		cost = 6

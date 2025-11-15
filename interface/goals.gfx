@@ -3248,5 +3248,17 @@ spriteTypes = {
 	    name = "GFX_goals_republic_con"
 	    texturefile = "gfx/interface/goals/FRA/GFX_republic_con.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_enlist_italy"
+	    texturefile = "gfx/interface/goals/FRA/FRA_enlist_italy.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_ireland_enlist"
+	    texturefile = "gfx/interface/goals/FRA/FRA_ireland_enlist.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_enlist_bel"
+	    texturefile = "gfx/interface/goals/FRA/FRA_enlist_bel.dds"			
+	}
 
 }

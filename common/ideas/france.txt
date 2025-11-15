@@ -429,6 +429,28 @@ ideas = {
 		}
 	}
 	
+	FRA_bel_soldier = {
+		picture = 
+		allowed = {
+			original_tag = FRA
+		}
+
+		removal_cost = -1
+		
+		targeted_modifier = {					
+			tag = GER
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+		targeted_modifier = {					
+			tag = BEL
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+
+		}
+	}
+	
 	FRA_italian_soldier = {
 	    picture = spa_carlism
 	    allowed = {
